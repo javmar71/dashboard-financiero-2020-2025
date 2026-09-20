@@ -1,0 +1,5 @@
+MODO PUBLICO (Streamlit Community Cloud) - PENDIENTE DE ACCESO ANONIMO:
+https://dashboard-financiero-2020-2025.streamlit.app
+
+MODO LOCAL (este PC) - ACTIVA (health 200 ok):
+http://localhost:8501

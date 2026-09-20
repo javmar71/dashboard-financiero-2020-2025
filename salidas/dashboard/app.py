@@ -437,7 +437,7 @@ _nombre_entidad, _nit = informe.cargar_entidad()
 if _nombre_entidad:
     st.markdown(f"**Entidad:** {_nombre_entidad}" + (f" — NIT {_nit}" if _nit else ""))
 else:
-    st.caption("Entidad: reservada (configurar `AUTOMAT ANALISIS FIN\\salidas\\config_entidad.json`)")
+    st.caption("Entidad: reservada (configurar `salidas\\config_entidad.json`)")
 st.caption("Modelo financiero consolidado (Sin recalculaci\u00f3n)")
 
 mart = cargar_mart()
