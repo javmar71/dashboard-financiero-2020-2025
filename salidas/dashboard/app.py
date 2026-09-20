@@ -18,6 +18,8 @@ Ejecutar:
 
 from pathlib import Path
 import math
+import re
+import subprocess
 
 import numpy as np
 import pandas as pd
@@ -426,6 +428,114 @@ def pagina_evidencia(mart):
 
 
 # --------------------------------------------------------------------------- #
+# Módulo de ingesta multi-empresa
+# --------------------------------------------------------------------------- #
+ANIOS_INGESTA = [2020, 2021, 2022, 2023, 2024, 2025]
+
+
+def _sanitizar_nombre_empresa(nombre):
+    """Limpia el nombre para usarlo como carpeta segura (sin traversal)."""
+    limpio = re.sub(r"[^\w\-\s\.]", "", str(nombre).strip())
+    limpio = re.sub(r"\s+", "_", limpio)
+    return limpio.strip("._-")
+
+
+def ingesta_depositar(nombre_empresa, anio, archivos):
+    """Deposita archivos en la jerarquía obligatoria multi-empresa.
+
+    `almacen_empresas\\{empresa}\\Estados Financieros\\ESTADOS_FINANCIEROS_{AÑO}\\`
+    para que los motores de procesamiento le den lectura transparente sin
+    modificar la lógica de negocio.
+    """
+    carpeta = _sanitizar_nombre_empresa(nombre_empresa)
+    destino = ALMACEN / carpeta / "Estados Financieros" / f"ESTADOS_FINANCIEROS_{int(anio)}"
+    destino.mkdir(parents=True, exist_ok=True)
+    guardados = []
+    errores = []
+    for archivo in archivos:
+        try:
+            ruta = destino / archivo.name
+            ruta.write_bytes(archivo.getvalue())
+            guardados.append(ruta)
+        except Exception as exc:  # noqa: BLE001
+            errores.append(f"{archivo.name}: {exc}")
+    return destino, guardados, errores
+
+
+def pagina_ingesta():
+    st.header("Ingesta de documentación")
+    st.caption(
+        "Los documentos subidos se depositan en la jerarquía obligatoria: "
+        "`almacen_empresas\\{empresa}\\Estados Financieros\\ESTADOS_FINANCIEROS_{AÑO}\\`. "
+        "Los motores de procesamiento leen esta ruta de forma transparente "
+        "(no se modifica lógica de negocio)."
+    )
+
+    nombre = st.text_input(
+        "Nombre de la empresa (carpeta en `almacen_empresas`)",
+        placeholder="ej. empresa_nueva_2025",
+    )
+    anio = st.selectbox("Año del Estado Financiero", ANIOS_INGESTA, index=5)
+    archivos = st.file_uploader(
+        "Documentos (PDF / Excel / CSV / Word / JSON)",
+        accept_multiple_files=True,
+        type=["pdf", "xlsx", "xls", "csv", "docx", "doc", "txt", "json"],
+    )
+
+    if st.button("Depositar en el workspace"):
+        if not (nombre and nombre.strip()):
+            st.warning("Ingresa el nombre de la empresa.")
+        elif not archivos:
+            st.warning("Adjunta al menos un documento.")
+        else:
+            destino, guardados, errores = ingesta_depositar(nombre, anio, archivos)
+            if guardados:
+                st.success(f"Depositados {len(guardados)} archivo(s) en:")
+                st.code(str(destino), language=None)
+                for ruta in guardados:
+                    st.write(f"- `{ruta.name}` ({ruta.stat().st_size} bytes)")
+                st.info("Ruta lista para pasar al agente de procesamiento.")
+            for error in errores:
+                st.error(f"No se pudo depositar: {error}")
+
+    st.markdown("---")
+    st.subheader("Centro de Control — Ejecución del Agente Financiero")
+    st.caption(
+        "Genera el Data Mart (7 tablas) del workspace ejecutando "
+        "`agente_financiero\\fase10_powerbi_data_mart.py --empresa <id>`. "
+        "Al terminar, el sidebar se refresca y la empresa queda seleccionada."
+    )
+    if st.button("🚀 Ejecutar Agente Financiero", type="primary"):
+        objetivo = _sanitizar_nombre_empresa(nombre or "")
+        if not objetivo:
+            st.warning("Ingresa primero el nombre de la empresa.")
+        else:
+            with st.spinner(f"Ejecutando agente financiero para `{objetivo}`..."):
+                try:
+                    proc = subprocess.run(
+                        [sys.executable, "agente_financiero/fase10_powerbi_data_mart.py",
+                         "--empresa", objetivo],
+                        cwd=str(BASE), capture_output=True, text=True, timeout=900,
+                    )
+                except subprocess.TimeoutExpired:
+                    st.error("El agente excedió el tiempo límite (15 min).")
+                    proc = None
+            if proc is not None and proc.returncode == 0:
+                st.success("Data Mart generado correctamente.")
+                col_out, col_err = st.columns(2)
+                with col_out:
+                    st.code((proc.stdout or "OK")[-2000:])
+                with col_err:
+                    st.code((proc.stderr or "(sin stderr)")[-1000:])
+                etiqueta = objetivo.replace("_", " ").title()
+                st.session_state["pending_entidad"] = etiqueta
+                st.rerun()
+            else:
+                st.error("El agente falló (revisar insumos del workspace).")
+                st.code((proc.stderr if proc is not None and proc.stderr else "sin stderr")[-3000:])
+
+
+# --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
 st.set_page_config(page_title="Dashboard de Inteligencia Financiera 2020-2025",
@@ -457,10 +567,16 @@ else:
 st.caption("Modelo financiero consolidado (Sin recalculaci\u00f3n)")
 
 opciones_mart = descubrir_marts(_nombre_entidad)
+etiquetas_mart = [etiqueta for etiqueta, _ in opciones_mart]
+entidad_pendiente = st.session_state.pop("pending_entidad", None)
+if "entidad_sel" not in st.session_state:
+    st.session_state["entidad_sel"] = etiquetas_mart[0]
+if entidad_pendiente and entidad_pendiente in etiquetas_mart:
+    st.session_state["entidad_sel"] = entidad_pendiente
 
 with st.sidebar:
     st.header("Filtros")
-    entidad_sel = st.selectbox("Entidad", [etiqueta for etiqueta, _ in opciones_mart])
+    entidad_sel = st.selectbox("Entidad", etiquetas_mart, key="entidad_sel")
     anio = st.selectbox("Periodo", PERIODOS, index=5)
     st.info(f"Entidad: **{entidad_sel}** · Periodo seleccionado: **{anio}**")
     st.caption("Una pestaña por familia de indicadores. Las series muestran siempre 2020-2025.")
@@ -472,7 +588,7 @@ fact = mart["fact_indicadores"]
 familias = dim_indicador["clasificacion"].drop_duplicates().tolist()
 datos = construir_valor(dim_indicador, fact, mart["fact_wacc"])
 
-etiquetas = ["Resumen"] + [ETIQUETA_FAMILIA.get(f, f) for f in familias] + ["Evidencia"]
+etiquetas = ["Resumen"] + [ETIQUETA_FAMILIA.get(f, f) for f in familias] + ["Evidencia", "Ingesta"]
 tabs = st.tabs(etiquetas)
 
 with tabs[0]:
@@ -484,6 +600,9 @@ for i, familia in enumerate(familias):
 
 with tabs[len(familias) + 1]:
     pagina_evidencia(mart)
+
+with tabs[len(familias) + 2]:
+    pagina_ingesta()
 
 st.divider()
 st.caption("Datos auditados 2020-2025 | Trazabilidad: `salidas\\` (Fases 8/9 integridad 100 %). No inventar ni interpolar (Regla 1).")
