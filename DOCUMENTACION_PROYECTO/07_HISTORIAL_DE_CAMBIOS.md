@@ -465,3 +465,4 @@ LISTO PARA CAMBIO DE AGENTE
 - **Clarificación de "72 métricas":** corresponde al conteo de tarjetas `st.metric` de la UI (confirmado: 72 en cada entidad); el catálogo del Data Mart tiene **65 indicadores**.
 - **Validación:** `py_compile` OK (constructor, fase10, app.py); AppTest del dashboard **0 excepciones**, opciones `['FIDUCIARIA LA PREVISORA S.A.', 'Empresa Prueba 2025']`, 72 métricas por entidad, 11 pestañas, conmutación dinámica sin errores; health local 200.
 - **Pendientes del usuario (resueltos en este evento):** commit + push a `origin/master` y confirmación de `git status` limpio.
+- **Git:** commit `5ca52a5` ("feat: implementa arquitectura multi-tenant, selector dinamico de entidad en dashboard y verifica inmutabilidad md5") pusheado a `origin/master` (`76796ff..5ca52a5`). Working tree final limpio.
