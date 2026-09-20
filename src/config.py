@@ -1,6 +1,6 @@
 from pathlib import Path
 
-RAIZ_PROYECTO = Path(__file__).resolve().parent
+RAIZ_PROYECTO = Path(__file__).resolve().parents[1]
 
 DIR_SRC = RAIZ_PROYECTO / "src"
 DIR_SALIDAS = RAIZ_PROYECTO / "salidas"
