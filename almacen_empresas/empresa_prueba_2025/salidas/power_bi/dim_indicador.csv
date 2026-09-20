@@ -1,0 +1,66 @@
+﻿id_indicador,clasificacion,indicador,formula,carpeta_powerbi,unidad
+1,Liquidez,Razon corriente,Activo corriente / Pasivo corriente,Efectivo & Liquidez,ratio
+2,Liquidez,Prueba acida,(Activo corriente - Inventarios) / Pasivo corriente,Efectivo & Liquidez,ratio
+3,Liquidez,Razon de efectivo,Efectivo y equivalentes de efectivo / Pasivo corriente,Efectivo & Liquidez,ratio
+4,Liquidez,Capital de trabajo neto,Activo corriente - Pasivo corriente,Efectivo & Liquidez,moneda
+5,Liquidez,Capital de trabajo / Activos,Capital de trabajo neto / Activo total,Efectivo & Liquidez,ratio
+6,Endeudamiento y solvencia,Endeudamiento total,Pasivo total / Activo total,Estructura & Riesgo,ratio
+7,Endeudamiento y solvencia,Endeudamiento patrimonial,Pasivo total / Patrimonio,Estructura & Riesgo,ratio
+8,Endeudamiento y solvencia,Deuda financiera / Activos,Deuda financiera / Activo total,Estructura & Riesgo,ratio
+9,Endeudamiento y solvencia,Deuda financiera / Patrimonio,Deuda financiera / Patrimonio,Estructura & Riesgo,ratio
+10,Endeudamiento y solvencia,Autonomia financiera,Patrimonio / Activo total,Estructura & Riesgo,ratio
+11,Endeudamiento y solvencia,Apalancamiento financiero,Activo total / Patrimonio,Estructura & Riesgo,ratio
+12,Endeudamiento y solvencia,Calidad de la deuda,Pasivo corriente / Pasivo total,Estructura & Riesgo,ratio
+13,Endeudamiento y solvencia,Solvencia total,Activo total / Pasivo total,Estructura & Riesgo,ratio
+14,Endeudamiento y solvencia,Pasivo / Capital,Pasivo total / (Pasivo total + Patrimonio),Estructura & Riesgo,ratio
+15,Actividad y eficiencia,Rotacion de activos totales,Ingresos / ((Activo total actual + Activo total anterior) / 2),Estructura & Riesgo,ratio
+16,Actividad y eficiencia,Rotacion de activos fijos,Ingresos / ((Activo no corriente actual + anterior) / 2),Estructura & Riesgo,ratio
+17,Actividad y eficiencia,Rotacion de cuentas por cobrar,Ingresos / ((Cuentas por cobrar actual + anterior) / 2),Estructura & Riesgo,ratio
+18,Actividad y eficiencia,Periodo medio de cobro,365 / Rotacion de cuentas por cobrar,Estructura & Riesgo,ratio
+19,Actividad y eficiencia,Rotacion de inventarios,Costo de ventas / ((Inventarios actual + anterior) / 2),Estructura & Riesgo,ratio
+20,Actividad y eficiencia,Dias de inventario,365 / Rotacion de inventarios,Estructura & Riesgo,ratio
+21,Actividad y eficiencia,Rotacion de cuentas por pagar,Compras a credito / ((Cuentas por pagar actual + anterior) / 2),Estructura & Riesgo,ratio
+22,Actividad y eficiencia,Periodo medio de pago,365 / Rotacion de cuentas por pagar,Estructura & Riesgo,ratio
+23,Actividad y eficiencia,Rotacion del capital de trabajo,Ingresos / ((CT actual + CT anterior) / 2),Estructura & Riesgo,ratio
+24,Actividad y eficiencia,EBITDA,Resultado operativo antes de intereses e impuestos + Depreciacion + Amortizacion,Estructura & Riesgo,moneda
+25,Rentabilidad,Resultado operativo antes de intereses e impuestos (EBIT),Ingresos - Costo de ventas - Gastos Generales - Otros gastos operacionales + Otros ingresos operacionales,Rentabilidad & EVA,moneda
+26,Rentabilidad,Margen bruto,Utilidad bruta / Ingresos,Rentabilidad & EVA,porcentaje
+27,Rentabilidad,Margen operativo,EBIT / Ingresos,Rentabilidad & EVA,porcentaje
+28,Rentabilidad,Margen EBITDA,EBITDA / Ingresos,Rentabilidad & EVA,porcentaje
+29,Rentabilidad,Margen antes de impuestos,Utilidad antes de impuestos / Ingresos,Rentabilidad & EVA,porcentaje
+30,Rentabilidad,Margen neto,Utilidad neta / Ingresos,Rentabilidad & EVA,porcentaje
+31,Rentabilidad,ROA,Utilidad neta / ((Activo total actual + anterior) / 2),Rentabilidad & EVA,ratio
+32,Rentabilidad,ROE,Utilidad neta / ((Patrimonio actual + anterior) / 2),Rentabilidad & EVA,ratio
+33,Rentabilidad,Capital invertido,Capital Suscrito y Pagado + Obligaciones Financieras,Rentabilidad & EVA,moneda
+34,Rentabilidad,ROIC,Utilidad operativa despues de impuestos / ((Capital invertido actual + anterior) / 2),Rentabilidad & EVA,ratio
+35,Rentabilidad,Rendimiento sobre capital total,UODI / ((Capital empleado actual + anterior) / 2),Rentabilidad & EVA,ratio
+36,Capital de trabajo y ciclo,Ciclo operativo,Dias de inventario + Dias de cartera,Efectivo & Liquidez,dias
+37,Capital de trabajo y ciclo,Ciclo de conversion de efectivo,Dias de inventario + Dias de cartera - Dias de proveedores,Efectivo & Liquidez,dias
+38,Capital de trabajo y ciclo,Necesidad de capital de trabajo,Activo corriente operativo - Pasivo corriente operativo,Efectivo & Liquidez,moneda
+39,Capital de trabajo y ciclo,Capital de trabajo / Ingresos Operacionales,Capital de trabajo / Ingresos,Efectivo & Liquidez,ratio
+40,Cobertura y capacidad de pago,Cobertura de intereses,EBIT / Gastos financieros,Estructura & Riesgo,veces
+41,Cobertura y capacidad de pago,Cobertura de intereses EBITDA,EBITDA / Gastos financieros,Estructura & Riesgo,veces
+42,Cobertura y capacidad de pago,Variacion de cuentas por cobrar,CxC actual / CxC anterior,Estructura & Riesgo,ratio
+43,Cobertura y capacidad de pago,Variacion inventarios,Inventarios actual / anterior,Estructura & Riesgo,ratio
+44,Cobertura y capacidad de pago,Variacion de cuentas por pagar,CxP actual / CxP anterior,Estructura & Riesgo,ratio
+45,Cobertura y capacidad de pago,Variacion de otros activos corrientes operativos,Otros activos corrientes operativos actual / anterior,Estructura & Riesgo,ratio
+46,Cobertura y capacidad de pago,Variacion de otros pasivos corrientes operativos,Otros pasivos corrientes operativos actual / anterior,Estructura & Riesgo,ratio
+47,Cobertura y capacidad de pago,"Variacion Propiedades, planta y equipo",PyE actual / PyE anterior,Estructura & Riesgo,ratio
+48,Cobertura y capacidad de pago,Variacion Activos intangibles,Intangibles actual / anterior,Estructura & Riesgo,ratio
+49,Cobertura y capacidad de pago,Variacion Otros activos no corrientes operativos,Otros activos no corrientes operativos actual / anterior,Estructura & Riesgo,ratio
+50,Cobertura y capacidad de pago,Flujo de caja operativo,EBITDA - Impuesto de renta + Variacion capital de trabajo,Estructura & Riesgo,moneda
+51,Cobertura y capacidad de pago,Flujo de caja disponible para deuda,FCO - Variacion PyE - Variacion intangibles - Variacion Otros activos NC operativos,Estructura & Riesgo,moneda
+52,Cobertura y capacidad de pago,Servicio de la deuda,Gastos financieros + Amortizacion de deuda,Estructura & Riesgo,moneda
+53,Cobertura y capacidad de pago,Indice de Cobertura del Servicio de la Deuda,Flujo de caja disponible para deuda / Servicio total de la deuda,Estructura & Riesgo,veces
+54,Cobertura y capacidad de pago,Deuda financiera,Obligaciones financieras corrientes + Obligaciones no corrientes,Estructura & Riesgo,moneda
+55,Cobertura y capacidad de pago,Deuda financiera / EBITDA,Obligaciones Financieras / EBITDA,Estructura & Riesgo,veces
+56,Cobertura y capacidad de pago,Deuda financiera neta / EBITDA,(Deuda financiera - Efectivo) / EBITDA,Estructura & Riesgo,veces
+57,Crecimiento,Crecimiento de ingresos,(Ingresos actual / Ingresos anterior) - 1,Rentabilidad & EVA,ratio
+58,Crecimiento,Crecimiento del EBITDA,(EBITDA actual / EBITDA anterior) - 1,Rentabilidad & EVA,ratio
+59,Crecimiento,Crecimiento del resultado operativo,(RO actual / RO anterior) - 1,Rentabilidad & EVA,ratio
+60,Crecimiento,Crecimiento de utilidad neta,(Utilidad neta actual / anterior) - 1,Rentabilidad & EVA,ratio
+61,Crecimiento,Crecimiento de activos,(Activo total actual / anterior) - 1,Rentabilidad & EVA,ratio
+62,Calidad de resultados,Calidad de resultados,Flujo de efectivo de actividades operativas / Utilidad neta,Estructura & Riesgo,ratio
+63,Calidad de resultados,Rotacion de activos,Ingresos operacionales / Activos totales,Estructura & Riesgo,ratio
+64,Calidad de resultados,Multiplicador de capital,((Activo actual + Activo anterior)/2) / ((Patrimonio actual + Patrimonio anterior)/2),Estructura & Riesgo,ratio
+65,Creacion de valor y DuPont,ROE DuPont,Margen neto x Rotacion de activos x Multiplicador de capital,Rentabilidad & EVA,ratio

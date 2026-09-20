@@ -1,0 +1,14 @@
+﻿concepto,rotulo,estado,clasificacion,2020,2021,2022,2023,2024,2025
+b_activo_corriente,Activo corriente,balance,activo_corriente,148465.0,153751.0,143656.0,125397.0,115027.0,173398.0
+b_activo_no_corriente,Activo no corriente,balance,activo_no_corriente,100637.0,77960.0,93039.0,76951.0,109527.0,119190.0
+b_activo_total,Activo total,balance,activo_total,249102.0,231711.0,236695.0,202348.0,224554.0,292588.0
+b_pasivo_corriente,Pasivo corriente,balance,pasivo_corriente,19391.0,18689.0,18390.0,25143.0,28904.0,20720.0
+b_pasivo_no_corriente,Pasivo no corriente,balance,pasivo_no_corriente,6132.0,9304.0,10913.0,14560.0,13687.0,11861.0
+b_pasivo_total,Pasivo total,balance,pasivo_total,25523.0,27993.0,29303.0,39703.0,42591.0,32581.0
+b_patrimonio_total,Patrimonio total,balance,patrimonio_total,223579.0,203718.0,207392.0,162645.0,181963.0,260007.0
+r_ingresos_operacionales,Ingresos operacionales,resultados,ingresos,71830.0,77154.0,72820.0,61451.0,62124.0,81771.0
+r_costo_de_ventas,Costo de ventas,resultados,costo,39902.0,52724.0,46893.0,37642.0,44603.0,51377.0
+r_utilidad_bruta,Utilidad bruta,resultados,utilidad_bruta,31928.0,24430.0,25927.0,23809.0,17521.0,30394.0
+r_gastos_operacionales,Gastos operacionales,resultados,gastos,8779.0,12731.0,10645.0,10188.0,7823.0,11099.0
+r_impuestos,Impuestos,resultados,impuestos,2422.0,2989.0,2798.0,2759.0,1936.0,2870.0
+r_utilidad_neta,Utilidad neta,resultados,utilidad_neta,23149.0,11699.0,15282.0,13621.0,9698.0,19295.0

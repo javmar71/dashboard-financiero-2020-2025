@@ -1,0 +1,14 @@
+﻿concepto,rotulo,estado,clasificacion
+b_activo_corriente,Activo corriente,balance,activo_corriente
+b_activo_no_corriente,Activo no corriente,balance,activo_no_corriente
+b_activo_total,Activo total,balance,activo_total
+b_pasivo_corriente,Pasivo corriente,balance,pasivo_corriente
+b_pasivo_no_corriente,Pasivo no corriente,balance,pasivo_no_corriente
+b_pasivo_total,Pasivo total,balance,pasivo_total
+b_patrimonio_total,Patrimonio total,balance,patrimonio_total
+r_ingresos_operacionales,Ingresos operacionales,resultados,ingresos
+r_costo_de_ventas,Costo de ventas,resultados,costo
+r_utilidad_bruta,Utilidad bruta,resultados,utilidad_bruta
+r_gastos_operacionales,Gastos operacionales,resultados,gastos
+r_impuestos,Impuestos,resultados,impuestos
+r_utilidad_neta,Utilidad neta,resultados,utilidad_neta

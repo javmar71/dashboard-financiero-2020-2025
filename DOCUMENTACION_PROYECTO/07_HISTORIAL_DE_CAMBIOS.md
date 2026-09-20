@@ -451,3 +451,17 @@ LISTO PARA CAMBIO DE AGENTE
 - **Git:** commit `c0c5c5a` en `master` ("fix: actualiza dependencias de matplotlib, fpdf2 y openpyxl para Streamlit Cloud"). Se requirió `git pull --rebase --autostash` para integrar el commit remoto `28b6de3` ("Added Dev Container Folder", `.devcontainer\devcontainer.json`) antes de empujar. Push verificado: `28b6de3..c0c5c5a master -> master`.
 - **Verificación:** `git show origin/master:requirements.txt` = contenido exacto ejecutado; el rebuild de Streamlit Cloud re-instaló las dependencias y la app quedó **renderizando el dashboard**. Nota de método: `/_stcore/health` en Community Cloud devuelve el shell HTML incluso con la app corriendo (se comparó contra `data-profiler.streamlit.app`), por lo que **no es señal fiable**; la confirmación final fue humana y funcional.
 - **Pendiente no crítico:** publicar en el repo los pendientes locales (fix de caption en `app.py` de EVENTO 29, `.streamlit\config.toml`, `ENLACE.txt` del modo dual y esta documentación). `salidas\dashboard\__pycache__\app.cpython-312.pyc` **NO debe versionarse**.
+
+## EVENTO 31
+
+**Arquitectura multi-tenant con aislamiento aprobada — PoC ejecutada e inmutabilidad de La Previsora verificada (2026-09-20).**
+
+- **Decisión del usuario:** al detectarse que la arquitectura `almacen_empresas\<empresa>\` y el flag `--empresa` no existían, se solicitó y **aprobó** la opción "Aislamiento completo" (PoC).
+- **Reestructuración del motor:** `agente_financiero\fase10_powerbi_data_mart.py` ahora acepta `--empresa <id>`. Con flag usa `almacen_empresas\<empresa>\salidas` (insumos y salidas), sin flag conserva la entidad ancla (raíz `salidas\`). Genera las **7 tablas del Data Mart** (`dim_fecha`, `dim_indicador`, `fact_indicadores`, `dim_concepto`, `fact_estados`, `fact_wacc`, `fact_evidencia`) + `data_mart_resumen.json`.
+- **Generador sintético:** `agente_financiero\construir_empresa_prueba.py` crea el workspace de `empresa_prueba_2025` con datos **SINTÉTICOS** (semilla 2025, identidad contable `activo = pasivo + patrimonio` verificada por `assert`): 13 conceptos de estados × 6 periodos, 65 indicadores, 6 filas WACC, 78 registros de evidencia.
+- **Resultado PoC:** `fase10 ... --empresa empresa_prueba_2025` escribió las 7 tablas + resumen **exclusivamente** en `almacen_empresas\empresa_prueba_2025\salidas\power_bi\` (`dim_indicador` 65, `fact_indicadores` 390, `dim_concepto` 13, `fact_estados` 78, `fact_evidencia` 78, `fact_wacc` 6, `dim_fecha` 6).
+- **Inmutabilidad La Previsora:** snapshot MD5 de `salidas\` antes/después → **46/46 archivos idénticos** (0 cambios). Trazabilidad: `%TEMP%\opencode\snap_salidas_antes.txt`.
+- **Dashboard multi-entidad:** `salidas\dashboard\app.py` descubre automáticamente los Data Marts (ancla + `almacen_empresas\*\salidas\power_bi\`) y expone **selector dinámico "Entidad"** en el sidebar; al conmutar se recargan tablas, métricas y gráficas Plotly.
+- **Clarificación de "72 métricas":** corresponde al conteo de tarjetas `st.metric` de la UI (confirmado: 72 en cada entidad); el catálogo del Data Mart tiene **65 indicadores**.
+- **Validación:** `py_compile` OK (constructor, fase10, app.py); AppTest del dashboard **0 excepciones**, opciones `['FIDUCIARIA LA PREVISORA S.A.', 'Empresa Prueba 2025']`, 72 métricas por entidad, 11 pestañas, conmutación dinámica sin errores; health local 200.
+- **Pendientes del usuario (resueltos en este evento):** commit + push a `origin/master` y confirmación de `git status` limpio.

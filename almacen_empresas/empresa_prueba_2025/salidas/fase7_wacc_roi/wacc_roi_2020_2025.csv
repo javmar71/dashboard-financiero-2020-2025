@@ -1,0 +1,7 @@
+﻿periodo,deuda_financiera_total,patrimonio_total,intereses_pagados_abs,costo_deuda_bruto,tasa_estatutaria,costo_deuda_neto,proporcion_deuda,proporcion_patrimonio,roi_ke_roic,wacc,estado,nota
+2020,10266.36,257864.38,878.06,0.085528,0.32,0.058159,0.038289,0.961711,,,NO_CALCULABLE,Ke indisponible (ROIC requiere promedio t y t-1; sin t-1 para 2020). Dato sintetico.
+2021,10640.03,306937.41,942.59,0.088589,0.31,0.061126,0.033504,0.966496,0.697085,0.615455,ACEPTADO,"Ke=ROIC; Kd=|intereses pagados|/deuda (dato sintetico, sin parametros externos)."
+2022,10482.01,300617.72,692.73,0.066088,0.35,0.042957,0.033693,0.966307,0.592076,0.516633,ACEPTADO,"Ke=ROIC; Kd=|intereses pagados|/deuda (dato sintetico, sin parametros externos)."
+2023,8270.13,257255.9,816.58,0.098738,0.35,0.06418,0.031146,0.968854,0.587952,0.519246,ACEPTADO,"Ke=ROIC; Kd=|intereses pagados|/deuda (dato sintetico, sin parametros externos)."
+2024,10619.26,260922.32,779.48,0.073402,0.35,0.047711,0.039107,0.960893,0.5671,0.502946,ACEPTADO,"Ke=ROIC; Kd=|intereses pagados|/deuda (dato sintetico, sin parametros externos)."
+2025,8949.39,271016.63,657.23,0.073439,0.35,0.047735,0.031966,0.968034,0.676468,0.641509,ACEPTADO,"Ke=ROIC; Kd=|intereses pagados|/deuda (dato sintetico, sin parametros externos)."

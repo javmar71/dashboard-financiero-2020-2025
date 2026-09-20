@@ -32,6 +32,7 @@ import generar_informe_pdf as informe
 
 BASE = Path(__file__).resolve().parents[2]
 MART = BASE / "salidas" / "power_bi"
+ALMACEN = BASE / "almacen_empresas"
 RED_FLAGS_PATH = BASE / "salidas" / "diagnostico_red_flags.csv"
 BITACORA_PATH = BASE / "salidas" / "bitacora_revisiones_humanas.md"
 REPORTE_PATH = BASE / "salidas" / "REPORTE_INTELIGENCIA_FINANCIERA.md"
@@ -64,13 +65,28 @@ ETIQUETA_FAMILIA = {
 # --------------------------------------------------------------------------- #
 # Carga y preparación de datos del Data Mart
 # --------------------------------------------------------------------------- #
+def descubrir_marts(nombre_entidad_ancla=None):
+    """Catalogo de Data Marts disponibles: entidad ancla (raiz) + almacen_empresas/*."""
+    opciones = [(nombre_entidad_ancla or "Entidad ancla (raiz)", MART)]
+    if ALMACEN.is_dir():
+        for carpeta in sorted(ALMACEN.iterdir()):
+            if not carpeta.is_dir():
+                continue
+            mart = carpeta / "salidas" / "power_bi"
+            if mart.is_dir():
+                etiqueta = carpeta.name.replace("_", " ").title()
+                opciones.append((etiqueta, mart))
+    return opciones
+
+
 @st.cache_data(show_spinner="Cargando Data Mart...")
-def cargar_mart():
-    dim_indicador = pd.read_csv(MART / "dim_indicador.csv", encoding="utf-8-sig")
-    fact_indicadores = pd.read_csv(MART / "fact_indicadores.csv", encoding="utf-8-sig")
-    fact_wacc = pd.read_csv(MART / "fact_wacc.csv", encoding="utf-8-sig")
-    fact_evidencia = pd.read_csv(MART / "fact_evidencia.csv", encoding="utf-8-sig")
-    fact_estados = pd.read_csv(MART / "fact_estados.csv", encoding="utf-8-sig")
+def cargar_mart(mart_dir):
+    mart_dir = Path(mart_dir)
+    dim_indicador = pd.read_csv(mart_dir / "dim_indicador.csv", encoding="utf-8-sig")
+    fact_indicadores = pd.read_csv(mart_dir / "fact_indicadores.csv", encoding="utf-8-sig")
+    fact_wacc = pd.read_csv(mart_dir / "fact_wacc.csv", encoding="utf-8-sig")
+    fact_evidencia = pd.read_csv(mart_dir / "fact_evidencia.csv", encoding="utf-8-sig")
+    fact_estados = pd.read_csv(mart_dir / "fact_estados.csv", encoding="utf-8-sig")
     return {
         "dim_indicador": dim_indicador,
         "fact_indicadores": fact_indicadores,
@@ -100,9 +116,9 @@ def tabla_familia(dim_indicador, fact, familia):
     return sub.sort_values("id_indicador").reset_index(drop=True)
 
 
-def construir_valor(dim_indicador, fact):
+def construir_valor(dim_indicador, fact, fact_wacc):
     """KPIs de creación de valor para el Resumen ejecutivo."""
-    wacc = cargar_mart()["fact_wacc"].set_index("periodo").reindex(PERIODOS)
+    wacc = fact_wacc.set_index("periodo").reindex(PERIODOS)
     datos = pd.DataFrame({"periodo": PERIODOS})
     datos["ROIC"] = serie_indicador(fact, IND_ROIC).values
     datos["RONA"] = serie_indicador(fact, IND_RONA).values
@@ -440,17 +456,21 @@ else:
     st.caption("Entidad: reservada (configurar `salidas\\config_entidad.json`)")
 st.caption("Modelo financiero consolidado (Sin recalculaci\u00f3n)")
 
-mart = cargar_mart()
-dim_indicador = mart["dim_indicador"]
-fact = mart["fact_indicadores"]
-familias = dim_indicador["clasificacion"].drop_duplicates().tolist()
-datos = construir_valor(dim_indicador, fact)
+opciones_mart = descubrir_marts(_nombre_entidad)
 
 with st.sidebar:
     st.header("Filtros")
+    entidad_sel = st.selectbox("Entidad", [etiqueta for etiqueta, _ in opciones_mart])
     anio = st.selectbox("Periodo", PERIODOS, index=5)
-    st.info(f"Periodo seleccionado: **{anio}**")
+    st.info(f"Entidad: **{entidad_sel}** · Periodo seleccionado: **{anio}**")
     st.caption("Una pestaña por familia de indicadores. Las series muestran siempre 2020-2025.")
+
+mart_dir = dict(opciones_mart)[entidad_sel]
+mart = cargar_mart(mart_dir)
+dim_indicador = mart["dim_indicador"]
+fact = mart["fact_indicadores"]
+familias = dim_indicador["clasificacion"].drop_duplicates().tolist()
+datos = construir_valor(dim_indicador, fact, mart["fact_wacc"])
 
 etiquetas = ["Resumen"] + [ETIQUETA_FAMILIA.get(f, f) for f in familias] + ["Evidencia"]
 tabs = st.tabs(etiquetas)

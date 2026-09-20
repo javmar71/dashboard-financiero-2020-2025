@@ -1,0 +1,66 @@
+﻿#,clasificacion,indicador,formula,2020,2021,2022,2023,2024,2025
+1,Liquidez,Razon corriente,Activo corriente / Pasivo corriente,4.176254,4.529149,4.741014,4.353811,4.834297,5.135074
+2,Liquidez,Prueba acida,(Activo corriente - Inventarios) / Pasivo corriente,1.362167,1.524322,1.659793,2.003502,2.237536,1.84789
+3,Liquidez,Razon de efectivo,Efectivo y equivalentes de efectivo / Pasivo corriente,2.400477,1.922438,2.308994,2.915568,2.916844,3.28455
+4,Liquidez,Capital de trabajo neto,Activo corriente - Pasivo corriente,3.692217,3.82242,3.89056,4.056434,4.15158,4.794181
+5,Liquidez,Capital de trabajo / Activos,Capital de trabajo neto / Activo total,3.51916,3.866724,3.471213,3.675689,3.804764,4.384855
+6,Endeudamiento y solvencia,Endeudamiento total,Pasivo total / Activo total,0.631793,0.594522,0.594564,0.712385,0.692305,0.720279
+7,Endeudamiento y solvencia,Endeudamiento patrimonial,Pasivo total / Patrimonio,0.379415,0.407904,0.361156,0.475719,0.385869,0.477926
+8,Endeudamiento y solvencia,Deuda financiera / Activos,Deuda financiera / Activo total,0.644511,0.80085,0.739214,0.856106,0.903653,0.842437
+9,Endeudamiento y solvencia,Deuda financiera / Patrimonio,Deuda financiera / Patrimonio,0.518622,0.57765,0.665837,0.699406,0.71467,0.735504
+10,Endeudamiento y solvencia,Autonomia financiera,Patrimonio / Activo total,0.442543,0.388975,0.464201,0.458943,0.460979,0.499479
+11,Endeudamiento y solvencia,Apalancamiento financiero,Activo total / Patrimonio,0.343519,0.492399,0.426921,0.480025,0.520189,0.545009
+12,Endeudamiento y solvencia,Calidad de la deuda,Pasivo corriente / Pasivo total,0.476044,0.570572,0.626764,0.65718,0.678909,0.60091
+13,Endeudamiento y solvencia,Solvencia total,Activo total / Pasivo total,0.743181,0.847482,0.85845,0.859464,0.953165,0.935676
+14,Endeudamiento y solvencia,Pasivo / Capital,Pasivo total / (Pasivo total + Patrimonio),0.338512,0.423842,0.339873,0.471781,0.508302,0.41354
+15,Actividad y eficiencia,Rotacion de activos totales,Ingresos / ((Activo total actual + Activo total anterior) / 2),2.158251,2.103269,2.201542,2.592311,2.66836,2.505259
+16,Actividad y eficiencia,Rotacion de activos fijos,Ingresos / ((Activo no corriente actual + anterior) / 2),0.187353,0.332023,0.438184,0.153604,0.156539,0.208185
+17,Actividad y eficiencia,Rotacion de cuentas por cobrar,Ingresos / ((Cuentas por cobrar actual + anterior) / 2),2.68658,3.158003,3.38591,2.893818,3.035101,3.551593
+18,Actividad y eficiencia,Periodo medio de cobro,365 / Rotacion de cuentas por cobrar,2.626988,2.605653,2.534049,3.194429,3.166149,3.453518
+19,Actividad y eficiencia,Rotacion de inventarios,Costo de ventas / ((Inventarios actual + anterior) / 2),2.424159,2.538993,2.479247,2.656577,3.332402,3.094436
+20,Actividad y eficiencia,Dias de inventario,365 / Rotacion de inventarios,2.739523,2.90043,2.69602,2.924094,3.316266,3.016367
+21,Actividad y eficiencia,Rotacion de cuentas por pagar,Compras a credito / ((Cuentas por pagar actual + anterior) / 2),0.983372,1.320845,0.876498,1.508413,1.365745,1.370977
+22,Actividad y eficiencia,Periodo medio de pago,365 / Rotacion de cuentas por pagar,0.882984,0.883234,1.231382,0.822376,1.315551,1.160857
+23,Actividad y eficiencia,Rotacion del capital de trabajo,Ingresos / ((CT actual + CT anterior) / 2),1.667207,2.219482,2.547167,2.204304,2.568387,2.256473
+24,Actividad y eficiencia,EBITDA,Resultado operativo antes de intereses e impuestos + Depreciacion + Amortizacion,2.487876,3.073244,2.7679,2.938946,2.940198,3.096417
+25,Rentabilidad,Resultado operativo antes de intereses e impuestos (EBIT),Ingresos - Costo de ventas - Gastos Generales - Otros gastos operacionales + Otros ingresos operacionales,0.16269,0.160551,0.20066,0.210046,0.251752,0.214394
+26,Rentabilidad,Margen bruto,Utilidad bruta / Ingresos,0.209619,0.184586,0.22636,0.189381,0.233705,0.25303
+27,Rentabilidad,Margen operativo,EBIT / Ingresos,0.076983,0.088863,0.069015,0.106159,0.114483,0.088473
+28,Rentabilidad,Margen EBITDA,EBITDA / Ingresos,0.173741,0.152058,0.171783,0.174841,0.162871,0.187585
+29,Rentabilidad,Margen antes de impuestos,Utilidad antes de impuestos / Ingresos,0.016785,0.005652,0.015931,0.049163,0.002054,0.063313
+30,Rentabilidad,Margen neto,Utilidad neta / Ingresos,0.271498,0.252664,0.269147,0.322616,0.329272,0.36494
+31,Rentabilidad,ROA,Utilidad neta / ((Activo total actual + anterior) / 2),0.016962,0.063378,0.080082,0.031446,0.031501,0.075621
+32,Rentabilidad,ROE,Utilidad neta / ((Patrimonio actual + anterior) / 2),0.06465,0.065827,0.095448,0.085977,0.069815,0.118307
+33,Rentabilidad,Capital invertido,Capital Suscrito y Pagado + Obligaciones Financieras,0.052925,0.077099,0.066809,0.113291,0.096023,0.095736
+34,Rentabilidad,ROIC,Utilidad operativa despues de impuestos / ((Capital invertido actual + anterior) / 2),0.264831,0.293331,0.311555,0.344482,0.341886,0.377049
+35,Rentabilidad,Rendimiento sobre capital total,UODI / ((Capital empleado actual + anterior) / 2),0.022271,0.05952,0.013727,0.050821,0.021754,0.042549
+36,Capital de trabajo y ciclo,Ciclo operativo,Dias de inventario + Dias de cartera,34.50097,28.165346,41.273292,35.529453,34.243002,36.054578
+37,Capital de trabajo y ciclo,Ciclo de conversion de efectivo,Dias de inventario + Dias de cartera - Dias de proveedores,17.045476,6.332395,16.021057,11.569214,16.545278,18.153602
+38,Capital de trabajo y ciclo,Necesidad de capital de trabajo,Activo corriente operativo - Pasivo corriente operativo,23.944765,23.207689,23.593981,27.967473,25.386456,20.21302
+39,Capital de trabajo y ciclo,Capital de trabajo / Ingresos Operacionales,Capital de trabajo / Ingresos,1.219196,10.388117,17.857895,4.053775,12.909396,14.048571
+40,Cobertura y capacidad de pago,Cobertura de intereses,EBIT / Gastos financieros,2.602587,3.800208,3.372034,4.096449,4.275155,3.919816
+41,Cobertura y capacidad de pago,Cobertura de intereses EBITDA,EBITDA / Gastos financieros,4.232442,5.459437,4.678919,5.551395,5.359273,6.998121
+42,Cobertura y capacidad de pago,Variacion de cuentas por cobrar,CxC actual / CxC anterior,5.802672,7.014818,7.406512,6.619824,8.330472,7.657029
+43,Cobertura y capacidad de pago,Variacion inventarios,Inventarios actual / anterior,6.077205,6.012647,6.90874,6.93128,8.1209,7.510345
+44,Cobertura y capacidad de pago,Variacion de cuentas por pagar,CxP actual / CxP anterior,2.151192,2.359088,1.478158,1.562232,2.84921,2.83692
+45,Cobertura y capacidad de pago,Variacion de otros activos corrientes operativos,Otros activos corrientes operativos actual / anterior,1.138571,2.373375,2.210762,2.117534,1.622969,2.051829
+46,Cobertura y capacidad de pago,Variacion de otros pasivos corrientes operativos,Otros pasivos corrientes operativos actual / anterior,1.730118,1.303637,2.353912,2.431368,2.170797,2.20344
+47,Cobertura y capacidad de pago,"Variacion Propiedades, planta y equipo",PyE actual / PyE anterior,3.592741,4.520747,5.101571,5.254766,5.423737,4.711264
+48,Cobertura y capacidad de pago,Variacion Activos intangibles,Intangibles actual / anterior,1.651008,1.991751,3.135005,3.345547,1.977165,3.153462
+49,Cobertura y capacidad de pago,Variacion Otros activos no corrientes operativos,Otros activos no corrientes operativos actual / anterior,3.754702,2.329754,2.62334,4.036083,4.28564,4.347188
+50,Cobertura y capacidad de pago,Flujo de caja operativo,EBITDA - Impuesto de renta + Variacion capital de trabajo,2.672813,3.804969,3.740966,4.003732,4.122108,4.221174
+51,Cobertura y capacidad de pago,Flujo de caja disponible para deuda,FCO - Variacion PyE - Variacion intangibles - Variacion Otros activos NC operativos,2.00567,1.836747,2.020904,1.340062,1.749904,2.058528
+52,Cobertura y capacidad de pago,Servicio de la deuda,Gastos financieros + Amortizacion de deuda,4.422698,5.866406,5.086825,5.599849,6.905343,6.483618
+53,Cobertura y capacidad de pago,Indice de Cobertura del Servicio de la Deuda,Flujo de caja disponible para deuda / Servicio total de la deuda,1.355789,0.977174,0.899349,2.125474,2.056651,2.433408
+54,Cobertura y capacidad de pago,Deuda financiera,Obligaciones financieras corrientes + Obligaciones no corrientes,7.746505,7.822411,8.681141,8.82002,9.302584,10.363869
+55,Cobertura y capacidad de pago,Deuda financiera / EBITDA,Obligaciones Financieras / EBITDA,4.290429,4.180827,4.540443,6.190302,6.156556,5.373449
+56,Cobertura y capacidad de pago,Deuda financiera neta / EBITDA,(Deuda financiera - Efectivo) / EBITDA,7.785002,6.856473,7.615798,9.159097,8.840035,8.534532
+57,Crecimiento,Crecimiento de ingresos,(Ingresos actual / Ingresos anterior) - 1,0.059924,0.055269,0.011209,0.022395,0.036667,0.080106
+58,Crecimiento,Crecimiento del EBITDA,(EBITDA actual / EBITDA anterior) - 1,0.059279,0.097755,0.054358,0.068504,0.044859,0.078921
+59,Crecimiento,Crecimiento del resultado operativo,(RO actual / RO anterior) - 1,0.064642,0.063876,0.044688,0.073252,0.052098,0.05741
+60,Crecimiento,Crecimiento de utilidad neta,(Utilidad neta actual / anterior) - 1,-0.016779,0.018951,-0.003821,-0.024744,-0.042859,-0.0031
+61,Crecimiento,Crecimiento de activos,(Activo total actual / anterior) - 1,0.078742,0.066755,0.052158,0.04461,0.089144,0.054933
+62,Calidad de resultados,Calidad de resultados,Flujo de efectivo de actividades operativas / Utilidad neta,-0.029837,0.174012,0.234912,0.337066,0.174044,0.083823
+63,Calidad de resultados,Rotacion de activos,Ingresos operacionales / Activos totales,0.966398,1.026334,1.425444,1.072345,1.22537,1.441545
+64,Calidad de resultados,Multiplicador de capital,((Activo actual + Activo anterior)/2) / ((Patrimonio actual + Patrimonio anterior)/2),0.684449,0.709449,1.059192,0.743078,0.850132,0.986028
+65,Creacion de valor y DuPont,ROE DuPont,Margen neto x Rotacion de activos x Multiplicador de capital,0.207644,0.248163,0.286773,0.222116,0.306122,0.258063

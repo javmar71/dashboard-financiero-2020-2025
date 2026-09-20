@@ -1,3 +1,4 @@
+import argparse
 import os
 import json
 
@@ -106,7 +107,30 @@ def build_fact_evidencia():
     return df
 
 
+def resolve_workspace(empresa):
+    """Resuelve raiz de insumos/salidas del Data Mart.
+
+    Sin --empresa usa la entidad ancla (raiz del repo). Con --empresa usa
+    `almacen_empresas/<empresa>/salidas` completamente aislada.
+    """
+    global SALIDAS, OUT_DIR
+    if empresa:
+        base_empresa = os.path.join(BASE, "almacen_empresas", empresa, "salidas")
+        SALIDAS = base_empresa
+        OUT_DIR = os.path.join(base_empresa, "power_bi")
+    else:
+        SALIDAS = os.path.join(BASE, "salidas")
+        OUT_DIR = os.path.join(SALIDAS, "power_bi")
+
+
 def main():
+    ap = argparse.ArgumentParser(
+        description="Genera el Data Mart Power BI (7 tablas) para una entidad.")
+    ap.add_argument("--empresa", default=None,
+                    help="Identificador de empresa en almacen_empresas/<empresa>. "
+                         "Si se omite, genera el Data Mart de la entidad ancla (raiz).")
+    args = ap.parse_args()
+    resolve_workspace(args.empresa)
     ensure_dirs()
 
     wide_inds, melt_inds = _melt_indicadores()

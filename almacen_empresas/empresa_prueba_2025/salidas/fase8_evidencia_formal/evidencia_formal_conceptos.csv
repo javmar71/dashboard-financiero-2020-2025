@@ -1,0 +1,79 @@
+﻿anio,concepto,rotulo,documento_origen,estado_financiero,pagina,nota,evidencia_linea,valor_pdf,valor_consolidado,coincide,estado,confianza
+2020,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 148465,148465.0,148465.0,True,ACEPTADO,ALTA
+2021,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 153751,153751.0,153751.0,True,ACEPTADO,ALTA
+2022,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 143656,143656.0,143656.0,True,ACEPTADO,ALTA
+2023,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 125397,125397.0,125397.0,True,ACEPTADO,ALTA
+2024,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 115027,115027.0,115027.0,True,ACEPTADO,ALTA
+2025,b_activo_corriente,Activo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 173398,173398.0,173398.0,True,ACEPTADO,ALTA
+2020,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 100637,100637.0,100637.0,True,ACEPTADO,ALTA
+2021,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 77960,77960.0,77960.0,True,ACEPTADO,ALTA
+2022,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 93039,93039.0,93039.0,True,ACEPTADO,ALTA
+2023,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 76951,76951.0,76951.0,True,ACEPTADO,ALTA
+2024,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 109527,109527.0,109527.0,True,ACEPTADO,ALTA
+2025,b_activo_no_corriente,Activo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 119190,119190.0,119190.0,True,ACEPTADO,ALTA
+2020,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 249102,249102.0,249102.0,True,ACEPTADO,ALTA
+2021,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 231711,231711.0,231711.0,True,ACEPTADO,ALTA
+2022,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 236695,236695.0,236695.0,True,ACEPTADO,ALTA
+2023,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 202348,202348.0,202348.0,True,ACEPTADO,ALTA
+2024,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 224554,224554.0,224554.0,True,ACEPTADO,ALTA
+2025,b_activo_total,Activo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 292588,292588.0,292588.0,True,ACEPTADO,ALTA
+2020,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 19391,19391.0,19391.0,True,ACEPTADO,ALTA
+2021,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 18689,18689.0,18689.0,True,ACEPTADO,ALTA
+2022,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 18390,18390.0,18390.0,True,ACEPTADO,ALTA
+2023,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 25143,25143.0,25143.0,True,ACEPTADO,ALTA
+2024,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 28904,28904.0,28904.0,True,ACEPTADO,ALTA
+2025,b_pasivo_corriente,Pasivo corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 20720,20720.0,20720.0,True,ACEPTADO,ALTA
+2020,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 6132,6132.0,6132.0,True,ACEPTADO,ALTA
+2021,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 9304,9304.0,9304.0,True,ACEPTADO,ALTA
+2022,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 10913,10913.0,10913.0,True,ACEPTADO,ALTA
+2023,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 14560,14560.0,14560.0,True,ACEPTADO,ALTA
+2024,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 13687,13687.0,13687.0,True,ACEPTADO,ALTA
+2025,b_pasivo_no_corriente,Pasivo no corriente,Estados Sinteticos.pdf,balance,1,,Sintetico $ 11861,11861.0,11861.0,True,ACEPTADO,ALTA
+2020,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 25523,25523.0,25523.0,True,ACEPTADO,ALTA
+2021,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 27993,27993.0,27993.0,True,ACEPTADO,ALTA
+2022,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 29303,29303.0,29303.0,True,ACEPTADO,ALTA
+2023,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 39703,39703.0,39703.0,True,ACEPTADO,ALTA
+2024,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 42591,42591.0,42591.0,True,ACEPTADO,ALTA
+2025,b_pasivo_total,Pasivo total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 32581,32581.0,32581.0,True,ACEPTADO,ALTA
+2020,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 223579,223579.0,223579.0,True,ACEPTADO,ALTA
+2021,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 203718,203718.0,203718.0,True,ACEPTADO,ALTA
+2022,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 207392,207392.0,207392.0,True,ACEPTADO,ALTA
+2023,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 162645,162645.0,162645.0,True,ACEPTADO,ALTA
+2024,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 181963,181963.0,181963.0,True,ACEPTADO,ALTA
+2025,b_patrimonio_total,Patrimonio total,Estados Sinteticos.pdf,balance,1,,Sintetico $ 260007,260007.0,260007.0,True,ACEPTADO,ALTA
+2020,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 71830,71830.0,71830.0,True,ACEPTADO,ALTA
+2021,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 77154,77154.0,77154.0,True,ACEPTADO,ALTA
+2022,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 72820,72820.0,72820.0,True,ACEPTADO,ALTA
+2023,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 61451,61451.0,61451.0,True,ACEPTADO,ALTA
+2024,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 62124,62124.0,62124.0,True,ACEPTADO,ALTA
+2025,r_ingresos_operacionales,Ingresos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 81771,81771.0,81771.0,True,ACEPTADO,ALTA
+2020,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 39902,39902.0,39902.0,True,ACEPTADO,ALTA
+2021,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 52724,52724.0,52724.0,True,ACEPTADO,ALTA
+2022,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 46893,46893.0,46893.0,True,ACEPTADO,ALTA
+2023,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 37642,37642.0,37642.0,True,ACEPTADO,ALTA
+2024,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 44603,44603.0,44603.0,True,ACEPTADO,ALTA
+2025,r_costo_de_ventas,Costo de ventas,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 51377,51377.0,51377.0,True,ACEPTADO,ALTA
+2020,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 31928,31928.0,31928.0,True,ACEPTADO,ALTA
+2021,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 24430,24430.0,24430.0,True,ACEPTADO,ALTA
+2022,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 25927,25927.0,25927.0,True,ACEPTADO,ALTA
+2023,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 23809,23809.0,23809.0,True,ACEPTADO,ALTA
+2024,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 17521,17521.0,17521.0,True,ACEPTADO,ALTA
+2025,r_utilidad_bruta,Utilidad bruta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 30394,30394.0,30394.0,True,ACEPTADO,ALTA
+2020,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 8779,8779.0,8779.0,True,ACEPTADO,ALTA
+2021,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 12731,12731.0,12731.0,True,ACEPTADO,ALTA
+2022,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 10645,10645.0,10645.0,True,ACEPTADO,ALTA
+2023,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 10188,10188.0,10188.0,True,ACEPTADO,ALTA
+2024,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 7823,7823.0,7823.0,True,ACEPTADO,ALTA
+2025,r_gastos_operacionales,Gastos operacionales,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 11099,11099.0,11099.0,True,ACEPTADO,ALTA
+2020,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 2422,2422.0,2422.0,True,ACEPTADO,ALTA
+2021,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 2989,2989.0,2989.0,True,ACEPTADO,ALTA
+2022,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 2798,2798.0,2798.0,True,ACEPTADO,ALTA
+2023,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 2759,2759.0,2759.0,True,ACEPTADO,ALTA
+2024,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 1936,1936.0,1936.0,True,ACEPTADO,ALTA
+2025,r_impuestos,Impuestos,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 2870,2870.0,2870.0,True,ACEPTADO,ALTA
+2020,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 23149,23149.0,23149.0,True,ACEPTADO,ALTA
+2021,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 11699,11699.0,11699.0,True,ACEPTADO,ALTA
+2022,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 15282,15282.0,15282.0,True,ACEPTADO,ALTA
+2023,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 13621,13621.0,13621.0,True,ACEPTADO,ALTA
+2024,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 9698,9698.0,9698.0,True,ACEPTADO,ALTA
+2025,r_utilidad_neta,Utilidad neta,Estados Sinteticos.pdf,resultados,1,,Sintetico $ 19295,19295.0,19295.0,True,ACEPTADO,ALTA
