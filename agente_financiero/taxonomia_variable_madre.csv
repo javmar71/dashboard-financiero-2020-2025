@@ -1,0 +1,150 @@
+variable_madre_id,cuenta_puc,concepto_src,indicador(es)_que_la_usan,fuente_esperada,tipo_variable,formula_calculo,tipo_dato,valores_posibles,regla_diseno,requerimiento_id
+efectivo_y_equivalentes,Efectivo_y_equivalentes_de_efectivo (200),b_efectivo,1 | 2 | 3 | 4 | 5 | 23 | 38 | 39 | 50 | 51 | 53 | 56,estados,primaria,,cuantitativo,,,REQ-EFECTIVO_Y_EQUIVALENTES
+inversiones,Inversiones,b_inversiones,1 | 2 | 4 | 5 | 23 | 39,estados,primaria,,cuantitativo,,,REQ-INVERSIONES
+cuentas_por_cobrar,Cuentas_por_cobrar,b_cuentas_por_cobrar,1 | 2 | 4 | 5 | 17 | 18 | 23 | 38 | 39 | 42 | 50 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-CUENTAS_POR_COBRAR
+impuestos,pendiente,b_impuesto_corriente_activo,1 | 2 | 4 | 5 | 23 | 39,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+impuestos_diferidos,pendiente,b_impuesto_diferido_activo,16,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS_DIFERIDOS
+otros_activos,pendiente,b_otros_activos_no_financieros,1 | 2 | 4 | 5 | 23 | 38 | 39 | 45 | 50 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-OTROS_ACTIVOS
+activos_fijos,pendiente,b_propiedades_planta_equipo,16 | 47 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-ACTIVOS_FIJOS
+arrendamientos,pendiente,b_derecho_uso_activo,16 | 49 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-ARRENDAMIENTOS
+intangibles,pendiente,b_activos_intangibles,16 | 48 | 49 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-INTANGIBLES
+activo_total,Activo_total (1000),b_activo_total,5 | 6 | 8 | 10 | 11 | 13 | 15 | 31 | 61 | 63 | 64 | 65,estados,primaria,,cuantitativo,,,REQ-ACTIVO_TOTAL
+cuentas_por_pagar,Cuentas_por_pagar,b_cuentas_por_pagar,1 | 2 | 3 | 4 | 5 | 12 | 23 | 38 | 39 | 44 | 50 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-CUENTAS_POR_PAGAR
+arrendamientos,pendiente,b_derecho_uso_pasivo,8 | 9 | 33 | 34 | 35 | 54 | 55 | 56,estados,primaria,,cuantitativo,,,REQ-ARRENDAMIENTOS
+obligaciones_laborales,pendiente,b_beneficios_empleados,1 | 2 | 3 | 4 | 5 | 12 | 23 | 39,estados,primaria,,cuantitativo,,,REQ-OBLIGACIONES_LABORALES
+provisiones,pendiente,b_provisiones,,estados,primaria,,cuantitativo,,,REQ-PROVISIONES
+impuestos,Impuestos_por_pagar,b_impuesto_corriente_pasivo,1 | 2 | 3 | 4 | 5 | 12 | 23 | 39,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+impuestos_diferidos,pendiente,b_impuesto_diferido_pasivo,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS_DIFERIDOS
+otros_pasivos,pendiente,b_otros_pasivos_no_financieros,1 | 2 | 3 | 4 | 5 | 12 | 23 | 38 | 39 | 46 | 50 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-OTROS_PASIVOS
+pasivo_total,Pasivo_total (2000),b_pasivo_total,6 | 7 | 12 | 13 | 14,estados,primaria,,cuantitativo,,,REQ-PASIVO_TOTAL
+capital_social,pendiente,b_capital_suscrito,33 | 34 | 35,estados,primaria,,cuantitativo,,,REQ-CAPITAL_SOCIAL
+capital_social,pendiente,b_prima_colocacion,,estados,primaria,,cuantitativo,,,REQ-CAPITAL_SOCIAL
+reservas_patrimoniales,pendiente,b_reservas,,estados,primaria,,cuantitativo,,,REQ-RESERVAS_PATRIMONIALES
+utilidad_neta,pendiente,b_utilidad_periodo,,estados,primaria,,cuantitativo,,,REQ-UTILIDAD_NETA
+utilidades_retenidas,pendiente,b_utilidad_ejercicios_anteriores,,estados,primaria,,cuantitativo,,,REQ-UTILIDADES_RETENIDAS
+ajustes_ncif,pendiente,b_efecto_ncif,,estados,primaria,,cuantitativo,,,REQ-AJUSTES_NCIF
+ori_acumulado,pendiente,b_ori_valorizacion,,estados,primaria,,cuantitativo,,,REQ-ORI_ACUMULADO
+patrimonio,Patrimonio,b_patrimonio_total,7 | 9 | 10 | 11 | 14 | 32 | 64 | 65,estados,primaria,,cuantitativo,,,REQ-PATRIMONIO
+subtotal_calculado,pendiente,b_total_pasivo_patrimonio,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-B_TOTAL_PASIVO_PATRIMONIO
+ingresos_operacionales,pendiente,i_comisiones,,estados,primaria,,cuantitativo,,,REQ-INGRESOS_OPERACIONALES
+ingresos_operacionales,pendiente,i_ingresos_operaciones_conjuntas,,estados,primaria,,cuantitativo,,,REQ-INGRESOS_OPERACIONALES
+ingresos_operacionales,Ingresos_operacionales,i_utilidad_bruta,15 | 16 | 17 | 18 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 34 | 35 | 39 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 57 | 58 | 59 | 63 | 65,estados,primaria,,cuantitativo,,,REQ-INGRESOS_OPERACIONALES
+obligaciones_laborales,pendiente,i_gasto_beneficios,24 | 25 | 27 | 28 | 34 | 35 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 58 | 59,estados,primaria,,cuantitativo,,,REQ-OBLIGACIONES_LABORALES
+gastos_administracion,Gastos_de_administracion,i_gastos_administracion,24 | 25 | 27 | 28 | 34 | 35 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 58 | 59,estados,primaria,,cuantitativo,,,REQ-GASTOS_ADMINISTRACION
+gastos_administracion,pendiente,i_gastos_operaciones_conjuntas,24 | 25 | 27 | 28 | 34 | 35 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 58 | 59,estados,primaria,,cuantitativo,,,REQ-GASTOS_ADMINISTRACION
+deterioro_cuentas_por_cobrar,pendiente,i_deterioro_cxc,24 | 25 | 27 | 28 | 34 | 35 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 58 | 59,estados,primaria,,cuantitativo,,,REQ-DETERIORO_CUENTAS_POR_COBRAR
+depreciaciones,pendiente,i_depreciaciones,24 | 28 | 41 | 50 | 51 | 53 | 55 | 56 | 58,estados,primaria,,cuantitativo,,,REQ-DEPRECIACIONES
+amortizaciones,pendiente,i_amortizaciones,24 | 28 | 41 | 50 | 51 | 53 | 55 | 56 | 58,estados,primaria,,cuantitativo,,,REQ-AMORTIZACIONES
+subtotal_calculado,pendiente,i_resultado_despues_gastos,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-I_RESULTADO_DESPUES_GASTOS
+resultado_financiero,pendiente,i_resultado_financiero_neto,,estados,primaria,,cuantitativo,,,REQ-RESULTADO_FINANCIERO
+utilidad_operacional,Utilidad_operacional,i_resultado_operacional,,estados,primaria,,cuantitativo,,,REQ-UTILIDAD_OPERACIONAL
+otros_ingresos_egresos,pendiente,i_otros_ingresos_egresos,24 | 25 | 27 | 28 | 34 | 35 | 40 | 41 | 50 | 51 | 53 | 55 | 56 | 58 | 59,estados,primaria,,cuantitativo,,,REQ-OTROS_INGRESOS_EGRESOS
+subtotal_calculado,pendiente,i_resultado_antes_impuestos,29,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-I_RESULTADO_ANTES_IMPUESTOS
+impuestos,pendiente,i_gasto_impuesto_corriente,34 | 35 | 50 | 51 | 53,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+impuestos_diferidos,pendiente,i_gasto_impuesto_diferido,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS_DIFERIDOS
+utilidad_neta,Utilidad_neta,i_resultado_del_ejercicio,30 | 31 | 32 | 60 | 62 | 65,estados,primaria,,cuantitativo,,,REQ-UTILIDAD_NETA
+ori_acumulado,pendiente,i_ori_titulos,,estados,primaria,,cuantitativo,,,REQ-ORI_ACUMULADO
+ori_acumulado,pendiente,i_ori_actuarial,,estados,primaria,,cuantitativo,,,REQ-ORI_ACUMULADO
+ori_acumulado,pendiente,i_ori_inmuebles,,estados,primaria,,cuantitativo,,,REQ-ORI_ACUMULADO
+impuestos_diferidos,pendiente,i_impuesto_diferido_ori,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS_DIFERIDOS
+subtotal_calculado,pendiente,i_ori_total,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-I_ORI_TOTAL
+subtotal_calculado,pendiente,i_comprehensivo_total,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-I_COMPREHENSIVO_TOTAL
+utilidad_neta,Utilidad_neta,c_utilidad_del_ejercicio,,estados,primaria,,cuantitativo,,,REQ-UTILIDAD_NETA
+depreciaciones,pendiente,c_depreciacion,,estados,primaria,,cuantitativo,,,REQ-DEPRECIACIONES
+arrendamientos,pendiente,c_depreciacion_derecho_uso,,estados,primaria,,cuantitativo,,,REQ-ARRENDAMIENTOS
+provisiones,pendiente,c_provisiones,,estados,primaria,,cuantitativo,,,REQ-PROVISIONES
+deterioro_cuentas_por_cobrar,pendiente,c_deterioro_cxc,,estados,primaria,,cuantitativo,,,REQ-DETERIORO_CUENTAS_POR_COBRAR
+provisiones,pendiente,c_reintegro_provisiones,,estados,primaria,,cuantitativo,,,REQ-PROVISIONES
+inversiones,pendiente,c_valoracion_inversiones,,estados,primaria,,cuantitativo,,,REQ-INVERSIONES
+amortizaciones,pendiente,c_amortizacion_intangibles,,estados,primaria,,cuantitativo,,,REQ-AMORTIZACIONES
+amortizaciones,pendiente,c_amortizacion_otros,,estados,primaria,,cuantitativo,,,REQ-AMORTIZACIONES
+gastos_financieros,pendiente,c_intereses_arrendamiento,,estados,primaria,,cuantitativo,,,REQ-GASTOS_FINANCIEROS
+impuestos,pendiente,c_gasto_impuesto_corriente,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+impuestos_diferidos,pendiente,c_gasto_impuesto_diferido,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS_DIFERIDOS
+bajas_activos,pendiente,c_baja_ppye,,estados,primaria,,cuantitativo,,,REQ-BAJAS_ACTIVOS
+activos_fijos,pendiente,c_baja_depreciacion_ppye,,estados,primaria,,cuantitativo,,,REQ-ACTIVOS_FIJOS
+bajas_activos,pendiente,c_baja_intangibles,,estados,primaria,,cuantitativo,,,REQ-BAJAS_ACTIVOS
+intangibles,pendiente,c_baja_amortizacion_intangibles,,estados,primaria,,cuantitativo,,,REQ-INTANGIBLES
+cuentas_por_cobrar,pendiente,c_cuentas_por_cobrar,,estados,primaria,,cuantitativo,,,REQ-CUENTAS_POR_COBRAR
+otros_activos,pendiente,c_otros_activos,,estados,primaria,,cuantitativo,,,REQ-OTROS_ACTIVOS
+cuentas_por_pagar,pendiente,c_cuentas_por_pagar,,estados,primaria,,cuantitativo,,,REQ-CUENTAS_POR_PAGAR
+impuestos,pendiente,c_impuestos_neto,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+obligaciones_laborales,pendiente,c_beneficios_empleados,,estados,primaria,,cuantitativo,,,REQ-OBLIGACIONES_LABORALES
+provisiones,pendiente,c_pasivos_provisiones,,estados,primaria,,cuantitativo,,,REQ-PROVISIONES
+gastos_financieros,pendiente,c_intereses_pagados,40 | 41 | 52 | 53,estados,primaria,,cuantitativo,,,REQ-GASTOS_FINANCIEROS
+impuestos,pendiente,c_impuestos_pagados,,estados,primaria,,cuantitativo,,,REQ-IMPUESTOS
+subtotal_calculado,pendiente,c_flujo_operacion,62,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-C_FLUJO_OPERACION
+inversiones,pendiente,c_inversiones,,estados,primaria,,cuantitativo,,,REQ-INVERSIONES
+capex,pendiente,c_adquisicion_ppye,,calculado,calculada,concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles,cuantitativo,,,REQ-CAPEX
+capex,pendiente,c_adquisicion_intangibles,,calculado,calculada,concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles,cuantitativo,,,REQ-CAPEX
+subtotal_calculado,pendiente,c_flujo_inversion,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-C_FLUJO_INVERSION
+arrendamientos,pendiente,c_pagos_arrendamiento,52 | 53,estados,primaria,,cuantitativo,,,REQ-ARRENDAMIENTOS
+dividendos,pendiente,c_dividendos,,estados,primaria,,cuantitativo,,,REQ-DIVIDENDOS
+subtotal_calculado,pendiente,c_flujo_financiacion,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-C_FLUJO_FINANCIACION
+subtotal_calculado,pendiente,c_aumento_neto,,estados,primaria,,cuantitativo,,,REQ-SUBTOTAL-C_AUMENTO_NETO
+efectivo_y_equivalentes,pendiente,c_efectivo_restriccion,,estados,primaria,,cuantitativo,,,REQ-EFECTIVO_Y_EQUIVALENTES
+efectivo_y_equivalentes,pendiente,c_efectivo_sin_restriccion,,estados,primaria,,cuantitativo,,,REQ-EFECTIVO_Y_EQUIVALENTES
+efectivo_y_equivalentes,pendiente,c_efectivo_inicio,,estados,primaria,,cuantitativo,,,REQ-EFECTIVO_Y_EQUIVALENTES
+efectivo_y_equivalentes,pendiente,c_efectivo_cierre,,estados,primaria,,cuantitativo,,,REQ-EFECTIVO_Y_EQUIVALENTES
+activo_corriente,pendiente,pendiente,razon_corriente; prueba_acida; capital_trabajo; rotacion_del_capital_de_trabajo,estados,primaria,,cuantitativo,,,REQ-ACTIVO_CORRIENTE
+pasivo_corriente,Pasivo_corriente,pendiente,razon_corriente; prueba_acida; capital_trabajo; rotacion_del_capital_de_trabajo,estados,primaria,,cuantitativo,,,REQ-PASIVO_CORRIENTE
+inventarios,Inventarios,pendiente,prueba_acida; rotacion_inventarios; dias_inventario; ciclo_operativo; ciclo_conversion_efectivo; variacion_inventarios,no_aplica_tipo_entidad,no_aplica_tipo_entidad,,cuantitativo,,,REQ-INVENTARIOS
+costo_operacional,Costos_operacionales,pendiente,rotacion_inventarios,no_aplica_tipo_entidad,no_aplica_tipo_entidad,,cuantitativo,,,REQ-COSTO_OPERACIONAL
+ingresos_operacionales,Ingresos_operacionales,pendiente,rotacion_cartera; dias_cartera,estados,primaria,,cuantitativo,,,REQ-INGRESOS_OPERACIONALES
+utilidad_bruta,pendiente,pendiente,margen_bruto,calculado,calculada,concepto:i_utilidad_bruta,cuantitativo,,,REQ-UTILIDAD_BRUTA
+deuda_financiera_total,pendiente,pendiente,deuda_ebitda; endeudamiento_total; cobertura_intereses; roic; rona,calculado,calculada,deuda_financiera_corriente + deuda_financiera_no_corriente,cuantitativo,,CANONICA de deuda. Total = corriente + no corriente (familia deuda_financiera_*).,REQ-DEUDA_FINANCIERA_TOTAL
+pasivo_financiero_total,pendiente,pendiente,deuda_ebitda; cobertura_intereses; endeudamiento_total; roic; rona,calculado,calculada,deuda_financiera_total,cuantitativo,,ALIAS de deuda_financiera_total (mapa canonico B0.3): misma deuda total; no extraer por separado.,REQ-PASIVO_FINANCIERO_TOTAL
+pasivo_financiero_corriente,Obligaciones_financieras_corrientes,pendiente,,calculado,calculada,deuda_financiera_corriente,cuantitativo,,ALIAS de deuda_financiera_corriente (mapa canonico B0.3): mismo PUC Obligaciones_financieras_corrientes; razon_corriente usa pasivo_corriente.,REQ-PASIVO_FINANCIERO_CORRIENTE
+NOPAT,pendiente,pendiente,roic; rona,calculado,calculada,concepto:i_resultado_operacional * (1 - tasa_efectiva_impuestos),cuantitativo,,,REQ-NOPAT
+capital_empleado,pendiente,pendiente,roic,calculado,calculada,deuda_financiera_total + concepto:b_patrimonio_total,cuantitativo,,,REQ-CAPITAL_EMPLEADO
+activos_netos,pendiente,pendiente,rona,calculado,calculada,capital_empleado,cuantitativo,,,REQ-ACTIVOS_NETOS
+variacion_CapTrabajo,pendiente,pendiente,flujo_operativo,calculado,calculada,(agregado:ACTIVO_CORRIENTE[t] - agregado:PASIVO_CORRIENTE[t]) - (agregado:ACTIVO_CORRIENTE[t-1] - agregado:PASIVO_CORRIENTE[t-1]),cuantitativo,,,REQ-VARIACION_CAPTRABAJO
+variacion_CXC,pendiente,pendiente,flujo_operativo,calculado,calculada,concepto:b_cuentas_por_cobrar[t] - concepto:b_cuentas_por_cobrar[t-1],cuantitativo,,,REQ-VARIACION_CXC
+variacion_Inventarios,pendiente,pendiente,flujo_operativo,no_aplica_tipo_entidad,no_aplica_tipo_entidad,,cuantitativo,,,REQ-VARIACION_INVENTARIOS
+variacion_CxP,pendiente,pendiente,flujo_operativo,calculado,calculada,concepto:b_cuentas_por_pagar[t] - concepto:b_cuentas_por_pagar[t-1],cuantitativo,,,REQ-VARIACION_CXP
+proveedores,pendiente,pendiente,rotacion_proveedores; dias_proveedores,notas,primaria,,cuantitativo,,,REQ-PROVEEDORES
+composicion_deuda,pendiente,pendiente,,notas,primaria,,cuantitativo,,,REQ-COMPOSICION_DEUDA
+deuda_financiera_corriente,Obligaciones_financieras_corrientes,pendiente,,notas,primaria,,cuantitativo,,,REQ-DEUDA_FINANCIERA_CORRIENTE
+deuda_financiera_no_corriente,Obligaciones_financieras_a_largo_plazo,pendiente,,notas,primaria,,cuantitativo,,,REQ-DEUDA_FINANCIERA_NO_CORRIENTE
+tasas_interes,pendiente,pendiente,,notas,primaria,,cuantitativo,,,REQ-TASAS_INTERES
+composicion_inventarios,Inventarios,pendiente,,notas,no_aplica_tipo_entidad,,cuantitativo,,,REQ-COMPOSICION_INVENTARIOS
+inversiones_detalle,Inversiones,pendiente,,notas,primaria,,cuantitativo,,,REQ-INVERSIONES_DETALLE
+adquisiciones_activos,pendiente,pendiente,,notas,primaria,,cuantitativo,,,REQ-ADQUISICIONES_ACTIVOS
+contingencias,pendiente,pendiente,,notas,primaria,,cuantitativo,,,REQ-CONTINGENCIAS
+partes_relacionadas,pendiente,pendiente,,notas,primaria,,cuantitativo,,,REQ-PARTES_RELACIONADAS
+evolucion_ingresos,pendiente,pendiente,roe; roa; margenes,calculado,calculada,(concepto:i_comisiones[t] + concepto:i_ingresos_operaciones_conjuntas[t]) / (concepto:i_comisiones[t-1] + concepto:i_ingresos_operaciones_conjuntas[t-1]) - 1,cuantitativo,,,REQ-EVOLUCION_INGRESOS
+evolucion_utilidad,pendiente,pendiente,roe; roa; margenes,calculado,calculada,concepto:i_resultado_del_ejercicio[t] / concepto:i_resultado_del_ejercicio[t-1] - 1,cuantitativo,,,REQ-EVOLUCION_UTILIDAD
+crecimiento_organico,pendiente,pendiente,analisis_negocio,calculado,calculada,(concepto:i_comisiones[t] + concepto:i_ingresos_operaciones_conjuntas[t]) / (concepto:i_comisiones[t-1] + concepto:i_ingresos_operaciones_conjuntas[t-1]) - 1,cuantitativo,,,REQ-CRECIMIENTO_ORGANICO
+crecimiento_adquisiciones,pendiente,pendiente,analisis_estructural,informe_gestion,primaria,,cuantitativo,,,REQ-CRECIMIENTO_ADQUISICIONES
+participacion_mercado,pendiente,pendiente,analisis_competitivo,informe_gestion,primaria,,cuantitativo,,,REQ-PARTICIPACION_MERCADO
+ventas_por_segmento,pendiente,pendiente,roe_segmento,informe_gestion,primaria,,cuantitativo,,,REQ-VENTAS_POR_SEGMENTO
+desempeno_por_segmento,pendiente,pendiente,margen_segmento,informe_gestion,primaria,,cuantitativo,,,REQ-DESEMPENO_POR_SEGMENTO
+eficiencia_operativa,pendiente,pendiente,margenes; rotaciones,informe_gestion,primaria,,cuantitativo,,,REQ-EFICIENCIA_OPERATIVA
+productividad,pendiente,pendiente,costos; margenes,calculado,calculada,concepto:i_ingresos_operacionales / concepto:numero_empleados,cuantitativo,,,REQ-PRODUCTIVIDAD
+numero_empleados,pendiente,pendiente,roe_activos_persona,informe_gestion,primaria,,cuantitativo,,,REQ-NUMERO_EMPLEADOS
+capex,pendiente,pendiente,flujo_libre,calculado,calculada,concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles,cuantitativo,,,REQ-CAPEX
+perspectivas,pendiente,pendiente,diagnostico_estrategico,informe_gestion,primaria,,cuantitativo,,,REQ-PERSPECTIVAS
+riesgos,pendiente,pendiente,analisis_riesgo,informe_gestion,primaria,,cualitativo_texto_libre,,,REQ-RIESGOS
+hechos_relevantes,pendiente,pendiente,eventos_posteriores,informe_gestion,primaria,,cualitativo_texto_libre,,,REQ-HECHOS_RELEVANTES
+calidad_resultados,pendiente,pendiente,roe_roa_calidad,calculado,calculada,concepto:flujo_operativo / concepto:resultado_ejercicio,cuantitativo,,,REQ-CALIDAD_RESULTADOS
+cumplimiento_covenants,pendiente,pendiente,wacc; endeudamiento,informe_gestion,primaria,,cuantitativo,,,REQ-CUMPLIMIENTO_COVENANTS
+tipo_opinion,pendiente,pendiente,,informe_auditoria,primaria,,cualitativo_enum,"sin_salvedad, con_salvedad, adversa, abstencion",,REQ-TIPO_OPINION
+opinion_limpia,pendiente,pendiente,,calculado,calculada,,cuantitativo,,,REQ-OPINION_LIMPIA
+salvedades,pendiente,pendiente,,informe_auditoria,primaria,,cualitativo_texto_libre,"regla: solo contenido si tipo_opinion=con_salvedad; si sin_salvedad o global, NO_ENCONTRADO es el resultado esperado por diseno",condicion:tipo_opinion=sin_salvedad,REQ-SALVEDADES
+opinion_adversa,pendiente,pendiente,,calculado,calculada,,cuantitativo,,,REQ-OPINION_ADVERSA
+abstencion,pendiente,pendiente,,calculado,calculada,,cuantitativo,,,REQ-ABSTENCION
+enfasis,pendiente,pendiente,,informe_auditoria,no_aplica_tipo_entidad,,cuantitativo,,,REQ-ENFASIS
+cuestiones_key,pendiente,pendiente,,informe_auditoria,no_aplica_tipo_entidad,,cuantitativo,,,REQ-CUESTIONES_KEY
+incertidumbre,pendiente,pendiente,,informe_auditoria,primaria,,cualitativo_texto_libre,,,REQ-INCERTIDUMBRE
+tasa_efectiva_impuestos,pendiente,pendiente,,calculado,calculada,(concepto:i_gasto_impuesto_corriente + concepto:i_gasto_impuesto_diferido) / concepto:i_resultado_antes_impuestos,cuantitativo,,,REQ-TASA_EFECTIVA_IMPUESTOS
+deuda_neta,pendiente,pendiente,,calculado,calculada,deuda_financiera_total - concepto:b_efectivo,cuantitativo,,,REQ-DEUDA_NETA
+EBITDA,pendiente,pendiente,,calculado,calculada,concepto:i_resultado_operacional + concepto:i_depreciaciones + concepto:i_amortizaciones,cuantitativo,,,REQ-EBITDA
+costo_deuda,pendiente,pendiente,,calculado,calculada,(concepto:c_intereses_pagados + concepto:c_intereses_arrendamiento) / deuda_financiera_total,cuantitativo,,,REQ-COSTO_DEUDA
+costo_patrimonio,pendiente,pendiente,,parametro_externo_manual,calculada,,cuantitativo,,,REQ-COSTO_PATRIMONIO
+resultado_antes_impuestos,pendiente,pendiente,,estados,primaria,,cuantitativo,,,REQ-RESULTADO_ANTES_IMPUESTOS
+flujo_operativo,pendiente,pendiente,flujo_operativo; flujo_libre,calculado,calculada,concepto:i_resultado_del_ejercicio + concepto:i_depreciaciones + concepto:i_amortizaciones - variacion_CapTrabajo,cuantitativo,,Definicion canonica B0.4 corregida (2026-09-18): metodo indirecto; signo variacion_CapTrabajo restado (crece = salida de caja); sin CXC/i/CxP separadas.,REQ-FLUJO_OPERATIVO
+flujo_libre,pendiente,pendiente,flujo_libre,calculado,calculada,flujo_operativo - capex,cuantitativo,,Definicion canonica B0.4: flujo_operativo - CAPEX.,REQ-FLUJO_LIBRE
+proporcion_deuda,pendiente,pendiente,wacc,calculado,calculada,deuda_financiera_total / (deuda_financiera_total + concepto:b_patrimonio_total),cuantitativo,,Definicion canonica B0.4.,REQ-PROPORCION_DEUDA
+proporcion_patrimonio,pendiente,pendiente,wacc,calculado,calculada,concepto:b_patrimonio_total / (deuda_financiera_total + concepto:b_patrimonio_total),cuantitativo,,Definicion canonica B0.4.,REQ-PROPORCION_PATRIMONIO
+wacc,pendiente,pendiente,wacc,calculado,calculada,costo_deuda * (1 - tasa_estatutaria_impuestos) * proporcion_deuda + costo_patrimonio * proporcion_patrimonio,cuantitativo,,Definicion canonica B0.4 actualizada (2026-09-18): escudo fiscal con tasa estatutaria/marginal (norma academica) en vez de tasa efectiva; costo_patrimonio es parametro externo manual.,REQ-WACC
+tasa_estatutaria_impuestos,pendiente,pendiente,wacc,parametro_externo_manual,calculada,,cuantitativo,,Tarifa general Art. 240 E.T. personas juridicas regimen ordinario (2020: 32%; 2021: 31% - Ley 2010/2019; 2022: 35% Ley 2155/2021; 2023+: 35% Ley 2277/2022). Sobretasa financieras (Par. 7) inexequible C-510/2019; verificar si aplica tarifa financieras 38% en 2023+. No proviene de los PDF,REQ-TASA_ESTATUTARIA_IMPUESTOS

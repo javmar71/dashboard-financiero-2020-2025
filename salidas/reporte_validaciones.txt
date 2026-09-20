@@ -1,0 +1,135 @@
+REPORTE DE VALIDACIONES - FIDUCIARIA LA PREVISORA S.A. (millones COP)
+Serie normalizada 2020-2025 a partir de 87 conceptos canonicos.
+==============================================================================
+[OK]   Activo = Pasivo + Patrimonio
+       2020: A=359005.0 P=66005.0 Patrimonio=293000.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2020: corriente=318083.0 no_corriente=40922.0 suma=359005.0 total=359005.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2020: corriente=46313.0 no_corriente=19692.0 suma=66005.0 total=66005.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2020: suma=293000.0 total=293000.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2020: op=64532.0 inv=-20416.0 fin=-44487.0 suma=-371.0 aumento=-371.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2020: inicio=44296.0 aumento=-371.0 suma=43925.0 cierre=43925.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2020: flujo_cierre=43925.0 balance=43925.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2020: balance=58220.0 resultado=58220.0 cf=58220.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2020: restriccion=18880.0 sin_restriccion=25416.0 suma=44296.0 inicio=44296.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2020: titulos=None actuarial=None inmuebles=None imp_dif=-146.0 suma=-146.0 total=-146.0 diff=0.0
+[OK]   Activo = Pasivo + Patrimonio
+       2021: A=348286.0 P=65398.0 Patrimonio=282888.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2021: corriente=312406.0 no_corriente=35880.0 suma=348286.0 total=348286.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2021: corriente=48985.0 no_corriente=16413.0 suma=65398.0 total=65398.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2021: suma=282888.0 total=282888.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2021: op=63425.0 inv=-27968.0 fin=-58391.0 suma=-22934.0 aumento=-22934.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2021: inicio=43925.0 aumento=-22934.0 suma=20991.0 cierre=20991.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2021: flujo_cierre=20991.0 balance=20991.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2021: balance=47632.0 resultado=47632.0 cf=47632.0
+[OK]   c_efectivo_inicio = b_efectivo anterior
+       2021: inicio_flujo=43925.0 balance_2020=43925.0 diff=0.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2021: restriccion=18880.0 sin_restriccion=25045.0 suma=43925.0 inicio=43925.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2021: titulos=1.0 actuarial=-37.0 inmuebles=None imp_dif=-464.0 suma=-500.0 total=-500.0 diff=0.0
+[OK]   Activo = Pasivo + Patrimonio
+       2022: A=334823.0 P=71498.0 Patrimonio=263325.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2022: corriente=296014.0 no_corriente=38809.0 suma=334823.0 total=334823.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2022: corriente=49368.0 no_corriente=22130.0 suma=71498.0 total=71498.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2022: suma=263325.0 total=263325.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2022: op=46077.0 inv=11898.0 fin=-58407.0 suma=-432.0 aumento=-432.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2022: inicio=20991.0 aumento=-432.0 suma=20559.0 cierre=20559.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2022: flujo_cierre=20559.0 balance=20559.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2022: balance=36237.0 resultado=36237.0 cf=36237.0
+[OK]   c_efectivo_inicio = b_efectivo anterior
+       2022: inicio_flujo=20991.0 balance_2021=20991.0 diff=0.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2022: restriccion=1.0 sin_restriccion=20990.0 suma=20991.0 inicio=20991.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2022: titulos=None actuarial=46.0 inmuebles=2465.0 imp_dif=-1439.0 suma=1072.0 total=1072.0 diff=0.0
+[OK]   Activo = Pasivo + Patrimonio
+       2023: A=375984.0 P=82335.0 Patrimonio=293649.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2023: corriente=340748.0 no_corriente=35236.0 suma=375984.0 total=375984.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2023: corriente=58684.0 no_corriente=23651.0 suma=82335.0 total=82335.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2023: suma=293649.0 total=293649.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2023: op=46437.0 inv=1539.0 fin=-41202.0 suma=6774.0 aumento=6774.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2023: inicio=20559.0 aumento=6774.0 suma=27333.0 cierre=27333.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2023: flujo_cierre=27333.0 balance=27333.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2023: balance=70126.0 resultado=70126.0 cf=70126.0
+[OK]   c_efectivo_inicio = b_efectivo anterior
+       2023: inicio_flujo=20559.0 balance_2022=20559.0 diff=0.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2023: restriccion=1.0 sin_restriccion=20558.0 suma=20559.0 inicio=20559.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2023: titulos=None actuarial=-63.0 inmuebles=None imp_dif=None suma=-63.0 total=-63.0 diff=0.0
+[OK]   Activo = Pasivo + Patrimonio
+       2024: A=314960.0 P=60103.0 Patrimonio=254857.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2024: corriente=273943.0 no_corriente=41017.0 suma=314960.0 total=314960.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2024: corriente=36817.0 no_corriente=23286.0 suma=60103.0 total=60103.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2024: suma=254857.0 total=254857.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2024: op=-7419.0 inv=88797.0 fin=-61642.0 suma=19736.0 aumento=19736.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2024: inicio=27333.0 aumento=19736.0 suma=47069.0 cierre=47069.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2024: flujo_cierre=47069.0 balance=47069.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2024: balance=20997.0 resultado=20997.0 cf=20997.0
+[OK]   c_efectivo_inicio = b_efectivo anterior
+       2024: inicio_flujo=27333.0 balance_2023=27333.0 diff=0.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2024: restriccion=1474.0 sin_restriccion=25859.0 suma=27333.0 inicio=27333.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2024: titulos=-123.0 actuarial=3.0 inmuebles=None imp_dif=50.0 suma=-70.0 total=-70.0 diff=0.0
+[OK]   Activo = Pasivo + Patrimonio
+       2025: A=348129.0 P=60295.0 Patrimonio=287834.0 diff=0.0
+[OK]   Componentes activo = Total activos
+       2025: corriente=301184.0 no_corriente=46945.0 suma=348129.0 total=348129.0 diff=0.0
+[OK]   Componentes pasivo = Total pasivos
+       2025: corriente=37831.0 no_corriente=22464.0 suma=60295.0 total=60295.0 diff=0.0
+[OK]   Componentes patrimonio = Total patrimonio
+       2025: suma=287834.0 total=287834.0 diff=0.0
+[OK]   Flujo op+inv+fin = Aumento neto
+       2025: op=-14903.0 inv=21033.0 fin=-7179.0 suma=-1049.0 aumento=-1049.0 diff=0.0
+[OK]   Efectivo inicio + aumento = cierre
+       2025: inicio=47069.0 aumento=-1049.0 suma=46020.0 cierre=46020.0 diff=0.0
+[OK]   Efectivo cierre = b_efectivo
+       2025: flujo_cierre=46020.0 balance=46020.0 diff=0.0
+[OK]   Utilidad balance = Resultado = CF
+       2025: balance=30947.0 resultado=30947.0 cf=30947.0
+[OK]   c_efectivo_inicio = b_efectivo anterior
+       2025: inicio_flujo=47069.0 balance_2024=47069.0 diff=0.0
+[OK]   Restringido + sin restriccion = Efectivo inicio
+       2025: restriccion=1493.0 sin_restriccion=45576.0 suma=47069.0 inicio=47069.0 diff=0.0
+[OK]   Suma ORI = Total otro resultado integral
+       2025: titulos=-11.0 actuarial=-4.0 inmuebles=4666.0 imp_dif=2412.0 suma=7063.0 total=7063.0 diff=0.0
+==============================================================================
+Total: 65 OK, 0 fallas de 65 comprobaciones.

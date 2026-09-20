@@ -1,0 +1,74 @@
+{
+  "datos": [
+    {
+      "variable_madre_id": "tipo_opinion",
+      "documento_origen": "Informe de Audtoria_2022.pdf",
+      "pagina": 1,
+      "seccion": "Opinión",
+      "cuenta_original": "Opinión",
+      "valor": "sin_salvedad",
+      "periodo": "2022",
+      "unidad": null,
+      "evidencia": "Informe de Auditoría 2022, pág 1, sección Opinión",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "salvedades",
+      "documento_origen": "Informe de Audtoria_2022.pdf",
+      "pagina": 1,
+      "seccion": "Opinión",
+      "cuenta_original": "Opinión",
+      "valor": "confirmado por diseño",
+      "periodo": "2022",
+      "unidad": null,
+      "evidencia": "Confirmado por diseño: opinión sin salvedades",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "incertidumbre",
+      "documento_origen": "Informe de Audtoria_2022.pdf",
+      "pagina": 2,
+      "seccion": "Responsabilidades del auditor",
+      "cuenta_original": "Negocio en marcha",
+      "valor": "sin_incertidumbre_material",
+      "periodo": "2022",
+      "unidad": null,
+      "evidencia": "Informe de Auditoría 2022, pág 2, Responsabilidades del auditor en relación con el negocio en marcha",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "proveedores",
+      "documento_origen": "Estados-Financieros2022.pdf",
+      "pagina": 1,
+      "seccion": "Estado de Situación Financiera",
+      "cuenta_original": "Cuentas comerciales por pagar y otras cuentas por pagar",
+      "valor": 27417,
+      "periodo": "2022",
+      "unidad": "millones de pesos",
+      "evidencia": "Estado de Situación Financiera 2022, pág 1, Nota 15",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": "2205"
+    },
+    {
+      "variable_madre_id": "partes_relacionadas",
+      "documento_origen": "Informe de Gestion_2022.pdf",
+      "pagina": 109,
+      "seccion": "35. TRANSACCIONES CON PARTES RELACIONADAS",
+      "cuenta_original": "Transacciones con partes relacionadas",
+      "valor": null,
+      "periodo": "2022",
+      "unidad": null,
+      "evidencia": "Informe de Gestión 2022, pág 109, Nota 35; falta desglose total consolidado",
+      "confianza": "BAJA",
+      "estado": "DUDOSO",
+      "codigo_puc": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parametro": "tipo_entidad",
+  "tipo_entidad_actual": "servicios_financieros",
+  "descripcion": "Regla condicional de aplicabilidad por tipo de entidad (2026-09-18): las cuentas/indicadores no se eliminan por el tipo de entidad; se condicionan. Un indicador es NO APLICA (condicional) si requiere al menos una cuenta cuyo 'aplica_en' no incluye el tipo_entidad del analisis.",
+  "cuentas": [
+    {
+      "cuenta": "inventarios",
+      "aplica_en": ["comercial", "industrial"],
+      "requerimiento_id": "REQ-INVENTARIOS",
+      "nota": "La fiduciaria no maneja inventarios (sin linea en el balance)."
+    },
+    {
+      "cuenta": "costo_operacional",
+      "nombre_anterior": "costo_ventas",
+      "aplica_en": ["comercial", "industrial"],
+      "requerimiento_id": "REQ-COSTO_OPERACIONAL",
+      "nota": "En la entidad la cuenta se llama 'costo_operacional' (PUC: Costos_operacionales). El ERI fiduciario no revela linea de costo; los costos van en gastos operacionales."
+    },
+    {
+      "cuenta": "compras",
+      "aplica_en": ["comercial", "industrial"],
+      "requerimiento_id": "REQ-COMPRAS",
+      "nota": "Retirada de la taxonomia para la entidad actual (decision del usuario 2026-09-18: la palabra no se usa en los estados financieros); definicion conservada para entidades con giro comercial/industrial."
+    },
+    {
+      "cuenta": "proveedores",
+      "aplica_en": ["todos"],
+      "requerimiento_id": "REQ-PROVEEDORES",
+      "nota": "Cuenta de pasivo comercial que SI existe en la fiduciaria (nota 16 'Cuentas comerciales por pagar y otras cuentas por pagar'; ACEPTADO)."
+    }
+  ],
+  "regla": "indicador NO APLICA (condicional) si requiere >=1 cuenta cuyo 'aplica_en' no incluye el tipo_entidad del analisis. No es NO_ENCONTRADO ni borrado.",
+  "indicadores_no_aplican_servicios": [
+    "prueba_acida",
+    "rotacion_inventarios",
+    "dias_inventario",
+    "rotacion_proveedores",
+    "dias_proveedores",
+    "ciclo_operativo",
+    "ciclo_conversion_efectivo",
+    "variacion_inventarios"
+  ],
+  "implementacion_pipeline": "src/indicadores.py: NA_MOTIVOS = inventarios/costo_ventas/compras_credito; ids 19/20/21/22/36/37/43 marcados NA para la fiduciaria.",
+  "referencia_doc": "DOCUMENTACION_PROYECTO/03_INDICADORES.md secciones 1, 2.2 y 2.10."
+}

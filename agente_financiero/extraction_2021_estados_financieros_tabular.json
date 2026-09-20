@@ -1,0 +1,765 @@
+{
+  "empresa": "FIDUCIARIA LA PREVISORA S.A.",
+  "moneda": "COP (En millones de pesos)",
+  "periodos": [
+    "2021",
+    "2020"
+  ],
+  "estados_financieros": {
+    "estado_de_situacion_financiera": {
+      "presente": true,
+      "activo": [
+        {
+          "concepto": "Efectivo",
+          "nota": "7",
+          "2021": 20991,
+          "2020": 43925
+        },
+        {
+          "concepto": "Inversiones, neto",
+          "nota": "8",
+          "2021": 242899,
+          "2020": 225836
+        },
+        {
+          "concepto": "Cuentas comerciales por cobrar y otras cuentas por cobrar, neto",
+          "nota": "9",
+          "2021": 45704,
+          "2020": 40432
+        },
+        {
+          "concepto": "Activo Por Impuesto A Las Ganancias Corrientes, Neto",
+          "nota": "11",
+          "2021": null,
+          "2020": 6123
+        },
+        {
+          "concepto": "Activo por impuesto diferido, neto",
+          "nota": "12.2",
+          "2021": 1343,
+          "2020": null
+        },
+        {
+          "concepto": "Otros activos no financieros, neto",
+          "nota": "13",
+          "2021": 2812,
+          "2020": 1767
+        },
+        {
+          "concepto": "Propiedades y equipo, neto",
+          "nota": "14",
+          "2021": 16302,
+          "2020": 17657
+        },
+        {
+          "concepto": "Derecho en uso Activo",
+          "nota": "17",
+          "2021": 6641,
+          "2020": 8820
+        },
+        {
+          "concepto": "Activos intangibles, neto",
+          "nota": "15",
+          "2021": 11594,
+          "2020": 14445
+        },
+        {
+          "concepto": "Total de Activos",
+          "nota": null,
+          "2021": 348286,
+          "2020": 359005
+        }
+      ],
+      "pasivo": [
+        {
+          "concepto": "Cuentas comerciales por pagar y otras cuentas por pagar",
+          "nota": "16",
+          "2021": 32271,
+          "2020": 28371
+        },
+        {
+          "concepto": "Derecho en uso pasivo",
+          "nota": "18",
+          "2021": 7767,
+          "2020": 9689
+        },
+        {
+          "concepto": "Pasivo por beneficios a los empleados",
+          "nota": "19",
+          "2021": 3189,
+          "2020": 5102
+        },
+        {
+          "concepto": "Provisiones",
+          "nota": "22",
+          "2021": 16413,
+          "2020": 13111
+        },
+        {
+          "concepto": "Pasivo Por Impuesto A Las Ganancias Corrientes, Neto",
+          "nota": "20",
+          "2021": 2276,
+          "2020": null
+        },
+        {
+          "concepto": "Pasivo por impuesto diferido, neto",
+          "nota": "12.2",
+          "2021": null,
+          "2020": 6581
+        },
+        {
+          "concepto": "Otros pasivos no financieros, neto",
+          "nota": "21",
+          "2021": 3482,
+          "2020": 3151
+        },
+        {
+          "concepto": "Total de pasivos",
+          "nota": null,
+          "2021": 65398,
+          "2020": 66005
+        }
+      ],
+      "patrimonio": [
+        {
+          "concepto": "Capital suscrito y pagado",
+          "nota": null,
+          "2021": 71960,
+          "2020": 71960
+        },
+        {
+          "concepto": "Prima en colocación de acciones",
+          "nota": "24",
+          "2021": 37303,
+          "2020": 37303
+        },
+        {
+          "concepto": "Reservas",
+          "nota": "25",
+          "2021": 105106,
+          "2020": 104130
+        },
+        {
+          "concepto": "Utilidad del periodo",
+          "nota": null,
+          "2021": 47632,
+          "2020": 58220
+        },
+        {
+          "concepto": "Utilidad de ejercicios anteriores",
+          "nota": null,
+          "2021": 708,
+          "2020": 708
+        },
+        {
+          "concepto": "Aplicación Normas de Contabilidad y de Información Financiera - NCIF / Efecto aplicación",
+          "nota": null,
+          "2021": 14179,
+          "2020": 14179
+        },
+        {
+          "concepto": "Ganancias o pérdidas no realizadas (ORI)",
+          "nota": "26",
+          "2021": 6000,
+          "2020": 6500
+        },
+        {
+          "concepto": "Total patrimonio",
+          "nota": null,
+          "2021": 282888,
+          "2020": 293000
+        },
+        {
+          "concepto": "Total de pasivos y patrimonio",
+          "nota": null,
+          "2021": 348286,
+          "2020": 359005
+        }
+      ]
+    },
+    "estado_de_resultado_integral": {
+      "presente": true,
+      "resultado": [
+        {
+          "concepto": "Comisiones y honorarios",
+          "nota": null,
+          "2021": 187571,
+          "2020": 168993
+        },
+        {
+          "concepto": "Ingresos de actividades en operaciones conjuntas",
+          "nota": null,
+          "2021": 16690,
+          "2020": 27805
+        },
+        {
+          "concepto": "Resultado antes de gastos de operación",
+          "nota": "27",
+          "2021": 204261,
+          "2020": 196798
+        },
+        {
+          "concepto": "Beneficios a empleados",
+          "nota": "28",
+          "2021": 29709,
+          "2020": 31241
+        },
+        {
+          "concepto": "Gastos de administración",
+          "nota": "29",
+          "2021": 67724,
+          "2020": 73157
+        },
+        {
+          "concepto": "Gastos de actividades en operaciones conjuntas",
+          "nota": "30",
+          "2021": 10827,
+          "2020": 13092
+        },
+        {
+          "concepto": "Deterioro cuentas por cobrar, neto",
+          "nota": "31",
+          "2021": 2199,
+          "2020": -331
+        },
+        {
+          "concepto": "Depreciación",
+          "nota": "32",
+          "2021": 2769,
+          "2020": 4099
+        },
+        {
+          "concepto": "Amortización",
+          "nota": "33",
+          "2021": 11727,
+          "2020": 9786
+        },
+        {
+          "concepto": "Resultado después de Gastos Operación",
+          "nota": null,
+          "2021": 79306,
+          "2020": 65754
+        },
+        {
+          "concepto": "Resultado financiero, neto",
+          "nota": "34",
+          "2021": -8318,
+          "2020": 17791
+        },
+        {
+          "concepto": "Resultado operacional",
+          "nota": null,
+          "2021": 70988,
+          "2020": 83545
+        },
+        {
+          "concepto": "Otros ingresos (egresos), neto",
+          "nota": "35",
+          "2021": 1180,
+          "2020": 6612
+        },
+        {
+          "concepto": "Resultado antes de impuestos a las ganancias",
+          "nota": null,
+          "2021": 72168,
+          "2020": 90157
+        },
+        {
+          "concepto": "Gasto por impuestos a las ganancias",
+          "nota": "12.1",
+          "2021": 32925,
+          "2020": 27533
+        },
+        {
+          "concepto": "Gasto/ (Ingreso) por impuesto diferido",
+          "nota": "12.1",
+          "2021": -8389,
+          "2020": 4404
+        },
+        {
+          "concepto": "Utilidad del periodo",
+          "nota": null,
+          "2021": 47632,
+          "2020": 58220
+        },
+        {
+          "concepto": "Resultado por valorización títulos participativos.",
+          "nota": null,
+          "2021": 1,
+          "2020": null
+        },
+        {
+          "concepto": "Resultado por valorización actuarial de pensionados",
+          "nota": null,
+          "2021": -37,
+          "2020": null
+        },
+        {
+          "concepto": "Impuesto diferido",
+          "nota": null,
+          "2021": -464,
+          "2020": -146
+        },
+        {
+          "concepto": "Total otro resultado integral del periodo",
+          "nota": null,
+          "2021": -500,
+          "2020": -146
+        },
+        {
+          "concepto": "Total utilidad del ejercicio y otro resultado integral",
+          "nota": null,
+          "2021": 47132,
+          "2020": 58074
+        }
+      ]
+    },
+    "estado_de_cambios_en_el_patrimonio": {
+      "presente": true,
+      "movimientos": [
+        {
+          "concepto": "Al 31 diciembre de 2019",
+          "capital_suscrito_y_pagado": 71960,
+          "prima_en_colocacion_de_acciones": 37303,
+          "reservas_legal": 35980,
+          "reservas_estatutaria": 60617,
+          "reservas_ocasional": 13134,
+          "utilidad_del_periodo": 37662,
+          "utilidad_de_ejercicios_anteriores": 708,
+          "aplicacion_normas_ncif": 14177,
+          "ganancias_o_perdidas_no_realizadas_ori": 6646,
+          "total": 278187
+        },
+        {
+          "concepto": "Ajuste provisión cuentas por cobrar -Aplicación norma de contabilidad y de información financiera",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": 2,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": 2
+        },
+        {
+          "concepto": "Transferencias",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": -37662,
+          "utilidad_de_ejercicios_anteriores": 37662,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": null
+        },
+        {
+          "concepto": "Liberación de reservas según acta de asamblea No. 73 del 24 de marzo de 2020",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": -13134,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": 13134,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": null
+        },
+        {
+          "concepto": "Constitución de reservas según acta de asamblea No. 73 del 24 de marzo de 2020",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": 7533,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": -7533,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": null
+        },
+        {
+          "concepto": "Distribución de dividendos en efectivo por $22.128.467 , según acta de asamblea No. 73 del 24 de marzo de 2020",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": -43263,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": 43263
+        },
+        {
+          "concepto": "Valorización de títulos participativos",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": -146,
+          "total": -146
+        },
+        {
+          "concepto": "Utilidad del Periodo",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": 58220,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": 58220
+        },
+        {
+          "concepto": "Al 31 de diciembre de 2020",
+          "capital_suscrito_y_pagado": 71960,
+          "prima_en_colocacion_de_acciones": 37303,
+          "reservas_legal": 35980,
+          "reservas_estatutaria": 68150,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": 58220,
+          "utilidad_de_ejercicios_anteriores": 708,
+          "aplicacion_normas_ncif": 14179,
+          "ganancias_o_perdidas_no_realizadas_ori": 6500,
+          "total": 293000
+        },
+        {
+          "concepto": "Transferencias",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": -58220,
+          "utilidad_de_ejercicios_anteriores": 58220,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": null
+        },
+        {
+          "concepto": "Constitución de reservas según acta de asamblea No. 75 del 25 de marzo de 2021",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": 976,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": -976,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": null
+        },
+        {
+          "concepto": "Distribución de dividendos en efectivo por $57.244.998 , según acta de asamblea No. 75 del 25 de marzo de 2021",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": -57244,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": -57244
+        },
+        {
+          "concepto": "Valorización de títulos participativos",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": 1,
+          "total": 1
+        },
+        {
+          "concepto": "Resultado por valorización actuarial de pensionados",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": -37,
+          "total": -37
+        },
+        {
+          "concepto": "Impuesto diferido",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": null,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": -464,
+          "total": -464
+        },
+        {
+          "concepto": "Utilidad del Periodo",
+          "capital_suscrito_y_pagado": null,
+          "prima_en_colocacion_de_acciones": null,
+          "reservas_legal": null,
+          "reservas_estatutaria": null,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": 47632,
+          "utilidad_de_ejercicios_anteriores": null,
+          "aplicacion_normas_ncif": null,
+          "ganancias_o_perdidas_no_realizadas_ori": null,
+          "total": 47632
+        },
+        {
+          "concepto": "Al 31 de diciembre de 2021",
+          "capital_suscrito_y_pagado": 71960,
+          "prima_en_colocacion_de_acciones": 37303,
+          "reservas_legal": 35980,
+          "reservas_estatutaria": 69126,
+          "reservas_ocasional": null,
+          "utilidad_del_periodo": 47632,
+          "utilidad_de_ejercicios_anteriores": 708,
+          "aplicacion_normas_ncif": 14179,
+          "ganancias_o_perdidas_no_realizadas_ori": 6000,
+          "total": 282888
+        }
+      ]
+    },
+    "estado_de_flujo_de_efectivo": {
+      "presente": true,
+      "flujos": [
+        {
+          "concepto": "Utilidad del periodo",
+          "nota": "23",
+          "2021": 47632,
+          "2020": 58220
+        },
+        {
+          "concepto": "Depreciación",
+          "nota": "32",
+          "2021": 1365,
+          "2020": 2527
+        },
+        {
+          "concepto": "Depreciación Derechos de uso",
+          "nota": "32",
+          "2021": 1403,
+          "2020": 1577
+        },
+        {
+          "concepto": "Provisiones multas y litigios",
+          "nota": null,
+          "2021": 3374,
+          "2020": 2646
+        },
+        {
+          "concepto": "Deterioro cuentas por cobrar comisión Fiduciaria y otras cuentas por cobrar, neto",
+          "nota": "31",
+          "2021": 2199,
+          "2020": -331
+        },
+        {
+          "concepto": "Reintegro de otras provisiones, neto",
+          "nota": "35",
+          "2021": -1505,
+          "2020": -6023
+        },
+        {
+          "concepto": "Valoración de inversiones",
+          "nota": null,
+          "2021": 6690,
+          "2020": -22442
+        },
+        {
+          "concepto": "Amortización de intangibles",
+          "nota": "33",
+          "2021": 7041,
+          "2020": 5621
+        },
+        {
+          "concepto": "Amortización de otros activos no financieros",
+          "nota": "33",
+          "2021": 4686,
+          "2020": 4165
+        },
+        {
+          "concepto": "Gastos por intereses sobre pasivos por arrendamiento",
+          "nota": "17",
+          "2021": 746,
+          "2020": 928
+        },
+        {
+          "concepto": "Gasto por impuestos a las ganancias",
+          "nota": "12.1",
+          "2021": 32925,
+          "2020": 27533
+        },
+        {
+          "concepto": "Gasto por impuesto Diferido",
+          "nota": "12.2",
+          "2021": -8389,
+          "2020": 4404
+        },
+        {
+          "concepto": "Baja en Propiedades y equipo",
+          "nota": "14",
+          "2021": 7,
+          "2020": 641
+        },
+        {
+          "concepto": "Baja Depreciación en Propiedades y equipo",
+          "nota": "14",
+          "2021": null,
+          "2020": -629
+        },
+        {
+          "concepto": "Baja en Activos Intangibles",
+          "nota": "15",
+          "2021": 4707,
+          "2020": null
+        },
+        {
+          "concepto": "Cuentas por cobrar",
+          "nota": null,
+          "2021": -7471,
+          "2020": -6965
+        },
+        {
+          "concepto": "Otros activos",
+          "nota": null,
+          "2021": -10427,
+          "2020": -4453
+        },
+        {
+          "concepto": "Cuentas por pagar",
+          "nota": null,
+          "2021": 3888,
+          "2020": 293
+        },
+        {
+          "concepto": "Impuestos, neto",
+          "nota": null,
+          "2021": 1941,
+          "2020": 17833
+        },
+        {
+          "concepto": "Pasivo por beneficios a empleados",
+          "nota": null,
+          "2021": -1874,
+          "2020": 621
+        },
+        {
+          "concepto": "Pasivos por provisiones",
+          "nota": null,
+          "2021": 1357,
+          "2020": 5716
+        },
+        {
+          "concepto": "Intereses pagados",
+          "nota": null,
+          "2021": -746,
+          "2020": -928
+        },
+        {
+          "concepto": "Impuestos pagados",
+          "nota": null,
+          "2021": -26124,
+          "2020": -26422
+        },
+        {
+          "concepto": "Flujo neto de efectivo provisto por las actividades de operación",
+          "nota": null,
+          "2021": 63425,
+          "2020": 64532
+        },
+        {
+          "concepto": "Inversiones",
+          "nota": null,
+          "2021": -23752,
+          "2020": -13673
+        },
+        {
+          "concepto": "Adquisición propiedades y equipo",
+          "nota": "14",
+          "2021": -16,
+          "2020": -283
+        },
+        {
+          "concepto": "Adquisición de activos intangibles",
+          "nota": "15",
+          "2021": -4200,
+          "2020": -6460
+        },
+        {
+          "concepto": "Flujo neto de efectivo (usado en) las actividades de Inversión",
+          "nota": null,
+          "2021": -27968,
+          "2020": -20416
+        },
+        {
+          "concepto": "Pagos parte principal del pasivo por arrendamiento",
+          "nota": null,
+          "2021": -1146,
+          "2020": -1223
+        },
+        {
+          "concepto": "Dividendos decretados, pagados",
+          "nota": null,
+          "2021": -57245,
+          "2020": -43264
+        },
+        {
+          "concepto": "Flujo neto de efectivo (usado en) las actividades de financiación",
+          "nota": null,
+          "2021": -58391,
+          "2020": -44487
+        },
+        {
+          "concepto": "(Disminución) neto de efectivo",
+          "nota": null,
+          "2021": -22934,
+          "2020": -371
+        },
+        {
+          "concepto": "Efectivo Restringido",
+          "nota": null,
+          "2021": 18880,
+          "2020": 18880
+        },
+        {
+          "concepto": "Efectivo Sin Restricción",
+          "nota": null,
+          "2021": 25045,
+          "2020": 25416
+        },
+        {
+          "concepto": "TOTAL EFECTIVO AL INICIO DE PERIODO",
+          "nota": null,
+          "2021": 43925,
+          "2020": 44296
+        },
+        {
+          "concepto": "EFECTIVO AL 31 DE DICIEMBRE",
+          "nota": null,
+          "2021": 20991,
+          "2020": 43925
+        }
+      ]
+    }
+  }
+}

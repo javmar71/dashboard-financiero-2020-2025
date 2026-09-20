@@ -1,0 +1,48 @@
+{
+  "metodologia": "Módulo de Evidencia Formal - cruce consolidado vs estados financieros (segmentacion_YYYY.json)",
+  "fuentes": "datos_estados_financieros.csv + segmentacion_2021..2025.json (Estados Financieros_YYYY.pdf)",
+  "regla": "Sin match textual -> NO_ENCONTRADO; coherencia numerica (tolerancia 0.5 M) -> ACEPTADO/DUDOSO",
+  "por_estado": {
+    "ACEPTADO": 486,
+    "NO_ENCONTRADO": 36
+  },
+  "por_anio": {
+    "2020": {
+      "ACEPTADO": 83,
+      "NO_ENCONTRADO": 4
+    },
+    "2021": {
+      "ACEPTADO": 83,
+      "NO_ENCONTRADO": 4
+    },
+    "2022": {
+      "ACEPTADO": 83,
+      "NO_ENCONTRADO": 4
+    },
+    "2023": {
+      "ACEPTADO": 78,
+      "NO_ENCONTRADO": 9
+    },
+    "2024": {
+      "ACEPTADO": 79,
+      "NO_ENCONTRADO": 8
+    },
+    "2025": {
+      "ACEPTADO": 80,
+      "NO_ENCONTRADO": 7
+    }
+  },
+  "total_registros": 522,
+  "no_encontrados_conceptos": [
+    "b_impuesto_corriente_activo",
+    "b_impuesto_corriente_pasivo",
+    "b_impuesto_diferido_pasivo",
+    "c_aumento_neto",
+    "c_baja_amortizacion_intangibles",
+    "c_efectivo_cierre",
+    "c_efectivo_inicio",
+    "c_efectivo_restriccion",
+    "c_efectivo_sin_restriccion",
+    "i_ori_inmuebles"
+  ]
+}

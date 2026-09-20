@@ -1,0 +1,88 @@
+concepto,rotulo,estado,clasificacion,2020,2021,2022,2023,2024,2025
+b_efectivo,Efectivo y equivalentes,balance,activo_corriente,43925.0,20991.0,20559.0,27333.0,47069.0,46020.0
+b_inversiones,Inversiones,balance,activo_corriente,225836.0,242899.0,215524.0,265772.0,181436.0,171695.0
+b_cuentas_por_cobrar,Cuentas por cobrar,balance,activo_corriente,40432.0,45704.0,56614.0,43507.0,25431.0,53683.0
+b_impuesto_corriente_activo,Impuesto corriente (activo),balance,activo_corriente,6123.0,,,,15235.0,24655.0
+b_impuesto_diferido_activo,Impuesto diferido (activo),balance,activo_no_corriente,,1343.0,8963.0,2766.0,9071.0,11609.0
+b_otros_activos_no_financieros,Otros activos no financieros,balance,activo_corriente,1767.0,2812.0,3317.0,4136.0,4772.0,5131.0
+b_propiedades_planta_equipo,Propiedades y equipo,balance,activo_no_corriente,17657.0,16302.0,18183.0,18178.0,17700.0,21834.0
+b_derecho_uso_activo,Derecho de uso (activo),balance,activo_no_corriente,8820.0,6641.0,5135.0,5180.0,5026.0,4288.0
+b_activos_intangibles,Activos intangibles,balance,activo_no_corriente,14445.0,11594.0,6528.0,9112.0,9220.0,9214.0
+b_activo_total,Total activos,balance,,359005.0,348286.0,334823.0,375984.0,314960.0,348129.0
+b_cuentas_por_pagar,Cuentas por pagar,balance,pasivo_corriente,28371.0,32271.0,27417.0,35040.0,21184.0,18123.0
+b_derecho_uso_pasivo,Derecho de uso (pasivo),balance,pasivo_no_corriente,9689.0,7767.0,6207.0,6331.0,6117.0,5306.0
+b_beneficios_empleados,Beneficios a empleados,balance,pasivo_corriente,5102.0,3189.0,4084.0,4487.0,5094.0,8461.0
+b_provisiones,Provisiones,balance,pasivo_no_corriente,13111.0,16413.0,22130.0,23651.0,23286.0,22464.0
+b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),balance,pasivo_corriente,,2276.0,7978.0,8231.0,,
+b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),balance,pasivo_no_corriente,6581.0,,,,,
+b_otros_pasivos_no_financieros,Otros pasivos no financieros,balance,pasivo_corriente,3151.0,3482.0,3682.0,4595.0,4422.0,5941.0
+b_pasivo_total,Total pasivos,balance,,66005.0,65398.0,71498.0,82335.0,60103.0,60295.0
+b_capital_suscrito,Capital suscrito y pagado,balance,,71960.0,71960.0,71960.0,71960.0,71960.0,71960.0
+b_prima_colocacion,Prima en colocacion de acciones,balance,,37303.0,37303.0,37303.0,37303.0,37303.0,37303.0
+b_reservas,Reservas,balance,,104130.0,105106.0,95866.0,92364.0,102631.0,118595.0
+b_utilidad_periodo,Utilidad del periodo,balance,,58220.0,47632.0,36237.0,70126.0,20997.0,30947.0
+b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,balance,,708.0,708.0,708.0,708.0,708.0,708.0
+b_efecto_ncif,Efecto NCIF,balance,,14179.0,14179.0,14179.0,14179.0,14179.0,14179.0
+b_ori_valorizacion,Ganancias no realizadas (ORI),balance,,6500.0,6000.0,7072.0,7009.0,7079.0,14142.0
+b_patrimonio_total,Total patrimonio,balance,,293000.0,282888.0,263325.0,293649.0,254857.0,287834.0
+b_total_pasivo_patrimonio,Total pasivo y patrimonio,balance,,359005.0,348286.0,334823.0,375984.0,314960.0,348129.0
+i_comisiones,Comisiones y honorarios,ingresos,,168993.0,187571.0,207295.0,195117.0,197611.0,228192.0
+i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,ingresos,,27805.0,16690.0,12691.0,25837.0,29141.0,32611.0
+i_utilidad_bruta,Resultado antes de gastos de operacion,ingresos,,196798.0,204261.0,219986.0,220954.0,226752.0,260803.0
+i_gasto_beneficios,Gasto beneficios a empleados,ingresos,,31241.0,29709.0,34482.0,40726.0,47165.0,52971.0
+i_gastos_administracion,Gastos de administracion,ingresos,,73157.0,67724.0,78846.0,96291.0,129257.0,136700.0
+i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,ingresos,,13092.0,10827.0,8627.0,9867.0,16582.0,17634.0
+i_deterioro_cxc,Deterioro cuentas por cobrar,ingresos,,-331.0,2199.0,2130.0,5378.0,-617.0,811.0
+i_depreciaciones,Depreciacion,ingresos,,4099.0,2769.0,2087.0,2022.0,2253.0,2623.0
+i_amortizaciones,Amortizacion,ingresos,,9786.0,11727.0,13543.0,8272.0,12562.0,13269.0
+i_resultado_despues_gastos,Resultado despues de gastos,ingresos,,65754.0,79306.0,80271.0,58398.0,19550.0,36795.0
+i_resultado_financiero_neto,Resultado financiero neto,ingresos,,17791.0,-8318.0,-12216.0,60266.0,11976.0,18185.0
+i_resultado_operacional,Resultado operacional,ingresos,,83545.0,70988.0,68055.0,118664.0,31526.0,54980.0
+i_otros_ingresos_egresos,Otros ingresos/(egresos),ingresos,,6612.0,1180.0,-2926.0,-165.0,5089.0,3256.0
+i_resultado_antes_impuestos,Resultado antes de impuestos,ingresos,,90157.0,72168.0,65129.0,118499.0,36615.0,58236.0
+i_gasto_impuesto_corriente,Gasto impuesto corriente,ingresos,,27533.0,32925.0,37950.0,42176.0,21974.0,27545.0
+i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,ingresos,,4404.0,-8389.0,-9058.0,6197.0,-6356.0,-256.0
+i_resultado_del_ejercicio,Resultado del ejercicio,ingresos,,58220.0,47632.0,36237.0,70126.0,20997.0,30947.0
+i_ori_titulos,ORI - titulares participativos,ingresos,,,1.0,,,-123.0,-11.0
+i_ori_actuarial,ORI - actuarial pensionados,ingresos,,,-37.0,46.0,-63.0,3.0,-4.0
+i_ori_inmuebles,ORI - bienes inmuebles,ingresos,,,,2465.0,,,4666.0
+i_impuesto_diferido_ori,ORI - impuesto diferido,ingresos,,-146.0,-464.0,-1439.0,,50.0,2412.0
+i_ori_total,Total otro resultado integral,ingresos,,-146.0,-500.0,1072.0,-63.0,-70.0,7063.0
+i_comprehensivo_total,Resultado integral total,ingresos,,58074.0,47132.0,37309.0,70063.0,20927.0,38010.0
+c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,flujos,,58220.0,47632.0,36237.0,70126.0,20997.0,30947.0
+c_depreciacion,CF - Depreciacion,flujos,,2527.0,1365.0,606.0,480.0,530.0,550.0
+c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,flujos,,1577.0,1403.0,1481.0,1542.0,1723.0,2073.0
+c_provisiones,CF - Provisiones,flujos,,2646.0,3374.0,7157.0,4555.0,141.0,21.0
+c_deterioro_cxc,CF - Deterioro cuentas por cobrar,flujos,,-331.0,2199.0,2130.0,5378.0,-617.0,811.0
+c_reintegro_provisiones,CF - Reintegro provisiones,flujos,,-6023.0,-1505.0,-1788.0,-2302.0,-1907.0,-1074.0
+c_valoracion_inversiones,CF - Valoracion inversiones,flujos,,-22442.0,6690.0,12034.0,-57064.0,-10566.0,-17891.0
+c_amortizacion_intangibles,CF - Amortizacion intangibles,flujos,,5621.0,7041.0,8312.0,2201.0,4681.0,5402.0
+c_amortizacion_otros,CF - Amortizacion otros activos,flujos,,4165.0,4686.0,5231.0,6071.0,7881.0,7867.0
+c_intereses_arrendamiento,CF - Intereses arrendamiento,flujos,,928.0,746.0,670.0,667.0,695.0,578.0
+c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,flujos,,27533.0,32925.0,37950.0,42176.0,21974.0,27545.0
+c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,flujos,,4404.0,-8389.0,-9058.0,6197.0,-6356.0,-256.0
+c_baja_ppye,CF - Baja propiedades y equipo,flujos,,641.0,7.0,5118.0,,181.0,841.0
+c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,flujos,,-629.0,,-5118.0,,-145.0,-841.0
+c_baja_intangibles,CF - Baja activos intangibles,flujos,,,4707.0,1008.0,124.0,5174.0,3863.0
+c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,flujos,,,,,,,-3197.0
+c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,flujos,,-6965.0,-7471.0,-12889.0,7729.0,18693.0,-28838.0
+c_otros_activos,CF - Cambio otros activos,flujos,,-4453.0,-10427.0,-6688.0,-7002.0,-12235.0,-7804.0
+c_cuentas_por_pagar,CF - Cambio cuentas por pagar,flujos,,293.0,3888.0,-4725.0,9747.0,-12102.0,-1984.0
+c_impuestos_neto,CF - Impuestos netos,flujos,,17833.0,1941.0,-1517.0,-9340.0,-13135.0,4306.0
+c_beneficios_empleados,CF - Beneficios a empleados,flujos,,621.0,-1874.0,1120.0,368.0,847.0,3375.0
+c_pasivos_provisiones,CF - Pasivos por provisiones,flujos,,5716.0,1357.0,169.0,-3031.0,-500.0,-833.0
+c_intereses_pagados,CF - Intereses pagados,flujos,,-928.0,-746.0,-670.0,-667.0,-695.0,-578.0
+c_impuestos_pagados,CF - Impuestos pagados,flujos,,-26422.0,-26124.0,-30693.0,-31518.0,-32679.0,-39786.0
+c_flujo_operacion,Flujo neto actividades de operacion,flujos,,64532.0,63425.0,46077.0,46437.0,-7419.0,-14903.0
+c_inversiones,CF - Inversiones,flujos,,-13673.0,-23752.0,15341.0,6816.0,95024.0,27622.0
+c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,flujos,,-283.0,-16.0,-52.0,-476.0,-87.0,-243.0
+c_adquisicion_intangibles,CF - Adquisicion intangibles,flujos,,-6460.0,-4200.0,-3391.0,-4802.0,-6139.0,-6346.0
+c_flujo_inversion,Flujo neto actividades de inversion,flujos,,-20416.0,-27968.0,11898.0,1539.0,88797.0,21033.0
+c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,flujos,,-1223.0,-1146.0,-1535.0,-1463.0,-1783.0,-2146.0
+c_dividendos,CF - Dividendos decretados,flujos,,-43264.0,-57245.0,-56872.0,-39739.0,-59859.0,-5033.0
+c_flujo_financiacion,Flujo neto actividades de financiacion,flujos,,-44487.0,-58391.0,-58407.0,-41202.0,-61642.0,-7179.0
+c_aumento_neto,Aumento neto de efectivo,flujos,,-371.0,-22934.0,-432.0,6774.0,19736.0,-1049.0
+c_efectivo_restriccion,Efectivo restringido (al inicio),flujos,,18880.0,18880.0,1.0,1.0,1474.0,1493.0
+c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),flujos,,25416.0,25045.0,20990.0,20558.0,25859.0,45576.0
+c_efectivo_inicio,Efectivo al inicio del periodo,flujos,,44296.0,43925.0,20991.0,20559.0,27333.0,47069.0
+c_efectivo_cierre,Efectivo al cierre del periodo,flujos,,43925.0,20991.0,20559.0,27333.0,47069.0,46020.0

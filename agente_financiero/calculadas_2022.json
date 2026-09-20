@@ -1,0 +1,331 @@
+{
+  "anio": "2022",
+  "periodos_comparados": "2022 vs 2021",
+  "resumen": {
+    "ACEPTADO": 2,
+    "NO_CALCULABLE": 29,
+    "PENDIENTE_PARAMETRO_EXTERNO": 1
+  },
+  "calculadas": [
+    {
+      "variable_madre_id": "capex",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "capex",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "utilidad_bruta",
+      "periodo": "2022",
+      "origen": "calculada",
+      "formula_aplicada": "concepto:i_utilidad_bruta",
+      "valor_propuesto_ia": 219986.0,
+      "valor_verificado_python": 219986.0,
+      "estado_final": "ACEPTADO",
+      "notas": "Valor directo de i_utilidad_bruta (Resultado antes de gastos de operacion)."
+    },
+    {
+      "variable_madre_id": "deuda_financiera_total",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_corriente + deuda_financiera_no_corriente",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "pasivo_financiero_total",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_total",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "pasivo_financiero_corriente",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_corriente",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "NOPAT",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:i_resultado_operacional * (1 - tasa_efectiva_impuestos)",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "capital_empleado",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_total + concepto:b_patrimonio_total",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "activos_netos",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "capital_empleado",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "variacion_CapTrabajo",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "(agregado:ACTIVO_CORRIENTE[t] - agregado:PASIVO_CORRIENTE[t]) - (agregado:ACTIVO_CORRIENTE[t-1] - agregado:PASIVO_CORRIENTE[t-1])",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "variacion_CXC",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:b_cuentas_por_cobrar[t] - concepto:b_cuentas_por_cobrar[t-1]",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "variacion_CxP",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:b_cuentas_por_pagar[t] - concepto:b_cuentas_por_pagar[t-1]",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "evolucion_ingresos",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "(concepto:i_comisiones[t] + concepto:i_ingresos_operaciones_conjuntas[t]) / (concepto:i_comisiones[t-1] + concepto:i_ingresos_operaciones_conjuntas[t-1]) - 1",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "evolucion_utilidad",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:i_resultado_del_ejercicio[t] / concepto:i_resultado_del_ejercicio[t-1] - 1",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "crecimiento_organico",
+      "periodo": "2022",
+      "origen": "calculada",
+      "formula_aplicada": "(concepto:i_comisiones[t] + concepto:i_ingresos_operaciones_conjuntas[t]) / (concepto:i_comisiones[t-1] + concepto:i_ingresos_operaciones_conjuntas[t-1]) - 1",
+      "valor_propuesto_ia": 0.07698483802585909,
+      "valor_verificado_python": 0.07698483802585909,
+      "estado_final": "ACEPTADO",
+      "notas": "Calculado por Python a partir de ingresos operacionales."
+    },
+    {
+      "variable_madre_id": "productividad",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:i_ingresos_operacionales / concepto:numero_empleados",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Sin numero_empleados en estados financieros."
+    },
+    {
+      "variable_madre_id": "capex",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:c_adquisicion_ppye + concepto:c_adquisicion_intangibles",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "calidad_resultados",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:flujo_operativo / concepto:resultado_ejercicio",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Resultado ejercicio es cero."
+    },
+    {
+      "variable_madre_id": "opinion_limpia",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "opinion_adversa",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "abstencion",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "tasa_efectiva_impuestos",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "(concepto:i_gasto_impuesto_corriente + concepto:i_gasto_impuesto_diferido) / concepto:i_resultado_antes_impuestos",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "deuda_neta",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_total - concepto:b_efectivo",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "EBITDA",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:i_resultado_operacional + concepto:i_depreciaciones + concepto:i_amortizaciones",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "costo_deuda",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "(concepto:c_intereses_pagados + concepto:c_intereses_arrendamiento) / deuda_financiera_total",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "costo_patrimonio",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "PENDIENTE_PARAMETRO_EXTERNO",
+      "notas": "Pendiente parametro externo manual (CAPM / costo deuda)."
+    },
+    {
+      "variable_madre_id": "flujo_operativo",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:i_resultado_del_ejercicio + concepto:i_depreciaciones + concepto:i_amortizaciones - variacion_CapTrabajo",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "flujo_libre",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "flujo_operativo - capex",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "proporcion_deuda",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "deuda_financiera_total / (deuda_financiera_total + concepto:b_patrimonio_total)",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "proporcion_patrimonio",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "concepto:b_patrimonio_total / (deuda_financiera_total + concepto:b_patrimonio_total)",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    },
+    {
+      "variable_madre_id": "wacc",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "costo_deuda * (1 - tasa_estatutaria_impuestos) * proporcion_deuda + costo_patrimonio * proporcion_patrimonio",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente parametro externo manual (CAPM / costo deuda)."
+    },
+    {
+      "variable_madre_id": "tasa_estatutaria_impuestos",
+      "periodo": "2022",
+      "origen": "pendiente",
+      "formula_aplicada": "",
+      "valor_propuesto_ia": null,
+      "valor_verificado_python": null,
+      "estado_final": "NO_CALCULABLE",
+      "notas": "Pendiente de calculo especifico o insumos no estructurados."
+    }
+  ]
+}

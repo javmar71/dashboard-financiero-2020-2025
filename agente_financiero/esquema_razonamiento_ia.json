@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "esquema_razonamiento_ia",
+  "description": "Esquema formal de la ficha de razonamiento de aplicabilidad IA (Capa 4 del motor de IA, 2026-09-18). Vincula el marco general de análisis financiero con la profundización contextual y la auditoría por big pickle.",
+  "type": "object",
+  "properties": {
+    "ficha_id": {
+      "type": "string",
+      "description": "Identificador único de la ficha, ej. F-01, F-04."
+    },
+    "fecha": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de emisión de la ficha (ISO 8601)."
+    },
+    "contexto": {
+      "type": "object",
+      "properties": {
+        "tipo_entidad": { "type": "string" },
+        "anio": { "type": "string" },
+        "fuentes_consultadas": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["tipo_entidad", "anio", "fuentes_consultadas"]
+    },
+    "pregunta_o_problema": {
+      "type": "string",
+      "description": "Planteamiento del requerimiento contable, financiero o de indicador."
+    },
+    "marco_general": {
+      "type": "string",
+      "description": "Referencia al estándar universal (ej. 03_INDICADORES.md, teoría contable)."
+    },
+    "propuesta_ia": {
+      "type": "object",
+      "properties": {
+        "generador": { "type": "string", "default": "opencode" },
+        "respuesta_propuesta": { "type": "string" },
+        "estado_propuesto": { "type": "string", "enum": ["ACEPTADO", "NO_APLICA", "NO_CALCULABLE", "DUDOSO"] },
+        "evidencia": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "documento": { "type": "string" },
+              "pagina": { "type": "string" },
+              "cita_textual": { "type": "string" }
+            },
+            "required": ["documento", "pagina"]
+          }
+        }
+      },
+      "required": ["respuesta_propuesta", "estado_propuesto"]
+    },
+    "verificacion_big_pickle": {
+      "type": "object",
+      "properties": {
+        "auditor": { "type": "string", "default": "big pickle" },
+        "resultado": { "type": "string", "enum": ["ACEPTADA", "REFUTADA", "DUDOSA"] },
+        "comentario_auditoria": { "type": "string" }
+      },
+      "required": ["resultado"]
+    },
+    "validacion_python": {
+      "type": "object",
+      "properties": {
+        "implementacion": { "type": "string" },
+        "resultado_deterministico": { "type": "string" }
+      }
+    },
+    "impacto": {
+      "type": "object",
+      "properties": {
+        "taxonomia_filas": { "type": "array", "items": { "type": "string" } },
+        "indicadores_afectados": { "type": "array", "items": { "type": "string" } },
+        "lotes_afectados": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "estado_final": {
+      "type": "string",
+      "enum": ["ACEPTADO_INFERENCIA", "REVISAR", "DUDOSO", "INCONSISTENTE"],
+      "description": "Estado definitivo tras la auditoría y validación."
+    }
+  },
+  "required": ["ficha_id", "fecha", "contexto", "pregunta_o_problema", "propuesta_ia", "verificacion_big_pickle", "estado_final"]
+}

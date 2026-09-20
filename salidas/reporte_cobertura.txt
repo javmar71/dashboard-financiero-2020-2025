@@ -1,0 +1,14 @@
+2021: balance 27/27; income 22/23; cashflow 36/37
+2022: balance 25/27; income 23/23; cashflow 36/37
+2023: balance 25/27; income 22/23; cashflow 36/37
+2024: balance 26/27; income 22/23; cashflow 36/37
+2025: balance 25/27; income 23/23; cashflow 37/37
+
+Anio 2020: 80/87 cuentas con valor
+Anio 2021: 82/87 cuentas con valor
+Anio 2022: 83/87 cuentas con valor
+Anio 2023: 79/87 cuentas con valor
+Anio 2024: 83/87 cuentas con valor
+Anio 2025: 85/87 cuentas con valor
+
+Sin conflictos cur/prev: todos los anios coinciden entre PDFs.

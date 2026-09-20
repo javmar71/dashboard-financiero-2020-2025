@@ -1,0 +1,523 @@
+﻿anio,concepto,rotulo,documento_origen,estado_financiero,pagina,nota,evidencia_linea,valor_pdf,valor_consolidado,coincide,estado,confianza
+2020,b_efectivo,Efectivo y equivalentes,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Efectivo 7 $ 20.991 $ 43.925,43925,43925.0,True,ACEPTADO,ALTA
+2021,b_efectivo,Efectivo y equivalentes,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Efectivo 7 $ 20.991 $ 43.925,20991,20991.0,True,ACEPTADO,ALTA
+2022,b_efectivo,Efectivo y equivalentes,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Efectivo y equivalentes de efectivo 7 $ 20.559 $ 20.991,20559,20559.0,True,ACEPTADO,ALTA
+2023,b_efectivo,Efectivo y equivalentes,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Efectivo y equivalentes de efectivo 7 $ 27.333 $ 20.559,27333,27333.0,True,ACEPTADO,ALTA
+2024,b_efectivo,Efectivo y equivalentes,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Efectivo y equivalentes de efectivo 7 $ 47.069 $ 27.333,47069,47069.0,True,ACEPTADO,ALTA
+2025,b_efectivo,Efectivo y equivalentes,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Efectivo y equivalentes de efectivo 7 $ 46.020 $ 47.069,46020,46020.0,True,ACEPTADO,ALTA
+2020,b_inversiones,Inversiones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Inversiones, neto 8 242.899 225.836",225836,225836.0,True,ACEPTADO,ALTA
+2021,b_inversiones,Inversiones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Inversiones, neto 8 242.899 225.836",242899,242899.0,True,ACEPTADO,ALTA
+2022,b_inversiones,Inversiones,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Inversiones, neto 8 215.524 242.899",215524,215524.0,True,ACEPTADO,ALTA
+2023,b_inversiones,Inversiones,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Inversiones, neto 8 265.772 215.524",265772,265772.0,True,ACEPTADO,ALTA
+2024,b_inversiones,Inversiones,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Inversiones, neto 8 181.436 265.772",181436,181436.0,True,ACEPTADO,ALTA
+2025,b_inversiones,Inversiones,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Inversiones, neto 8 171.695 181.436",171695,171695.0,True,ACEPTADO,ALTA
+2020,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 45.704 40.432",40432,40432.0,True,ACEPTADO,ALTA
+2021,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 45.704 40.432",45704,45704.0,True,ACEPTADO,ALTA
+2022,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 56.614 45.704",56614,56614.0,True,ACEPTADO,ALTA
+2023,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 43.507 56.614",43507,43507.0,True,ACEPTADO,ALTA
+2024,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 25.431 43.507",25431,25431.0,True,ACEPTADO,ALTA
+2025,b_cuentas_por_cobrar,Cuentas por cobrar,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Cuentas comerciales por cobrar y otras cuentas por cobrar, neto 9 53.683 25.431",53683,53683.0,True,ACEPTADO,ALTA
+2020,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activo Por Impuesto A Las Ganancias Corrientes, Neto 11 - 6.123",6123,6123.0,True,ACEPTADO,ALTA
+2021,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activo Por Impuesto A Las Ganancias Corrientes, Neto 11 - 6.123",,,True,ACEPTADO,ALTA
+2022,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2022.pdf,,,,,,,,NO_ENCONTRADO,
+2023,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2023.pdf,,,,,,,,NO_ENCONTRADO,
+2024,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Activo Por Impuesto A Las Ganancias Corrientes, Neto 10 15.235 -",15235,15235.0,True,ACEPTADO,ALTA
+2025,b_impuesto_corriente_activo,Impuesto corriente (activo),Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activo por impuesto a las ganancias corrientes, Neto 10 24.655 15.235",24655,24655.0,True,ACEPTADO,ALTA
+2020,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,12.2,"Activo por impuesto diferido, neto 12.2 1.343 -",,,True,ACEPTADO,ALTA
+2021,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,12.2,"Activo por impuesto diferido, neto 12.2 1.343 -",1343,1343.0,True,ACEPTADO,ALTA
+2022,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,11.2,"Activo por impuesto diferido, neto 11.2 8.963 1.343",8963,8963.0,True,ACEPTADO,ALTA
+2023,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,11.2,"Activo por impuesto diferido, neto 11.2 2.766 8.963",2766,2766.0,True,ACEPTADO,ALTA
+2024,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Activo por impuesto diferido, neto 12 9.071 2.766",9071,9071.0,True,ACEPTADO,ALTA
+2025,b_impuesto_diferido_activo,Impuesto diferido (activo),Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activo por impuesto diferido, neto 12 11.609 9.071",11609,11609.0,True,ACEPTADO,ALTA
+2020,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros activos no financieros, neto 13 2.812 1.767",1767,1767.0,True,ACEPTADO,ALTA
+2021,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros activos no financieros, neto 13 2.812 1.767",2812,2812.0,True,ACEPTADO,ALTA
+2022,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros activos no financieros, neto 12 3.317 2.812",3317,3317.0,True,ACEPTADO,ALTA
+2023,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros activos no financieros, neto 12 4.136 3.317",4136,4136.0,True,ACEPTADO,ALTA
+2024,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Otros activos no financieros, neto 13 4.772 4.136",4772,4772.0,True,ACEPTADO,ALTA
+2025,b_otros_activos_no_financieros,Otros activos no financieros,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros activos no financieros, neto 13 5.131 4.772",5131,5131.0,True,ACEPTADO,ALTA
+2020,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Propiedades y equipo, neto 14 16.302 17.657",17657,17657.0,True,ACEPTADO,ALTA
+2021,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Propiedades y equipo, neto 14 16.302 17.657",16302,16302.0,True,ACEPTADO,ALTA
+2022,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Propiedades y equipo, neto 13 18.183 16.302",18183,18183.0,True,ACEPTADO,ALTA
+2023,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Propiedades y equipo, neto 13 18.178 18.183",18178,18178.0,True,ACEPTADO,ALTA
+2024,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Propiedades y equipo, neto 14 17.700 18.178",17700,17700.0,True,ACEPTADO,ALTA
+2025,b_propiedades_planta_equipo,Propiedades y equipo,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Propiedades y equipo, neto 14 21.834 17.700",21834,21834.0,True,ACEPTADO,ALTA
+2020,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso Activo 17 6.641 8.820,8820,8820.0,True,ACEPTADO,ALTA
+2021,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso Activo 17 6.641 8.820,6641,6641.0,True,ACEPTADO,ALTA
+2022,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso Activo 16 5.135 6.641,5135,5135.0,True,ACEPTADO,ALTA
+2023,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso Activo 15 5.180 5.135,5180,5180.0,True,ACEPTADO,ALTA
+2024,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Derecho en uso Activo 15 5.026 5.180,5026,5026.0,True,ACEPTADO,ALTA
+2025,b_derecho_uso_activo,Derecho de uso (activo),Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso Activo 15 4.288 5.026,4288,4288.0,True,ACEPTADO,ALTA
+2020,b_activos_intangibles,Activos intangibles,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activos intangibles, neto 15 11.594 14.445",14445,14445.0,True,ACEPTADO,ALTA
+2021,b_activos_intangibles,Activos intangibles,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activos intangibles, neto 15 11.594 14.445",11594,11594.0,True,ACEPTADO,ALTA
+2022,b_activos_intangibles,Activos intangibles,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activos intangibles, neto 14 6.528 11.594",6528,6528.0,True,ACEPTADO,ALTA
+2023,b_activos_intangibles,Activos intangibles,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activos intangibles, neto 14 9.112 6.528",9112,9112.0,True,ACEPTADO,ALTA
+2024,b_activos_intangibles,Activos intangibles,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Activos intangibles, neto 16 9.220 9.112",9220,9220.0,True,ACEPTADO,ALTA
+2025,b_activos_intangibles,Activos intangibles,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Activos intangibles, neto 16 9.214 9.220",9214,9214.0,True,ACEPTADO,ALTA
+2020,b_activo_total,Total activos,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de Activos $ 348.286 $ 359.005,359005,359005.0,True,ACEPTADO,ALTA
+2021,b_activo_total,Total activos,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de Activos $ 348.286 $ 359.005,348286,348286.0,True,ACEPTADO,ALTA
+2022,b_activo_total,Total activos,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de Activos $ 334.823 $ 348.286,334823,334823.0,True,ACEPTADO,ALTA
+2023,b_activo_total,Total activos,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de Activos $ 375.984 $ 334.823,375984,375984.0,True,ACEPTADO,ALTA
+2024,b_activo_total,Total activos,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Total, de Activos $ 314.960 $ 375.984",314960,314960.0,True,ACEPTADO,ALTA
+2025,b_activo_total,Total activos,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Total, de Activos $ 348.129 $ 314.960",348129,348129.0,True,ACEPTADO,ALTA
+2020,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Cuentas comerciales por pagar y otras cuentas por pagar 16 32.271 28.371,28371,28371.0,True,ACEPTADO,ALTA
+2021,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Cuentas comerciales por pagar y otras cuentas por pagar 16 32.271 28.371,32271,32271.0,True,ACEPTADO,ALTA
+2022,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Cuentas comerciales por pagar y otras cuentas por pagar 15 27.417 32.271,27417,27417.0,True,ACEPTADO,ALTA
+2023,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Cuentas comerciales por pagar y otras cuentas por pagar 16 35.040 27.417,35040,35040.0,True,ACEPTADO,ALTA
+2024,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Cuentas comerciales por pagar y otras cuentas por pagar 17 21.184 35.040,21184,21184.0,True,ACEPTADO,ALTA
+2025,b_cuentas_por_pagar,Cuentas por pagar,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Cuentas comerciales por pagar y otras cuentas por pagar 17 18.123 21.184,18123,18123.0,True,ACEPTADO,ALTA
+2020,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso pasivo 18 7.767 9.689,9689,9689.0,True,ACEPTADO,ALTA
+2021,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso pasivo 18 7.767 9.689,7767,7767.0,True,ACEPTADO,ALTA
+2022,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso pasivo 17 6.207 7.767,6207,6207.0,True,ACEPTADO,ALTA
+2023,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso pasivo 17 6.331 6.207,6331,6331.0,True,ACEPTADO,ALTA
+2024,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Derecho en uso pasivo 18 6.117 6.331,6117,6117.0,True,ACEPTADO,ALTA
+2025,b_derecho_uso_pasivo,Derecho de uso (pasivo),Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Derecho en uso pasivo 18 5.306 6.117,5306,5306.0,True,ACEPTADO,ALTA
+2020,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Pasivo por beneficios a los empleados 19 3.189 5.102,5102,5102.0,True,ACEPTADO,ALTA
+2021,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Pasivo por beneficios a los empleados 19 3.189 5.102,3189,3189.0,True,ACEPTADO,ALTA
+2022,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Pasivo por beneficios a los empleados 18 4.084 3.189,4084,4084.0,True,ACEPTADO,ALTA
+2023,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Pasivo por beneficios a los empleados 18 4.487 4.084,4487,4487.0,True,ACEPTADO,ALTA
+2024,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Pasivo por beneficios a los empleados 19 5.094 4.487,5094,5094.0,True,ACEPTADO,ALTA
+2025,b_beneficios_empleados,Beneficios a empleados,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Pasivo por beneficios a los empleados 19 8.461 5.094,8461,8461.0,True,ACEPTADO,ALTA
+2020,b_provisiones,Provisiones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Provisiones 22 16.413 13.111,13111,13111.0,True,ACEPTADO,ALTA
+2021,b_provisiones,Provisiones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Provisiones 22 16.413 13.111,16413,16413.0,True,ACEPTADO,ALTA
+2022,b_provisiones,Provisiones,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Provisiones 21 22.130 16.413,22130,22130.0,True,ACEPTADO,ALTA
+2023,b_provisiones,Provisiones,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Procesos Judiciales 21 23.651 22.130,23651,23651.0,True,ACEPTADO,ALTA
+2024,b_provisiones,Provisiones,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Procesos Judiciales 20 23.286 23.651,23286,23286.0,True,ACEPTADO,ALTA
+2025,b_provisiones,Provisiones,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Procesos Judiciales 20 22.464 23.286,22464,22464.0,True,ACEPTADO,ALTA
+2020,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Pasivo Por Impuesto A Las Ganancias Corrientes, Neto 20 2.276 -",,,True,ACEPTADO,ALTA
+2021,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Pasivo Por Impuesto A Las Ganancias Corrientes, Neto 20 2.276 -",2276,2276.0,True,ACEPTADO,ALTA
+2022,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Pasivo Por Impuesto A Las Ganancias Corrientes, Neto 19 7.978 2.276",7978,7978.0,True,ACEPTADO,ALTA
+2023,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Pasivo Por Impuesto A Las Ganancias Corrientes, Neto 19 8.231 7.978",8231,8231.0,True,ACEPTADO,ALTA
+2024,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Pasivo Por Impuesto A Las Ganancias Corrientes, Neto 21 - 8.231",,,True,ACEPTADO,ALTA
+2025,b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),Estados Financieros_2025.pdf,,,,,,,,NO_ENCONTRADO,
+2020,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,12.2,"Pasivo por impuesto diferido, neto 12.2 - 6.581",6581,6581.0,True,ACEPTADO,ALTA
+2021,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,12.2,"Pasivo por impuesto diferido, neto 12.2 - 6.581",,,True,ACEPTADO,ALTA
+2022,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Pasivo por impuesto diferido, neto - -",,,True,ACEPTADO,ALTA
+2023,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2023.pdf,,,,,,,,NO_ENCONTRADO,
+2024,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2024.pdf,,,,,,,,NO_ENCONTRADO,
+2025,b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),Estados Financieros_2025.pdf,,,,,,,,NO_ENCONTRADO,
+2020,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros pasivos no financieros, neto 21 3.482 3.151",3151,3151.0,True,ACEPTADO,ALTA
+2021,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros pasivos no financieros, neto 21 3.482 3.151",3482,3482.0,True,ACEPTADO,ALTA
+2022,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros pasivos no financieros, neto 20 3.682 3.482",3682,3682.0,True,ACEPTADO,ALTA
+2023,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros pasivos no financieros, neto 20 4.595 3.682",4595,4595.0,True,ACEPTADO,ALTA
+2024,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Otros pasivos no financieros, neto 22 4.422 4.595",4422,4422.0,True,ACEPTADO,ALTA
+2025,b_otros_pasivos_no_financieros,Otros pasivos no financieros,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Otros pasivos no financieros, neto 21 5.941 4.422",5941,5941.0,True,ACEPTADO,ALTA
+2020,b_pasivo_total,Total pasivos,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos 65.398 66.005,66005,66005.0,True,ACEPTADO,ALTA
+2021,b_pasivo_total,Total pasivos,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos 65.398 66.005,65398,65398.0,True,ACEPTADO,ALTA
+2022,b_pasivo_total,Total pasivos,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos $ 71.498 $ 65.398,71498,71498.0,True,ACEPTADO,ALTA
+2023,b_pasivo_total,Total pasivos,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos $ 82.335 $ 71.498,82335,82335.0,True,ACEPTADO,ALTA
+2024,b_pasivo_total,Total pasivos,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Total, de pasivos $ 60.103 $ 82.335",60103,60103.0,True,ACEPTADO,ALTA
+2025,b_pasivo_total,Total pasivos,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Total, de pasivos $ 60.295 $ 60.103",60295,60295.0,True,ACEPTADO,ALTA
+2020,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2021,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2022,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2023,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2024,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2025,b_capital_suscrito,Capital suscrito y pagado,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Capital suscrito y pagado 71.960 71.960,71960,71960.0,True,ACEPTADO,ALTA
+2020,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Prima en colocación de acciones 24 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2021,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Prima en colocación de acciones 24 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2022,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Prima en colocación de acciones 23 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2023,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Prima en colocación de acciones 23 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2024,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Prima en colocación de acciones 24 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2025,b_prima_colocacion,Prima en colocacion de acciones,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Prima en colocación de acciones 23 37.303 37.303,37303,37303.0,True,ACEPTADO,ALTA
+2020,b_reservas,Reservas,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Reservas 25 105.106 104.130,104130,104130.0,True,ACEPTADO,ALTA
+2021,b_reservas,Reservas,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Reservas 25 105.106 104.130,105106,105106.0,True,ACEPTADO,ALTA
+2022,b_reservas,Reservas,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Reservas 24 95.866 105.106,95866,95866.0,True,ACEPTADO,ALTA
+2023,b_reservas,Reservas,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Reservas 24 92.364 95.866,92364,92364.0,True,ACEPTADO,ALTA
+2024,b_reservas,Reservas,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Reservas 25 102.631 92.364,102631,102631.0,True,ACEPTADO,ALTA
+2025,b_reservas,Reservas,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Reservas 24 118.595 102.631,118595,118595.0,True,ACEPTADO,ALTA
+2020,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad del periodo 47.632 58.220,58220,58220.0,True,ACEPTADO,ALTA
+2021,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad del periodo 47.632 58.220,47632,47632.0,True,ACEPTADO,ALTA
+2022,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad del periodo 36.237 47.632,36237,36237.0,True,ACEPTADO,ALTA
+2023,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad del periodo 70.126 36.237,70126,70126.0,True,ACEPTADO,ALTA
+2024,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Utilidad del periodo 20.997 70.126,20997,20997.0,True,ACEPTADO,ALTA
+2025,b_utilidad_periodo,Utilidad del periodo,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad del periodo 30.947 20.997,30947,30947.0,True,ACEPTADO,ALTA
+2020,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2021,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2022,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2023,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2024,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2025,b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Utilidad de ejercicios anteriores 708 708,708,708.0,True,ACEPTADO,ALTA
+2020,b_efecto_ncif,Efecto NCIF,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Aplicación Normas de Contabilidad y de Información Financiera - NCIF / Efecto aplicación 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2021,b_efecto_ncif,Efecto NCIF,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Aplicación Normas de Contabilidad y de Información Financiera - NCIF / Efecto aplicación 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2022,b_efecto_ncif,Efecto NCIF,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Aplicación Normas de Contabilidad y de Información Financiera -NCIF / Efecto 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2023,b_efecto_ncif,Efecto NCIF,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Aplicación Normas de Contabilidad y de Información Financiera -NCIF / Efecto 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2024,b_efecto_ncif,Efecto NCIF,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Aplicación Normas de Contabilidad y de Información Financiera -NCIF / Efecto 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2025,b_efecto_ncif,Efecto NCIF,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Aplicación Normas de Contabilidad y de Información Financiera -NCIF / Efecto 14.179 14.179,14179,14179.0,True,ACEPTADO,ALTA
+2020,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Ganancias o pérdidas no realizadas (ORI) 26 6.000 6.500,6500,6500.0,True,ACEPTADO,ALTA
+2021,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Ganancias o pérdidas no realizadas (ORI) 26 6.000 6.500,6000,6000.0,True,ACEPTADO,ALTA
+2022,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Ganancias o pérdidas no realizadas (ORI) Resultado por valorización 25 7.072 6.000,7072,7072.0,True,ACEPTADO,ALTA
+2023,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Ganancias o pérdidas no realizadas (ORI) Resultado por valorización 25 7.009 7.072,7009,7009.0,True,ACEPTADO,ALTA
+2024,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,Ganancias o pérdidas no realizadas (ORI) Resultado por valorización 26 7.079 7.009,7079,7079.0,True,ACEPTADO,ALTA
+2025,b_ori_valorizacion,Ganancias no realizadas (ORI),Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Ganancias o pérdidas no realizadas (ORI) Resultado por valorización 25 14.142 7.079,14142,14142.0,True,ACEPTADO,ALTA
+2020,b_patrimonio_total,Total patrimonio,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total patrimonio $ 282.888 $ 293.000,293000,293000.0,True,ACEPTADO,ALTA
+2021,b_patrimonio_total,Total patrimonio,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total patrimonio $ 282.888 $ 293.000,282888,282888.0,True,ACEPTADO,ALTA
+2022,b_patrimonio_total,Total patrimonio,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total patrimonio 22 $ 263.325 $ 282.888,263325,263325.0,True,ACEPTADO,ALTA
+2023,b_patrimonio_total,Total patrimonio,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total patrimonio 22 $ 293.649 $ 263.325,293649,293649.0,True,ACEPTADO,ALTA
+2024,b_patrimonio_total,Total patrimonio,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Total, patrimonio 23 $ 254.857 $ 293.649",254857,254857.0,True,ACEPTADO,ALTA
+2025,b_patrimonio_total,Total patrimonio,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Total, patrimonio 22 $ 287.834 $ 254.857",287834,287834.0,True,ACEPTADO,ALTA
+2020,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos y patrimonio $ 348.286 $ 359.005,359005,359005.0,True,ACEPTADO,ALTA
+2021,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2021.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos y patrimonio $ 348.286 $ 359.005,348286,348286.0,True,ACEPTADO,ALTA
+2022,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2022.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos y patrimonio $ 334.823 $ 348.286,334823,334823.0,True,ACEPTADO,ALTA
+2023,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2023.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,Total de pasivos y patrimonio $ 375.984 $ 334.823,375984,375984.0,True,ACEPTADO,ALTA
+2024,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2024.pdf,ESTADO DE SITUACIÓN FINANCIERA,2,,"Total, de pasivos y patrimonio $ 314.960 $ 375.984",314960,314960.0,True,ACEPTADO,ALTA
+2025,b_total_pasivo_patrimonio,Total pasivo y patrimonio,Estados Financieros_2025.pdf,ESTADO DE SITUACIÓN FINANCIERA,1,,"Total, de pasivos y patrimonio $ 348.129 $ 314.960",348129,348129.0,True,ACEPTADO,ALTA
+2020,i_comisiones,Comisiones y honorarios,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Comisiones y honorarios $ 187.571 $ 168.993,168993,168993.0,True,ACEPTADO,ALTA
+2021,i_comisiones,Comisiones y honorarios,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Comisiones y honorarios $ 187.571 $ 168.993,187571,187571.0,True,ACEPTADO,ALTA
+2022,i_comisiones,Comisiones y honorarios,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Comisiones y honorarios $ 207.295 $ 187.571,207295,207295.0,True,ACEPTADO,ALTA
+2023,i_comisiones,Comisiones y honorarios,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Comisiones y honorarios $ 195.117 $ 207.295,195117,195117.0,True,ACEPTADO,ALTA
+2024,i_comisiones,Comisiones y honorarios,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Comisiones y honorarios $ 197.611 $ 195.117,197611,197611.0,True,ACEPTADO,ALTA
+2025,i_comisiones,Comisiones y honorarios,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Comisiones y honorarios $ 228.192 $ 197.611,228192,228192.0,True,ACEPTADO,ALTA
+2020,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Ingresos de actividades en operaciones conjuntas 16.690 27.805,27805,27805.0,True,ACEPTADO,ALTA
+2021,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Ingresos de actividades en operaciones conjuntas 16.690 27.805,16690,16690.0,True,ACEPTADO,ALTA
+2022,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Ingresos de actividades en operaciones conjuntas 12.691 16.690,12691,12691.0,True,ACEPTADO,ALTA
+2023,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Ingresos de actividades en operaciones conjuntas 25.837 12.691,25837,25837.0,True,ACEPTADO,ALTA
+2024,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Ingresos de actividades en operaciones conjuntas 29.141 25.837,29141,29141.0,True,ACEPTADO,ALTA
+2025,i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Ingresos de actividades en operaciones conjuntas 32.611 29.141,32611,32611.0,True,ACEPTADO,ALTA
+2020,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado antes de gastos de operación 27 204.261 196.798,196798,196798.0,True,ACEPTADO,ALTA
+2021,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado antes de gastos de operación 27 204.261 196.798,204261,204261.0,True,ACEPTADO,ALTA
+2022,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de gastos de operación 26 219.986 204.261,219986,219986.0,True,ACEPTADO,ALTA
+2023,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de gastos de operación 26 220.954 219.986,220954,220954.0,True,ACEPTADO,ALTA
+2024,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado antes de gastos de operación 27 226.752 220.954,226752,226752.0,True,ACEPTADO,ALTA
+2025,i_utilidad_bruta,Resultado antes de gastos de operacion,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de gastos de operación 26 260.803 226.752,260803,260803.0,True,ACEPTADO,ALTA
+2020,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Beneficios a empleados 28 29.709 31.241,31241,31241.0,True,ACEPTADO,ALTA
+2021,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Beneficios a empleados 28 29.709 31.241,29709,29709.0,True,ACEPTADO,ALTA
+2022,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Beneficios a empleados 27 34.482 29.709,34482,34482.0,True,ACEPTADO,ALTA
+2023,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Beneficios a empleados 27 40.726 34.482,40726,40726.0,True,ACEPTADO,ALTA
+2024,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Beneficios a empleados 28 47.165 40.726,47165,47165.0,True,ACEPTADO,ALTA
+2025,i_gasto_beneficios,Gasto beneficios a empleados,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Beneficios a empleados 27 52.971 47.165,52971,52971.0,True,ACEPTADO,ALTA
+2020,i_gastos_administracion,Gastos de administracion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Gastos de administración 29 67.724 73.157,73157,73157.0,True,ACEPTADO,ALTA
+2021,i_gastos_administracion,Gastos de administracion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Gastos de administración 29 67.724 73.157,67724,67724.0,True,ACEPTADO,ALTA
+2022,i_gastos_administracion,Gastos de administracion,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de administración 28 78.846 67.724,78846,78846.0,True,ACEPTADO,ALTA
+2023,i_gastos_administracion,Gastos de administracion,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de administración 28 96.291 78.846,96291,96291.0,True,ACEPTADO,ALTA
+2024,i_gastos_administracion,Gastos de administracion,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Gastos de administración 29 129.257 96.291,129257,129257.0,True,ACEPTADO,ALTA
+2025,i_gastos_administracion,Gastos de administracion,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de administración 28 136.700 129.257,136700,136700.0,True,ACEPTADO,ALTA
+2020,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Gastos de actividades en operaciones conjuntas 30 10.827 13.092,13092,13092.0,True,ACEPTADO,ALTA
+2021,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Gastos de actividades en operaciones conjuntas 30 10.827 13.092,10827,10827.0,True,ACEPTADO,ALTA
+2022,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de actividades en operaciones conjuntas 29 8.627 10.827,8627,8627.0,True,ACEPTADO,ALTA
+2023,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de actividades en operaciones conjuntas 29 9.867 8.627,9867,9867.0,True,ACEPTADO,ALTA
+2024,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Gastos de actividades en operaciones conjuntas 30 16.582 9.867,16582,16582.0,True,ACEPTADO,ALTA
+2025,i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gastos de actividades en operaciones conjuntas 29 17.634 16.582,17634,17634.0,True,ACEPTADO,ALTA
+2020,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Deterioro cuentas por cobrar, neto 31 2.199 (331)",-331,-331.0,True,ACEPTADO,ALTA
+2021,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Deterioro cuentas por cobrar, neto 31 2.199 (331)",2199,2199.0,True,ACEPTADO,ALTA
+2022,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Deterioro cuentas por cobrar, neto 30 2.130 2.199",2130,2130.0,True,ACEPTADO,ALTA
+2023,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Deterioro cuentas por cobrar, neto 30 5.378 2.130",5378,5378.0,True,ACEPTADO,ALTA
+2024,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,"Deterioro cuentas por cobrar, neto 31 (617) 5.378",-617,-617.0,True,ACEPTADO,ALTA
+2025,i_deterioro_cxc,Deterioro cuentas por cobrar,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Deterioro cuentas por cobrar, neto 30 811 (617)",811,811.0,True,ACEPTADO,ALTA
+2020,i_depreciaciones,Depreciacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Depreciación 32 2.769 4.099,4099,4099.0,True,ACEPTADO,ALTA
+2021,i_depreciaciones,Depreciacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Depreciación 32 2.769 4.099,2769,2769.0,True,ACEPTADO,ALTA
+2022,i_depreciaciones,Depreciacion,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Depreciaciones 31 2.087 2.769,2087,2087.0,True,ACEPTADO,ALTA
+2023,i_depreciaciones,Depreciacion,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Depreciaciones 31 2.022 2.087,2022,2022.0,True,ACEPTADO,ALTA
+2024,i_depreciaciones,Depreciacion,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Depreciaciones 32 2.253 2.022,2253,2253.0,True,ACEPTADO,ALTA
+2025,i_depreciaciones,Depreciacion,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Depreciaciones 31 2.623 2.253,2623,2623.0,True,ACEPTADO,ALTA
+2020,i_amortizaciones,Amortizacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Amortización 33 11.727 9.786,9786,9786.0,True,ACEPTADO,ALTA
+2021,i_amortizaciones,Amortizacion,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Amortización 33 11.727 9.786,11727,11727.0,True,ACEPTADO,ALTA
+2022,i_amortizaciones,Amortizacion,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Amortizaciones 32 13.543 11.727,13543,13543.0,True,ACEPTADO,ALTA
+2023,i_amortizaciones,Amortizacion,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Amortizaciones 32 8.272 13.543,8272,8272.0,True,ACEPTADO,ALTA
+2024,i_amortizaciones,Amortizacion,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Amortizaciones 33 12.562 8.272,12562,12562.0,True,ACEPTADO,ALTA
+2025,i_amortizaciones,Amortizacion,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Amortizaciones 32 13.269 12.562,13269,13269.0,True,ACEPTADO,ALTA
+2020,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado después de Gastos Operación $ 79.306 $ 65.754,65754,65754.0,True,ACEPTADO,ALTA
+2021,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado después de Gastos Operación $ 79.306 $ 65.754,79306,79306.0,True,ACEPTADO,ALTA
+2022,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado después de Gastos Operación $ 80.271 $ 79.306,80271,80271.0,True,ACEPTADO,ALTA
+2023,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado después de Gastos Operación $ 58.398 $ 80.271,58398,58398.0,True,ACEPTADO,ALTA
+2024,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado después de Gastos Operación $ 19.550 $ 58.398,19550,19550.0,True,ACEPTADO,ALTA
+2025,i_resultado_despues_gastos,Resultado despues de gastos,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado después de Gastos Operación $ 36.795 $ 19.550,36795,36795.0,True,ACEPTADO,ALTA
+2020,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Resultado financiero, neto 34 $ (8.318) $ 17.791",17791,17791.0,True,ACEPTADO,ALTA
+2021,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Resultado financiero, neto 34 $ (8.318) $ 17.791",-8318,-8318.0,True,ACEPTADO,ALTA
+2022,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Resultado financiero, neto 33 $ (12.216) $ (8.318)",-12216,-12216.0,True,ACEPTADO,ALTA
+2023,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Resultado financiero, neto 33 $ 60.266 $ (12.216)",60266,60266.0,True,ACEPTADO,ALTA
+2024,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,"Resultado financiero, neto 34 $ 11.976 $ 60.266",11976,11976.0,True,ACEPTADO,ALTA
+2025,i_resultado_financiero_neto,Resultado financiero neto,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Resultado financiero, neto 33 $ 18.185 $ 11.976",18185,18185.0,True,ACEPTADO,ALTA
+2020,i_resultado_operacional,Resultado operacional,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado operacional $ 70.988 $ 83.545,83545,83545.0,True,ACEPTADO,ALTA
+2021,i_resultado_operacional,Resultado operacional,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado operacional $ 70.988 $ 83.545,70988,70988.0,True,ACEPTADO,ALTA
+2022,i_resultado_operacional,Resultado operacional,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado operacional $ 68.055 $ 70.988,68055,68055.0,True,ACEPTADO,ALTA
+2023,i_resultado_operacional,Resultado operacional,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado operacional $ 118.664 $ 68.055,118664,118664.0,True,ACEPTADO,ALTA
+2024,i_resultado_operacional,Resultado operacional,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado operacional $ 31.526 $ 118.664,31526,31526.0,True,ACEPTADO,ALTA
+2025,i_resultado_operacional,Resultado operacional,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado operacional $ 54.980 $ 31.526,54980,54980.0,True,ACEPTADO,ALTA
+2020,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Otros ingresos (egresos), neto 35 1.180 6.612",6612,6612.0,True,ACEPTADO,ALTA
+2021,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,"Otros ingresos (egresos), neto 35 1.180 6.612",1180,1180.0,True,ACEPTADO,ALTA
+2022,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Otros ingresos (egresos), neto 34 (2.926) 1.180",-2926,-2926.0,True,ACEPTADO,ALTA
+2023,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Otros ingresos (egresos), neto 34 (165) (2.926)",-165,-165.0,True,ACEPTADO,ALTA
+2024,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,"Otros ingresos (egresos), neto 35 5.089 (165)",5089,5089.0,True,ACEPTADO,ALTA
+2025,i_otros_ingresos_egresos,Otros ingresos/(egresos),Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Otros ingresos (egresos), neto 34 3.256 5.089",3256,3256.0,True,ACEPTADO,ALTA
+2020,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado antes de impuestos a las ganancias 72.168 90.157,90157,90157.0,True,ACEPTADO,ALTA
+2021,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado antes de impuestos a las ganancias 72.168 90.157,72168,72168.0,True,ACEPTADO,ALTA
+2022,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de impuestos a las ganancias 65.129 72.168,65129,65129.0,True,ACEPTADO,ALTA
+2023,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de impuestos a las ganancias 118.499 65.129,118499,118499.0,True,ACEPTADO,ALTA
+2024,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado antes de impuestos a las ganancias $ 36.615 $ 118.499,36615,36615.0,True,ACEPTADO,ALTA
+2025,i_resultado_antes_impuestos,Resultado antes de impuestos,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado antes de impuestos a las ganancias $ 58.236 $ 36.615,58236,58236.0,True,ACEPTADO,ALTA
+2020,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,12.1,Gasto por impuestos a las ganancias 12.1 32.925 27.533,27533,27533.0,True,ACEPTADO,ALTA
+2021,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,12.1,Gasto por impuestos a las ganancias 12.1 32.925 27.533,32925,32925.0,True,ACEPTADO,ALTA
+2022,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.1,Gasto por impuestos a las ganancias 11.1 37.950 32.925,37950,37950.0,True,ACEPTADO,ALTA
+2023,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.1,Gasto por impuestos a las ganancias 11.1 42.176 37.950,42176,42176.0,True,ACEPTADO,ALTA
+2024,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,36.1,Gasto por impuestos a las ganancias 36.1 21.974 42.176,21974,21974.0,True,ACEPTADO,ALTA
+2025,i_gasto_impuesto_corriente,Gasto impuesto corriente,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,35.1,Gasto por impuestos a las ganancias 35.1 27.545 21.974,27545,27545.0,True,ACEPTADO,ALTA
+2020,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,12.1,Gasto/ (Ingreso) por impuesto diferido 12.1 (8.389) 4.404,4404,4404.0,True,ACEPTADO,ALTA
+2021,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,12.1,Gasto/ (Ingreso) por impuesto diferido 12.1 (8.389) 4.404,-8389,-8389.0,True,ACEPTADO,ALTA
+2022,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.1,Gasto/ Ingreso por impuesto diferido 11.1 (9.058) (8.389),-9058,-9058.0,True,ACEPTADO,ALTA
+2023,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.1,Gasto/ Ingreso por impuesto diferido 11.1 6.197 (9.058),6197,6197.0,True,ACEPTADO,ALTA
+2024,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Gasto/ Ingreso por impuesto diferido 12 (6.356) 6.197,-6356,-6356.0,True,ACEPTADO,ALTA
+2025,i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Gasto/ Ingreso por impuesto diferido 12 (256) (6.356),-256,-256.0,True,ACEPTADO,ALTA
+2020,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Utilidad del periodo $ 47.632 $ 58.220,58220,58220.0,True,ACEPTADO,ALTA
+2021,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Utilidad del periodo $ 47.632 $ 58.220,47632,47632.0,True,ACEPTADO,ALTA
+2022,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado del Ejercicio $ 36.237 $ 47.632,36237,36237.0,True,ACEPTADO,ALTA
+2023,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado del Ejercicio $ 70.126 $ 36.237,70126,70126.0,True,ACEPTADO,ALTA
+2024,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado del Ejercicio $ 20.997 $ 70.126,20997,20997.0,True,ACEPTADO,ALTA
+2025,i_resultado_del_ejercicio,Resultado del ejercicio,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado del Ejercicio $ 30.947 $ 20.997,30947,30947.0,True,ACEPTADO,ALTA
+2020,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado por valorización títulos participativos. 1 -,,,True,ACEPTADO,ALTA
+2021,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado por valorización títulos participativos. 1 -,1,1.0,True,ACEPTADO,ALTA
+2022,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización títulos participativos. - 1,,,True,ACEPTADO,ALTA
+2023,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización títulos participativos. - -,,,True,ACEPTADO,ALTA
+2024,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado por valorización títulos participativos. (123) -,-123,-123.0,True,ACEPTADO,ALTA
+2025,i_ori_titulos,ORI - titulares participativos,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización títulos participativos. (11) (123),-11,-11.0,True,ACEPTADO,ALTA
+2020,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado por valorización actuarial de pensionados (37) -,,,True,ACEPTADO,ALTA
+2021,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Resultado por valorización actuarial de pensionados (37) -,-37,-37.0,True,ACEPTADO,ALTA
+2022,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización actuarial de pensionados 18 46 (37),46,46.0,True,ACEPTADO,ALTA
+2023,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización actuarial de pensionados 18 (63) 46,-63,-63.0,True,ACEPTADO,ALTA
+2024,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Resultado por valorización actuarial de pensionados 19 3 (63),3,3.0,True,ACEPTADO,ALTA
+2025,i_ori_actuarial,ORI - actuarial pensionados,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización actuarial de pensionados 19 (4) 3,-4,-4.0,True,ACEPTADO,ALTA
+2020,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2021.pdf,,,,,,,,NO_ENCONTRADO,
+2021,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2021.pdf,,,,,,,,NO_ENCONTRADO,
+2022,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2022.pdf,,,,,,2465.0,,NO_ENCONTRADO,
+2023,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2023.pdf,,,,,,,,NO_ENCONTRADO,
+2024,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2024.pdf,,,,,,,,NO_ENCONTRADO,
+2025,i_ori_inmuebles,ORI - bienes inmuebles,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Resultado por valorización de bienes inmuebles 4.666 -,4666,4666.0,True,ACEPTADO,ALTA
+2020,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Impuesto diferido (464) (146),-146,-146.0,True,ACEPTADO,ALTA
+2021,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Impuesto diferido (464) (146),-464,-464.0,True,ACEPTADO,ALTA
+2022,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.2,Impuesto diferido 11.2 a) (1.439) (464),-1439,-1439.0,True,ACEPTADO,ALTA
+2023,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,11.2,Impuesto diferido 11.2 - (1.439),,,True,ACEPTADO,ALTA
+2024,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,Impuesto diferido 12 50 -,50,50.0,True,ACEPTADO,ALTA
+2025,i_impuesto_diferido_ori,ORI - impuesto diferido,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Impuesto diferido 12 2.412 50,2412,2412.0,True,ACEPTADO,ALTA
+2020,i_ori_total,Total otro resultado integral,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Total otro resultado integral del periodo $ (500) $ (146),-146,-146.0,True,ACEPTADO,ALTA
+2021,i_ori_total,Total otro resultado integral,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Total otro resultado integral del periodo $ (500) $ (146),-500,-500.0,True,ACEPTADO,ALTA
+2022,i_ori_total,Total otro resultado integral,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Total otro resultado integral del periodo $ 1.072 $ (500),1072,1072.0,True,ACEPTADO,ALTA
+2023,i_ori_total,Total otro resultado integral,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Total otro resultado integral del periodo $ (63) $ 1.072,-63,-63.0,True,ACEPTADO,ALTA
+2024,i_ori_total,Total otro resultado integral,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,"Total, otro resultado integral del periodo $ (70) $ (63)",-70,-70.0,True,ACEPTADO,ALTA
+2025,i_ori_total,Total otro resultado integral,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Total, otro resultado integral del periodo $ 7.063 $ (70)",7063,7063.0,True,ACEPTADO,ALTA
+2020,i_comprehensivo_total,Resultado integral total,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Total utilidad del ejercicio y otro resultado integral $ 47.132 $ 58.074,58074,58074.0,True,ACEPTADO,ALTA
+2021,i_comprehensivo_total,Resultado integral total,Estados Financieros_2021.pdf,ESTADO DE RESULTADO INTEGRAL,2,,Total utilidad del ejercicio y otro resultado integral $ 47.132 $ 58.074,47132,47132.0,True,ACEPTADO,ALTA
+2022,i_comprehensivo_total,Resultado integral total,Estados Financieros_2022.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Total utilidad del ejercicio y otro resultado integral $ 37.309 $ 47.132,37309,37309.0,True,ACEPTADO,ALTA
+2023,i_comprehensivo_total,Resultado integral total,Estados Financieros_2023.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,Total utilidad del ejercicio y otro resultado integral $ 70.063 $ 37.309,70063,70063.0,True,ACEPTADO,ALTA
+2024,i_comprehensivo_total,Resultado integral total,Estados Financieros_2024.pdf,ESTADOS DE RESULTADO INTEGRALES,3,,"Total, utilidad del ejercicio y otro resultado integral $ 20.927 $ 70.063",20927,20927.0,True,ACEPTADO,ALTA
+2025,i_comprehensivo_total,Resultado integral total,Estados Financieros_2025.pdf,ESTADOS DE RESULTADO INTEGRALES,2,,"Total, utilidad del ejercicio y otro resultado integral $ 38.010 $ 20.927",38010,38010.0,True,ACEPTADO,ALTA
+2020,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Utilidad del periodo 23 $ 47.632 $ 58.220,58220,58220.0,True,ACEPTADO,ALTA
+2021,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Utilidad del periodo 23 $ 47.632 $ 58.220,47632,47632.0,True,ACEPTADO,ALTA
+2022,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Utilidad del periodo $ 36.237 $ 47.632,36237,36237.0,True,ACEPTADO,ALTA
+2023,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Utilidad del periodo $ 70.126 $ 36.237,70126,70126.0,True,ACEPTADO,ALTA
+2024,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Utilidad del periodo $ 20.997 $ 70.126,20997,20997.0,True,ACEPTADO,ALTA
+2025,c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Utilidad del periodo $ 30.947 $ 20.997,30947,30947.0,True,ACEPTADO,ALTA
+2020,c_depreciacion,CF - Depreciacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación 32 1.365 2.527,2527,2527.0,True,ACEPTADO,ALTA
+2021,c_depreciacion,CF - Depreciacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación 32 1.365 2.527,1365,1365.0,True,ACEPTADO,ALTA
+2022,c_depreciacion,CF - Depreciacion,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación 31 606 1.365,606,606.0,True,ACEPTADO,ALTA
+2023,c_depreciacion,CF - Depreciacion,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación 31 480 606,480,480.0,True,ACEPTADO,ALTA
+2024,c_depreciacion,CF - Depreciacion,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Depreciación 32 530 480,530,530.0,True,ACEPTADO,ALTA
+2025,c_depreciacion,CF - Depreciacion,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación 31 550 530,550,550.0,True,ACEPTADO,ALTA
+2020,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación Derechos de uso 32 1.403 1.577,1577,1577.0,True,ACEPTADO,ALTA
+2021,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación Derechos de uso 32 1.403 1.577,1403,1403.0,True,ACEPTADO,ALTA
+2022,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación Derechos de uso 31 1.481 1.403,1481,1481.0,True,ACEPTADO,ALTA
+2023,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación Derechos de uso 31 1.542 1.481,1542,1542.0,True,ACEPTADO,ALTA
+2024,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Depreciación Derechos de uso 32 1.723 1.542,1723,1723.0,True,ACEPTADO,ALTA
+2025,c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Depreciación Derechos de uso 31 2.073 1.723,2073,2073.0,True,ACEPTADO,ALTA
+2020,c_provisiones,CF - Provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Provisiones multas y litigios 3.374 2.646,2646,2646.0,True,ACEPTADO,ALTA
+2021,c_provisiones,CF - Provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Provisiones multas y litigios 3.374 2.646,3374,3374.0,True,ACEPTADO,ALTA
+2022,c_provisiones,CF - Provisiones,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Provisiones multas y litigios 7.157 3.374,7157,7157.0,True,ACEPTADO,ALTA
+2023,c_provisiones,CF - Provisiones,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Provisiones multas y litigios 4.555 7.157,4555,4555.0,True,ACEPTADO,ALTA
+2024,c_provisiones,CF - Provisiones,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Provisiones multas y litigios 141 4.555,141,141.0,True,ACEPTADO,ALTA
+2025,c_provisiones,CF - Provisiones,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Provisiones multas y litigios 21 141,21,21.0,True,ACEPTADO,ALTA
+2020,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Deterioro cuentas por cobrar comisión Fiduciaria y otras cuentas 31 por cobrar, neto 2.199 (331)",-331,-331.0,True,ACEPTADO,ALTA
+2021,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Deterioro cuentas por cobrar comisión Fiduciaria y otras cuentas 31 por cobrar, neto 2.199 (331)",2199,2199.0,True,ACEPTADO,ALTA
+2022,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Deterioro cuentas por cobrar comisión fiduciaria y 30 2.130 2.199,2130,2130.0,True,ACEPTADO,ALTA
+2023,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Deterioro cuentas por cobrar comisión fiduciaria y 30 5.378 2.130,5378,5378.0,True,ACEPTADO,ALTA
+2024,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Deterioro cuentas por cobrar comisión fiduciaria y 31 (617) 5.378,-617,-617.0,True,ACEPTADO,ALTA
+2025,c_deterioro_cxc,CF - Deterioro cuentas por cobrar,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Deterioro cuentas por cobrar comisión fiduciaria y 30 811 (617),811,811.0,True,ACEPTADO,ALTA
+2020,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Reintegro de otras provisiones, neto 35 (1.505) (6.023)",-6023,-6023.0,True,ACEPTADO,ALTA
+2021,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Reintegro de otras provisiones, neto 35 (1.505) (6.023)",-1505,-1505.0,True,ACEPTADO,ALTA
+2022,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Reintegro de otras provisiones, neto (1.788) (1.505)",-1788,-1788.0,True,ACEPTADO,ALTA
+2023,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Reintegro de otras provisiones, neto (2.302) (1.788)",-2302,-2302.0,True,ACEPTADO,ALTA
+2024,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,"Reintegro de otras provisiones, neto (1.907) (2.302)",-1907,-1907.0,True,ACEPTADO,ALTA
+2025,c_reintegro_provisiones,CF - Reintegro provisiones,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Reintegro de otras provisiones, neto (1.074) (1.907)",-1074,-1074.0,True,ACEPTADO,ALTA
+2020,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Valoración de inversiones 6.690 (22.442),-22442,-22442.0,True,ACEPTADO,ALTA
+2021,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Valoración de inversiones 6.690 (22.442),6690,6690.0,True,ACEPTADO,ALTA
+2022,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Valoración de inversiones 12.034 6.690,12034,12034.0,True,ACEPTADO,ALTA
+2023,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Valoración de inversiones (57.064) 12.034,-57064,-57064.0,True,ACEPTADO,ALTA
+2024,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Valoración de inversiones (10.566) (57.064),-10566,-10566.0,True,ACEPTADO,ALTA
+2025,c_valoracion_inversiones,CF - Valoracion inversiones,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Valoración de inversiones (17.891) (10.566),-17891,-17891.0,True,ACEPTADO,ALTA
+2020,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de intangibles 33 7.041 5.621,5621,5621.0,True,ACEPTADO,ALTA
+2021,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de intangibles 33 7.041 5.621,7041,7041.0,True,ACEPTADO,ALTA
+2022,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de intangibles 32 8.312 7.041,8312,8312.0,True,ACEPTADO,ALTA
+2023,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de intangibles 32 2.201 8.312,2201,2201.0,True,ACEPTADO,ALTA
+2024,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Amortización de intangibles 33 4.681 2.201,4681,4681.0,True,ACEPTADO,ALTA
+2025,c_amortizacion_intangibles,CF - Amortizacion intangibles,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de intangibles 32 5.402 4.681,5402,5402.0,True,ACEPTADO,ALTA
+2020,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de otros activos no financieros 33 4.686 4.165,4165,4165.0,True,ACEPTADO,ALTA
+2021,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de otros activos no financieros 33 4.686 4.165,4686,4686.0,True,ACEPTADO,ALTA
+2022,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de otros activos no financieros 32 5.231 4.686,5231,5231.0,True,ACEPTADO,ALTA
+2023,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de otros activos no financieros 32 6.071 5.231,6071,6071.0,True,ACEPTADO,ALTA
+2024,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Amortización de otros activos no financieros 33 7.881 6.071,7881,7881.0,True,ACEPTADO,ALTA
+2025,c_amortizacion_otros,CF - Amortizacion otros activos,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Amortización de otros activos no financieros 32 7.867 7.881,7867,7867.0,True,ACEPTADO,ALTA
+2020,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gastos por intereses sobre pasivos por arrendamiento 17 746 928,928,928.0,True,ACEPTADO,ALTA
+2021,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gastos por intereses sobre pasivos por arrendamiento 17 746 928,746,746.0,True,ACEPTADO,ALTA
+2022,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gastos por intereses sobre pasivos por 16 670 746,670,670.0,True,ACEPTADO,ALTA
+2023,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gastos por intereses sobre pasivos por 16 667 670,667,667.0,True,ACEPTADO,ALTA
+2024,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Gastos por intereses sobre pasivos por 15 695 667,695,695.0,True,ACEPTADO,ALTA
+2025,c_intereses_arrendamiento,CF - Intereses arrendamiento,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gastos por intereses sobre pasivos por 15 578 695,578,578.0,True,ACEPTADO,ALTA
+2020,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,12.1,Gasto por impuestos a las ganancias 12.1 32.925 27.533,27533,27533.0,True,ACEPTADO,ALTA
+2021,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,12.1,Gasto por impuestos a las ganancias 12.1 32.925 27.533,32925,32925.0,True,ACEPTADO,ALTA
+2022,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,11.1,Gasto por impuestos a las ganancias 11.1 37.950 32.925,37950,37950.0,True,ACEPTADO,ALTA
+2023,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,11.1,Gasto por impuestos a las ganancias 11.1 42.176 37.950,42176,42176.0,True,ACEPTADO,ALTA
+2024,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Gasto por impuestos a las ganancias 36 21.974 42.176,21974,21974.0,True,ACEPTADO,ALTA
+2025,c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gasto por impuestos a las ganancias 35 27.545 21.974,27545,27545.0,True,ACEPTADO,ALTA
+2020,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,12.2,Gasto por impuesto Diferido 12.2 (8.389) 4.404,4404,4404.0,True,ACEPTADO,ALTA
+2021,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,12.2,Gasto por impuesto Diferido 12.2 (8.389) 4.404,-8389,-8389.0,True,ACEPTADO,ALTA
+2022,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,11.2,Gasto por impuesto Diferido 11.2 (9.058) (8.389),-9058,-9058.0,True,ACEPTADO,ALTA
+2023,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,11.2,Gasto por impuesto Diferido 11.2 6.197 (9.058),6197,6197.0,True,ACEPTADO,ALTA
+2024,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Gasto por impuesto Diferido 12 (6.356) 6.197,-6356,-6356.0,True,ACEPTADO,ALTA
+2025,c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Gasto por impuesto Diferido 12 (256) (6.356),-256,-256.0,True,ACEPTADO,ALTA
+2020,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Propiedades y equipo 14 7 641,641,641.0,True,ACEPTADO,ALTA
+2021,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Propiedades y equipo 14 7 641,7,7.0,True,ACEPTADO,ALTA
+2022,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Propiedades y equipo 13 5.118 7,5118,5118.0,True,ACEPTADO,ALTA
+2023,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Propiedades y equipo 13 - 5.118,,,True,ACEPTADO,ALTA
+2024,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Baja en Propiedades y equipo 14 181 -,181,181.0,True,ACEPTADO,ALTA
+2025,c_baja_ppye,CF - Baja propiedades y equipo,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Propiedades y equipo 14 841 181,841,841.0,True,ACEPTADO,ALTA
+2020,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Depreciación en Propiedades y equipo 14 - (629),-629,-629.0,True,ACEPTADO,ALTA
+2021,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Depreciación en Propiedades y equipo 14 - (629),,,True,ACEPTADO,ALTA
+2022,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Depreciación en Propiedades y equipo 13 (5.118) -,-5118,-5118.0,True,ACEPTADO,ALTA
+2023,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Depreciación en Propiedades y equipo 13 - (5.118),,,True,ACEPTADO,ALTA
+2024,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Baja Depreciación en Propiedades y equipo 14 (145) -,-145,-145.0,True,ACEPTADO,ALTA
+2025,c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Depreciación en Propiedades y equipo 14 (841) (145),-841,-841.0,True,ACEPTADO,ALTA
+2020,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Activos Intangibles 15 4.707 -,,,True,ACEPTADO,ALTA
+2021,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Activos Intangibles 15 4.707 -,4707,4707.0,True,ACEPTADO,ALTA
+2022,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Activos Intangibles 14 1.008 4.707,1008,1008.0,True,ACEPTADO,ALTA
+2023,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Activos Intangibles 14 124 1.008,124,124.0,True,ACEPTADO,ALTA
+2024,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Baja en Activos Intangibles 16 5.174 124,5174,5174.0,True,ACEPTADO,ALTA
+2025,c_baja_intangibles,CF - Baja activos intangibles,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja en Activos Intangibles 16 3.863 5.174,3863,3863.0,True,ACEPTADO,ALTA
+2020,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2021.pdf,,,,,,,,NO_ENCONTRADO,
+2021,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2021.pdf,,,,,,,,NO_ENCONTRADO,
+2022,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2022.pdf,,,,,,,,NO_ENCONTRADO,
+2023,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2023.pdf,,,,,,,,NO_ENCONTRADO,
+2024,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2024.pdf,,,,,,,,NO_ENCONTRADO,
+2025,c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Baja Amortización en Activos Intangibles 16 (3.197) -,-3197,-3197.0,True,ACEPTADO,ALTA
+2020,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por cobrar (7.471) (6.965),-6965,-6965.0,True,ACEPTADO,ALTA
+2021,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por cobrar (7.471) (6.965),-7471,-7471.0,True,ACEPTADO,ALTA
+2022,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por cobrar (12.889) (7.471),-12889,-12889.0,True,ACEPTADO,ALTA
+2023,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por cobrar 7.729 (12.889),7729,7729.0,True,ACEPTADO,ALTA
+2024,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Cuentas por cobrar 18.693 7.729,18693,18693.0,True,ACEPTADO,ALTA
+2025,c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por cobrar (28.838) 18.693,-28838,-28838.0,True,ACEPTADO,ALTA
+2020,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Otros activos (10.427) (4.453),-4453,-4453.0,True,ACEPTADO,ALTA
+2021,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Otros activos (10.427) (4.453),-10427,-10427.0,True,ACEPTADO,ALTA
+2022,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Otros activos (6.688) (10.427),-6688,-6688.0,True,ACEPTADO,ALTA
+2023,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Otros activos (7.002) (6.688),-7002,-7002.0,True,ACEPTADO,ALTA
+2024,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Otros activos (12.235) (7.002),-12235,-12235.0,True,ACEPTADO,ALTA
+2025,c_otros_activos,CF - Cambio otros activos,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Otros activos (7.804) (12.235),-7804,-7804.0,True,ACEPTADO,ALTA
+2020,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por pagar 3.888 293,293,293.0,True,ACEPTADO,ALTA
+2021,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por pagar 3.888 293,3888,3888.0,True,ACEPTADO,ALTA
+2022,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por pagar (4.725) 3.888,-4725,-4725.0,True,ACEPTADO,ALTA
+2023,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por pagar 9.747 (4.725),9747,9747.0,True,ACEPTADO,ALTA
+2024,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Cuentas por pagar (12.102) 9.747,-12102,-12102.0,True,ACEPTADO,ALTA
+2025,c_cuentas_por_pagar,CF - Cambio cuentas por pagar,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Cuentas por pagar (1.984) (12.102),-1984,-1984.0,True,ACEPTADO,ALTA
+2020,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Impuestos, neto 1.941 17.833",17833,17833.0,True,ACEPTADO,ALTA
+2021,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Impuestos, neto 1.941 17.833",1941,1941.0,True,ACEPTADO,ALTA
+2022,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Impuestos, neto (1.517) 1.941",-1517,-1517.0,True,ACEPTADO,ALTA
+2023,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Impuestos, neto (9.340) (1.517)",-9340,-9340.0,True,ACEPTADO,ALTA
+2024,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,"Impuestos, neto (13.135) (9.340)",-13135,-13135.0,True,ACEPTADO,ALTA
+2025,c_impuestos_neto,CF - Impuestos netos,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Impuestos, neto 4.306 (13.135)",4306,4306.0,True,ACEPTADO,ALTA
+2020,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivo por beneficios a empleados (1.874) 621,621,621.0,True,ACEPTADO,ALTA
+2021,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivo por beneficios a empleados (1.874) 621,-1874,-1874.0,True,ACEPTADO,ALTA
+2022,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivo por beneficios a empleados 1.120 (1.874),1120,1120.0,True,ACEPTADO,ALTA
+2023,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivo por beneficios a empleados 368 1.120,368,368.0,True,ACEPTADO,ALTA
+2024,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Pasivo por beneficios a empleados 847 368,847,847.0,True,ACEPTADO,ALTA
+2025,c_beneficios_empleados,CF - Beneficios a empleados,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivo por beneficios a empleados 3.375 847,3375,3375.0,True,ACEPTADO,ALTA
+2020,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivos por provisiones 1.357 5.716,5716,5716.0,True,ACEPTADO,ALTA
+2021,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivos por provisiones 1.357 5.716,1357,1357.0,True,ACEPTADO,ALTA
+2022,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivos por provisiones 169 1.357,169,169.0,True,ACEPTADO,ALTA
+2023,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivos por provisiones (3.031) 169,-3031,-3031.0,True,ACEPTADO,ALTA
+2024,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Pasivos por provisiones (500) (3.031),-500,-500.0,True,ACEPTADO,ALTA
+2025,c_pasivos_provisiones,CF - Pasivos por provisiones,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pasivos por provisiones (833) (500),-833,-833.0,True,ACEPTADO,ALTA
+2020,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Intereses pagados (746) (928),-928,-928.0,True,ACEPTADO,ALTA
+2021,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Intereses pagados (746) (928),-746,-746.0,True,ACEPTADO,ALTA
+2022,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Intereses pagados (670) (746),-670,-670.0,True,ACEPTADO,ALTA
+2023,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Intereses pagados (667) (670),-667,-667.0,True,ACEPTADO,ALTA
+2024,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Intereses pagados (695) (667),-695,-695.0,True,ACEPTADO,ALTA
+2025,c_intereses_pagados,CF - Intereses pagados,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Intereses pagados (578) (695),-578,-578.0,True,ACEPTADO,ALTA
+2020,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Impuestos pagados (26.124) (26.422),-26422,-26422.0,True,ACEPTADO,ALTA
+2021,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Impuestos pagados (26.124) (26.422),-26124,-26124.0,True,ACEPTADO,ALTA
+2022,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Impuestos pagados (30.693) (26.124),-30693,-30693.0,True,ACEPTADO,ALTA
+2023,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Impuestos pagados (31.518) (30.693),-31518,-31518.0,True,ACEPTADO,ALTA
+2024,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Impuestos pagados (32.679) (31.518),-32679,-32679.0,True,ACEPTADO,ALTA
+2025,c_impuestos_pagados,CF - Impuestos pagados,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Impuestos pagados (39.786) (32.679),-39786,-39786.0,True,ACEPTADO,ALTA
+2020,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto por las actividades de operación 63.425 64.532,64532,64532.0,True,ACEPTADO,ALTA
+2021,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto por las actividades de operación 63.425 64.532,63425,63425.0,True,ACEPTADO,ALTA
+2022,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto por las actividades $ 46.077 $ 63.425,46077,46077.0,True,ACEPTADO,ALTA
+2023,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto por las actividades $ 46.437 $ 46.077,46437,46437.0,True,ACEPTADO,ALTA
+2024,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Flujo neto de efectivo (usado) provisto por las actividades $ (7.419) $ 46.437,-7419,-7419.0,True,ACEPTADO,ALTA
+2025,c_flujo_operacion,Flujo neto actividades de operacion,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado) por las actividades $ (14.903) $ (7.419),-14903,-14903.0,True,ACEPTADO,ALTA
+2020,c_inversiones,CF - Inversiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Inversiones (23.752) (13.673),-13673,-13673.0,True,ACEPTADO,ALTA
+2021,c_inversiones,CF - Inversiones,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Inversiones (23.752) (13.673),-23752,-23752.0,True,ACEPTADO,ALTA
+2022,c_inversiones,CF - Inversiones,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Inversiones 15.341 (23.752),15341,15341.0,True,ACEPTADO,ALTA
+2023,c_inversiones,CF - Inversiones,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Inversiones 6.816 15.341,6816,6816.0,True,ACEPTADO,ALTA
+2024,c_inversiones,CF - Inversiones,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Inversiones 95.024 6.816,95024,95024.0,True,ACEPTADO,ALTA
+2025,c_inversiones,CF - Inversiones,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Inversiones 27.622 95.024,27622,27622.0,True,ACEPTADO,ALTA
+2020,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición propiedades y equipo 14 (16) (283),-283,-283.0,True,ACEPTADO,ALTA
+2021,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición propiedades y equipo 14 (16) (283),-16,-16.0,True,ACEPTADO,ALTA
+2022,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición propiedades y equipo 13 (52) (16),-52,-52.0,True,ACEPTADO,ALTA
+2023,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición propiedades y equipo 13 (476) (52),-476,-476.0,True,ACEPTADO,ALTA
+2024,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Adquisición propiedades y equipo 14 (87) (476),-87,-87.0,True,ACEPTADO,ALTA
+2025,c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición propiedades y equipo 14 (243) (87),-243,-243.0,True,ACEPTADO,ALTA
+2020,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición de activos intangibles 15 (4.200) (6.460),-6460,-6460.0,True,ACEPTADO,ALTA
+2021,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición de activos intangibles 15 (4.200) (6.460),-4200,-4200.0,True,ACEPTADO,ALTA
+2022,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición de activos intangibles 14 (3.391) (4.200),-3391,-3391.0,True,ACEPTADO,ALTA
+2023,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición de activos intangibles 14 (4.802) (3.391),-4802,-4802.0,True,ACEPTADO,ALTA
+2024,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Adquisición de activos intangibles 16 (6.139) (4.802),-6139,-6139.0,True,ACEPTADO,ALTA
+2025,c_adquisicion_intangibles,CF - Adquisicion intangibles,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Adquisición de activos intangibles 16 (6.346) (6.139),-6346,-6346.0,True,ACEPTADO,ALTA
+2020,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades de Inversión (27.968) (20.416),-20416,-20416.0,True,ACEPTADO,ALTA
+2021,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades de Inversión (27.968) (20.416),-27968,-27968.0,True,ACEPTADO,ALTA
+2022,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto (usado en) las $ 11.898 $ (27.968),11898,11898.0,True,ACEPTADO,ALTA
+2023,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto las $ 1.539 $ 11.898,1539,1539.0,True,ACEPTADO,ALTA
+2024,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Flujo neto de efectivo provisto en las $ 88.797 $ 1.539,88797,88797.0,True,ACEPTADO,ALTA
+2025,c_flujo_inversion,Flujo neto actividades de inversion,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo provisto en las $ 21.033 $ 88.797,21033,21033.0,True,ACEPTADO,ALTA
+2020,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pagos parte principal del pasivo por arrendamiento (1.146) (1.223),-1223,-1223.0,True,ACEPTADO,ALTA
+2021,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pagos parte principal del pasivo por arrendamiento (1.146) (1.223),-1146,-1146.0,True,ACEPTADO,ALTA
+2022,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pagos parte principal del pasivo por arrendamiento (1.535) (1.146),-1535,-1535.0,True,ACEPTADO,ALTA
+2023,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pagos parte principal del pasivo por arrendamiento (1.463) (1.535),-1463,-1463.0,True,ACEPTADO,ALTA
+2024,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Pagos parte principal del pasivo por arrendamiento (1.783) (1.463),-1783,-1783.0,True,ACEPTADO,ALTA
+2025,c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Pagos parte principal del pasivo por arrendamiento (2.146) (1.783),-2146,-2146.0,True,ACEPTADO,ALTA
+2020,c_dividendos,CF - Dividendos decretados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Dividendos decretados, pagados (57.245) (43.264)",-43264,-43264.0,True,ACEPTADO,ALTA
+2021,c_dividendos,CF - Dividendos decretados,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Dividendos decretados, pagados (57.245) (43.264)",-57245,-57245.0,True,ACEPTADO,ALTA
+2022,c_dividendos,CF - Dividendos decretados,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Dividendos decretados, pendientes pagar (56.872) (57.245)",-56872,-56872.0,True,ACEPTADO,ALTA
+2023,c_dividendos,CF - Dividendos decretados,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Dividendos decretados, pendientes pagar (39.739) (56.872)",-39739,-39739.0,True,ACEPTADO,ALTA
+2024,c_dividendos,CF - Dividendos decretados,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,"Dividendos decretados, pendientes pagar (59.859) (39.739)",-59859,-59859.0,True,ACEPTADO,ALTA
+2025,c_dividendos,CF - Dividendos decretados,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,"Dividendos decretados, pendientes pagar (5.033) (59.859)",-5033,-5033.0,True,ACEPTADO,ALTA
+2020,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades de financiación (58.391) (44.487),-44487,-44487.0,True,ACEPTADO,ALTA
+2021,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2021.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades de financiación (58.391) (44.487),-58391,-58391.0,True,ACEPTADO,ALTA
+2022,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2022.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades $ (58.407) $ (58.391),-58407,-58407.0,True,ACEPTADO,ALTA
+2023,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2023.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades $ (41.202) $ (58.407),-41202,-41202.0,True,ACEPTADO,ALTA
+2024,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2024.pdf,ESTADO DE FLUJO DE EFECTIVO,6,,Flujo neto de efectivo (usado en) las actividades $ (61.642) $ (41.202),-61642,-61642.0,True,ACEPTADO,ALTA
+2025,c_flujo_financiacion,Flujo neto actividades de financiacion,Estados Financieros_2025.pdf,ESTADO DE FLUJO DE EFECTIVO,5,,Flujo neto de efectivo (usado en) las actividades $ (7.179) $ (61.642),-7179,-7179.0,True,ACEPTADO,ALTA
+2020,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2021.pdf,,,,,,-371.0,,NO_ENCONTRADO,
+2021,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2021.pdf,,,,,,-22934.0,,NO_ENCONTRADO,
+2022,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2022.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,(Disminución) aumento neto de efectivo $ (432) $ (22.934),-432,-432.0,True,ACEPTADO,ALTA
+2023,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2023.pdf,,,,,,6774.0,,NO_ENCONTRADO,
+2024,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2024.pdf,,,,,,19736.0,,NO_ENCONTRADO,
+2025,c_aumento_neto,Aumento neto de efectivo,Estados Financieros_2025.pdf,,,,,,-1049.0,,NO_ENCONTRADO,
+2020,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Restringido 18.880 18.880,18880,18880.0,True,ACEPTADO,ALTA
+2021,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Restringido 18.880 18.880,18880,18880.0,True,ACEPTADO,ALTA
+2022,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2022.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Restringido 1 18.880,1,1.0,True,ACEPTADO,ALTA
+2023,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2023.pdf,,,,,,1.0,,NO_ENCONTRADO,
+2024,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2024.pdf,,,,,,1474.0,,NO_ENCONTRADO,
+2025,c_efectivo_restriccion,Efectivo restringido (al inicio),Estados Financieros_2025.pdf,,,,,,1493.0,,NO_ENCONTRADO,
+2020,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Sin Restricción 25.045 25.416,25416,25416.0,True,ACEPTADO,ALTA
+2021,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Sin Restricción 25.045 25.416,25045,25045.0,True,ACEPTADO,ALTA
+2022,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2022.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,Efectivo Sin Restricción $ 20.990 $ 25.045,20990,20990.0,True,ACEPTADO,ALTA
+2023,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2023.pdf,,,,,,20558.0,,NO_ENCONTRADO,
+2024,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2024.pdf,,,,,,25859.0,,NO_ENCONTRADO,
+2025,c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),Estados Financieros_2025.pdf,,,,,,45576.0,,NO_ENCONTRADO,
+2020,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,TOTAL EFECTIVO AL INICIO DE PERIODO 43.925 44.296,44296,44296.0,True,ACEPTADO,ALTA
+2021,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2021.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,TOTAL EFECTIVO AL INICIO DE PERIODO 43.925 44.296,43925,43925.0,True,ACEPTADO,ALTA
+2022,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2022.pdf,ESTADO DE FLUJOS DE EFECTIVO,6,,TOTAL EFECTIVO AL INICIO DE PERIODO $ 20.991 $ 43.925,20991,20991.0,True,ACEPTADO,ALTA
+2023,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2023.pdf,,,,,,20559.0,,NO_ENCONTRADO,
+2024,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2024.pdf,,,,,,27333.0,,NO_ENCONTRADO,
+2025,c_efectivo_inicio,Efectivo al inicio del periodo,Estados Financieros_2025.pdf,,,,,,47069.0,,NO_ENCONTRADO,
+2020,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2021.pdf,,,,,,43925.0,,NO_ENCONTRADO,
+2021,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2021.pdf,,,,,,20991.0,,NO_ENCONTRADO,
+2022,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2022.pdf,,,,,,20559.0,,NO_ENCONTRADO,
+2023,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2023.pdf,,,,,,27333.0,,NO_ENCONTRADO,
+2024,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2024.pdf,,,,,,47069.0,,NO_ENCONTRADO,
+2025,c_efectivo_cierre,Efectivo al cierre del periodo,Estados Financieros_2025.pdf,,,,,,46020.0,,NO_ENCONTRADO,

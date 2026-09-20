@@ -1,0 +1,31 @@
+{
+  "carpetas_powerbi": [
+    "Efectivo & Liquidez",
+    "Estructura & Riesgo",
+    "Rentabilidad & EVA"
+  ],
+  "conteo_tablas": {
+    "dim_fecha.csv": 6,
+    "dim_indicador.csv": 65,
+    "fact_indicadores.csv": 390,
+    "dim_concepto.csv": 87,
+    "fact_estados.csv": 522,
+    "fact_wacc.csv": 6,
+    "fact_evidencia.csv": 522
+  },
+  "indicadores": 65,
+  "periodos": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "fact_indicadores_no_nulo": 323,
+  "fact_evidencia_total": 522,
+  "fact_evidencia_por_estado": {
+    "ACEPTADO": 486,
+    "NO_ENCONTRADO": 36
+  }
+}

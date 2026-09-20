@@ -1,0 +1,88 @@
+﻿concepto,rotulo,estado,clasificacion
+b_efectivo,Efectivo y equivalentes,balance,activo_corriente
+b_inversiones,Inversiones,balance,activo_corriente
+b_cuentas_por_cobrar,Cuentas por cobrar,balance,activo_corriente
+b_impuesto_corriente_activo,Impuesto corriente (activo),balance,activo_corriente
+b_impuesto_diferido_activo,Impuesto diferido (activo),balance,activo_no_corriente
+b_otros_activos_no_financieros,Otros activos no financieros,balance,activo_corriente
+b_propiedades_planta_equipo,Propiedades y equipo,balance,activo_no_corriente
+b_derecho_uso_activo,Derecho de uso (activo),balance,activo_no_corriente
+b_activos_intangibles,Activos intangibles,balance,activo_no_corriente
+b_activo_total,Total activos,balance,
+b_cuentas_por_pagar,Cuentas por pagar,balance,pasivo_corriente
+b_derecho_uso_pasivo,Derecho de uso (pasivo),balance,pasivo_no_corriente
+b_beneficios_empleados,Beneficios a empleados,balance,pasivo_corriente
+b_provisiones,Provisiones,balance,pasivo_no_corriente
+b_impuesto_corriente_pasivo,Impuesto corriente (pasivo),balance,pasivo_corriente
+b_impuesto_diferido_pasivo,Impuesto diferido (pasivo),balance,pasivo_no_corriente
+b_otros_pasivos_no_financieros,Otros pasivos no financieros,balance,pasivo_corriente
+b_pasivo_total,Total pasivos,balance,
+b_capital_suscrito,Capital suscrito y pagado,balance,
+b_prima_colocacion,Prima en colocacion de acciones,balance,
+b_reservas,Reservas,balance,
+b_utilidad_periodo,Utilidad del periodo,balance,
+b_utilidad_ejercicios_anteriores,Utilidad de ejercicios anteriores,balance,
+b_efecto_ncif,Efecto NCIF,balance,
+b_ori_valorizacion,Ganancias no realizadas (ORI),balance,
+b_patrimonio_total,Total patrimonio,balance,
+b_total_pasivo_patrimonio,Total pasivo y patrimonio,balance,
+i_comisiones,Comisiones y honorarios,ingresos,
+i_ingresos_operaciones_conjuntas,Ingresos operaciones conjuntas,ingresos,
+i_utilidad_bruta,Resultado antes de gastos de operacion,ingresos,
+i_gasto_beneficios,Gasto beneficios a empleados,ingresos,
+i_gastos_administracion,Gastos de administracion,ingresos,
+i_gastos_operaciones_conjuntas,Gastos operaciones conjuntas,ingresos,
+i_deterioro_cxc,Deterioro cuentas por cobrar,ingresos,
+i_depreciaciones,Depreciacion,ingresos,
+i_amortizaciones,Amortizacion,ingresos,
+i_resultado_despues_gastos,Resultado despues de gastos,ingresos,
+i_resultado_financiero_neto,Resultado financiero neto,ingresos,
+i_resultado_operacional,Resultado operacional,ingresos,
+i_otros_ingresos_egresos,Otros ingresos/(egresos),ingresos,
+i_resultado_antes_impuestos,Resultado antes de impuestos,ingresos,
+i_gasto_impuesto_corriente,Gasto impuesto corriente,ingresos,
+i_gasto_impuesto_diferido,Gasto/(ingreso) impuesto diferido,ingresos,
+i_resultado_del_ejercicio,Resultado del ejercicio,ingresos,
+i_ori_titulos,ORI - titulares participativos,ingresos,
+i_ori_actuarial,ORI - actuarial pensionados,ingresos,
+i_ori_inmuebles,ORI - bienes inmuebles,ingresos,
+i_impuesto_diferido_ori,ORI - impuesto diferido,ingresos,
+i_ori_total,Total otro resultado integral,ingresos,
+i_comprehensivo_total,Resultado integral total,ingresos,
+c_utilidad_del_ejercicio,CF - Utilidad del ejercicio,flujos,
+c_depreciacion,CF - Depreciacion,flujos,
+c_depreciacion_derecho_uso,CF - Depreciacion derecho de uso,flujos,
+c_provisiones,CF - Provisiones,flujos,
+c_deterioro_cxc,CF - Deterioro cuentas por cobrar,flujos,
+c_reintegro_provisiones,CF - Reintegro provisiones,flujos,
+c_valoracion_inversiones,CF - Valoracion inversiones,flujos,
+c_amortizacion_intangibles,CF - Amortizacion intangibles,flujos,
+c_amortizacion_otros,CF - Amortizacion otros activos,flujos,
+c_intereses_arrendamiento,CF - Intereses arrendamiento,flujos,
+c_gasto_impuesto_corriente,CF - Gasto impuesto corriente,flujos,
+c_gasto_impuesto_diferido,CF - Gasto impuesto diferido,flujos,
+c_baja_ppye,CF - Baja propiedades y equipo,flujos,
+c_baja_depreciacion_ppye,CF - Baja por depreciacion PyE,flujos,
+c_baja_intangibles,CF - Baja activos intangibles,flujos,
+c_baja_amortizacion_intangibles,CF - Baja por amortizacion intangibles,flujos,
+c_cuentas_por_cobrar,CF - Cambio cuentas por cobrar,flujos,
+c_otros_activos,CF - Cambio otros activos,flujos,
+c_cuentas_por_pagar,CF - Cambio cuentas por pagar,flujos,
+c_impuestos_neto,CF - Impuestos netos,flujos,
+c_beneficios_empleados,CF - Beneficios a empleados,flujos,
+c_pasivos_provisiones,CF - Pasivos por provisiones,flujos,
+c_intereses_pagados,CF - Intereses pagados,flujos,
+c_impuestos_pagados,CF - Impuestos pagados,flujos,
+c_flujo_operacion,Flujo neto actividades de operacion,flujos,
+c_inversiones,CF - Inversiones,flujos,
+c_adquisicion_ppye,CF - Adquisicion propiedades y equipo,flujos,
+c_adquisicion_intangibles,CF - Adquisicion intangibles,flujos,
+c_flujo_inversion,Flujo neto actividades de inversion,flujos,
+c_pagos_arrendamiento,CF - Pagos parte principal arrendamientos,flujos,
+c_dividendos,CF - Dividendos decretados,flujos,
+c_flujo_financiacion,Flujo neto actividades de financiacion,flujos,
+c_aumento_neto,Aumento neto de efectivo,flujos,
+c_efectivo_restriccion,Efectivo restringido (al inicio),flujos,
+c_efectivo_sin_restriccion,Efectivo sin restriccion (al inicio),flujos,
+c_efectivo_inicio,Efectivo al inicio del periodo,flujos,
+c_efectivo_cierre,Efectivo al cierre del periodo,flujos,

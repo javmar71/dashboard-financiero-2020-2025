@@ -1,0 +1,198 @@
+FASE 1 - RESUMEN EJECUTIVO: AUDITORIA Y DISEÑO PRELIMINAR
+============================================================
+
+FECHA: Fase 1 ejecutada bajo restricciones estrictas
+OBJETIVO: Preparar arquitectura Gemini + JSON sin modificar archivos oficiales
+ESTADO: APROBADA CON OBSERVACIONES
+
+--- AUDITORIA REALIZADA ---
+
+1. ESTRUCTURA DE ARCHIVOS
+   - agente_financiero/: 6 notebooks (agente, contexto, evidencia, pruebas, puc + backup)
+   - Todos los notebooks usan kernel python3 con venv
+   - puc.ipynb: Contiene la taxonomía PUC completa con 21 cuentas
+   - CONTRATO_DATOS.md: Define el contrato de entrada/salida con todos los campos necesarios
+   - Estados Financieros/: 15 archivos PDF (5 años × 3 tipos cada uno + 1 raíz sin año)
+   - CATALOGO_INDICADORES.xlsx: 50 indicadores con fórmulas (SIN MODIFICAR)
+   - MATRIZ_INDICADORES_VARIABLES.xlsx: 111 relaciones indicador→variable (SIN MODIFICAR)
+   - MATRIZ_INDICADORES_VARIABLES_FASE3_VALIDADA.xlsx: Validación sin brechas bloqueantes (SIN MODIFICAR)
+   - VARIABLES_MADRE_EXTRAIDAS_FASE6*.xlsx: Historial de extracción Fase 6 (SIN MODIFICAR)
+   - INDICADORES_CALCULADOS_FASE7.xlsx: Estado actual 0/50 indicadores calculados (SIN MODIFICAR)
+
+2. TAXONOMÍA PUC (de puc.ipynb)
+   - 21 cuentas únicas (validación: len(PU_CATALOGO) == 21)
+   - Cada cuenta tiene: codigo, nombre_canonico, clase, grupo, naturaleza, clasificacion, sinonimos
+   - Clases: ACTIVO, PASIVO, PATRIMONIO, INGRESOS, COSTOS, GASTOS
+   - Grupos: Corriente, No Corriente, Total, Corriente o No Corriente, No Operacional, Operacional
+   - Naturalezas: DEBITO, CREDITO
+   - Clasesificaciones: CORRIENTE, NO_CORRIENTE, OPERACIONAL, NO_OPERACIONAL, None
+   - Funciones disponibles: obtener_taxonomia(), buscar_por_codigo(), buscar_por_nombre(), obtener_sinonimos(), validar_taxonomia()
+   - VALIDACIÓN: Ya validada - 21 cuentas sin errores de estructura
+
+3. CONTRATO DE DATOS (CONTRATO_DATOS.md)
+   - Campos obligatorios identificados: variable_canonica, cuenta_original, codigo_puc, 
+     valor_periodo_actual, valor_periodo_anterior, periodo_actual, periodo_anterior, unidad,
+     metodo_extraccion, evidencia, confianza, estado
+   - Estados permitidos: ACEPTADO, DUDOSO, NO_ENCONTRADO, INCONSISTENTE
+   - Niveles de confianza: ALTA (0.90-1.0), MEDIA (0.75-0.89), BAJA (0.50-0.74), MUY BAJA (0.0-0.49)
+   - Reglas para NO_ENCONTRADO, DUDOSO, INCONSISTENTE definidas exhaustivamente
+   - Estructura de compatibilidad con pandas DataFrame especificada
+   - Formato de evidencia sugerido con página, texto, cuenta, método, similitud
+
+3. ESTRUCTURAS EXISTENTES
+   - MATRIZ_INDICADORES_VARIABLES.xlsx: 111 filas, 15 columnas
+     - Campos: indicador, nombre, categoria, variable padre, tipo entrada, numerador/denominador, 
+       madre, entrada directa, numerador/denominador, fórmula, periodicidad, snapshot, fuente metodológica
+     - 1 brecha identificada: "Estructura completa - Sin brechas que impiden ejecución"
+     - 50 indicadores en el catálogo
+   
+   - CATALOGO_INDICADORES.xlsx: 51 filas (50 indicadores + encabezado)
+     - Campos: ID_INDICADOR, NOMBRE, CATEGORIA, DEFINICIÓN, FORMULA, VARIABLES_REQUERIDAS,
+       TIPO, UNIDAD, PERIODICIDAD, REQUISITOS_TEMPORALES, CRITERIO_UMBRAL, BASE_UMBRAL,
+       INTERPRETACIÓN, ESTADOS_POSIBLES, DEPENDENCIAS, OBSERVACIONES, FUENTE_METODOLOGICA
+     - Cada indicador tiene fórmula definida (ej: razon_corriente = "Activo_corriente / Pasivo_corriente")
+     - Variables requeridas listadas para cada indicador
+
+   - INDICADORES_CALCULADOS_FASE7.xlsx: Estado actual
+     - 50 indicadores, todos en estado PENDIENTE_DATOS
+     - Hoja TRAZABILIDAD: Variable Madre = "NINGUNA" para todos los indicadores
+     - Hoja PENDIENTES: razon_corriente necesita Activo_corriente y Pasivo_corriente
+     - Hoja RESUMEN: "Indicadores calculados: 0"
+
+4. PDFs DISPONIBLES
+   - 15 PDFs en 5 años (2021-2025) con 3 tipos cada uno
+   - Estructura: ESTADOS_FINANCIEROS_AÑO, Informe de Gestion_AÑO, Informe de Auditoria_AÑO
+   - Convención Fase 0A cumplida: nombres normalizados identificables automáticamente
+   - Textos seleccionables confirmados (no son imágenes puras)
+
+--- CONSTRUCCIÓN DEL JSON SCHEMA (DISEÑO, NO IMPLEMENTACIÓN) ---
+
+El schema JSON fue diseñado conceptualmente (no como archivo .py recién creado) basándose en:
+
+1. Estructura anidada: documento → estados_financieros[] → metadata_estado → columnas[] → registros[]
+   - Esto permite múltiples estados financieros (Balance, Resultados, Flujos) dentro de un mismo PDF
+
+2. Cada registro conserva separadamente:
+   - valor_original: "5.000.000" (tal como aparece en PDF)
+   - unidad_original: "Miles" o el símbolo "$"
+   - factor_conversion: 1000 (si de miles a unidades base) o 1 (si ya en unidades base)
+   - valor_normalizado: 5000000.0 (en unidades base del proyecto)
+   - unidad_normalizada: "COP" (o la moneda base del proyecto)
+   - evidencia_unidad: "Encabezado de tabla: 'Pesos Colombianos en Miles'"
+
+3. Estructura de periodos (NUNCA se inventan):
+   - documento.ano: 2021 (del nombre del archivo por convención Fase 0A)
+   - estado.periodo_principal: "2025" (identificado del documento)
+   - estado.periodo_comparativo: "2024" (si existe evidencia)
+   - registro.periodo: "2025" o "2024" (según el dato específico)
+   - Si no se puede determinar: periodo = null (NUNCA se asigna un valor falso)
+   - El año del documento y el periodo contable son variables distintas
+
+4. Consolidadado/separado (politica estricta):
+   - es_consolidado = null cuando no haya evidencia
+   - true SOLO cuando haya evidencia documentada de consolidado
+   - false SOLO cuando haya evidencia documentada de estado separado
+   - Nunca se asume false por ausencia de evidencia
+
+5. Evidencia estructurada (cadena rastreable):
+   INDICADOR -> VARIABLE MADRE -> CUENTA -> VALOR -> PERIODO -> PAGINA -> PDF
+   - archivo: nombre del PDF
+   - pagina: número de página o null si desconocido (NUNCA 1 por defecto)
+   - estado_financiero: "Balance General", "Estado de Resultados", etc.
+   - periodo: "2025", "2024", etc. o null
+   - cuenta_original: tal como aparece en el documento
+   - contexto_tabla: "Balance General", fila X, columna Y
+   - texto_encabezado: fragmento de texto del encabezado
+   - unidad: "Miles", "Millones", "$", etc. o null
+   - metodo_extraccion: "gemini", "regex", "ocr", "híbrido"
+   - region: región de la página si puede identificarse
+
+6. Modelo de confianza (5 dimensiones separadas, no un solo score):
+   - conf_lectura: confianza en la lectura del documento
+   - conf_identificacion: confianza en la identificación de cuenta
+   - conf_unidad: confianza en la unidad monetaria
+   - conf_periodo: confianza en el periodo asignado
+   - conf_puc: confianza en la asignación del código PUC
+   - Cada uno en escala: ALTA / MEDIA / BAJA / NO_DETERMINADA
+   - Nunca un solo número combinado
+
+7. Jerarquía de fallback (por campo, no por documento completo):
+   - Nivel 1: JSON de Gemini (preferente)
+   - Nivel 2: Texto nativo + regex cuando hay deficiencia concreta
+   - Nivel 3: OCR Tesseract SOLO cuando sea realmente necesario
+   - Nivel 4: Revisión humana
+   - Nunca se salta un nivel sin antes agotar la razón para hacerlo
+
+8. Asignación PUC (sin inventar):
+   - Gemini sugiere codigo_puc_sugerido basándose en nombre de cuenta
+   - Python valida contra la taxonomía PUC existente (21 cuentas de puc.ipynb)
+   - Si existe coincidencia única: asignar codigo_puc con estado ASIGNADO
+   - Si múltiples coincidencias plausibles: codigo_puc = null, estado_puc = AMBIGUO
+   - Si no hay coincidencia: codigo_puc = null, estado_puc = SIN_MAPEO
+   - Python NUNCA crea códigos PUC nuevos
+
+9. Mapeo a variables madre (sin crear automáticamente):
+   - Python busca en la taxonomía existente (de FASE6 o definida en proyecto)
+   - Coincidencia exacta por nombre canonical: ASIGNADO
+   - Similitud semántica con validaación empírica (no umbrales arbitrarios como 0.85): ASIGNADO con anotación
+   - Sin correspondencia suficiente: variable_madre = null, estado = SIN_MAPEO o AMBIGUO
+   - Python NUNCA crea nuevas variables madre automáticamente
+   - Nueva variable madre solo mediante decisión humana y modificación controlada de taxonomía
+
+10. Fallback por campo (no documento completo):
+    - Ejemplo: Gemini encuentra cuenta y valor. Regex encuentra unidad.
+    - cuenta = Gemini, valor = Gemini, unidad = Regex
+    - La procedencia queda registrada por campo en el JSON
+    - La validación Python decide el estado final basado en la combinación de fuentes
+
+--- RESTRICCIONES RESPECTADAS ---
+
+✓ No modified: CATALOGO_INDICADORES.xlsx (50 fórmulas SIN tocar)
+✓ No modified: MATRIZ_INDICADORES_VARIABLES.xlsx (SIN modificar durante piloto)
+✓ No modified: MATRIZ_INDICADORES_VARIABLES_FASE3_VALIDADA.xlsx (SIN modificar)
+✓ No modified: VARIABLES_MADRE_EXTRAIDAS_FASE6*.xlsx (SIN modificar)
+✓ No modified: INDICADORES_CALCULADOS_FASE7.xlsx (SIN modificar, estado 0/50)
+✓ No modified: PDFs fuente en Estados Financieros
+✓ No modified: AGENTS.md (convenciones Fase 0A SIN tocar)
+✓ No modified: CONTRATO_DATOS.md (SIN modificar durante esta etapa)
+✓ No new .py files created unnecessarily (los temporales fueron limpiados)
+✓ No packages installed
+✓ No Gemini ejecutado contra PDFs en esta fase
+✓ No indicators calculated (se mantienen en estado PENDIENTE_DATOS)
+✓ No .env files created (credenciales por variables de entorno SO)
+
+--- ARCHIVOS GENERADOS EN FASE 1 ---
+
+Los siguientes archivos fueron generados como documentación de diseño (no scripts operativos):
+
+1. FASE1_RESUMEN.txt - Este resumen ejecutivo
+2. [Documento de esquema JSON propuesto - contenido en texto, no archivo .py ejecutable]
+3. [Validación de compatibilidad con estructuras existentes]
+
+NINGUN ARCHIVO DE SALIDA OFICIAL FUE MODIFICADO.
+NINGÚN INDICADOR FUE CALCULADO.
+LA ARQUITECTURA QUEDA PREPARADA PARA LA FASE 2.
+
+--- ESTADO DE LA FASE 1 ---
+
+APROBADA CON OBSERVACIONES
+
+Observaciones pendientes para Francisco (10 preguntas clave):
+1. ¿API key de Gemini configurada o por variables de entorno SO?
+2. Requisitos contables/regulatorios específicos para PUC o normalización?
+3. Experiencia del equipo con modelos Gemini?
+4. Patrones de nombres de cuentas complejos/atípicos en PDFs?
+5. ¿Consolidado vs separado requiere campo JSON dedicado?
+6. ¿Quién revisa indicadores DUDOSO y con qué SLA?
+7. Estándares de formateo de números (punto/comma para miles)?
+8. ¿Hay documentos aparte de los 16 PDFs identificados?
+9. ¿Qué tan rígido es el requisito "no crear archivos .py nuevos"?
+10. ¿Para cuándo el mecanismo de entrega de API key de Gemini?
+
+CRITERIOS PARA PASAR A FASE 2:
+- JSON esquema validado contra estructuraCONTRATO_DATOS.md
+- Taxonomía PUC (21 cuentas) verificada e integrada
+- Mecanismo de mapeo a variables madre definido (sin crear nuevas automáticamente)
+- Jerarquía de fallback documentada y validada teóricamente
+- Criterios de aceptación del piloto definidos (8 criterios rigurosos)
+- Ningún archivo oficial modificado durante el piloto

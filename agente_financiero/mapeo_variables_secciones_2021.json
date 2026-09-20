@@ -1,0 +1,1848 @@
+{
+  "generado_por": "mapeo_variables_secciones.py",
+  "paso": "3.5-parte1",
+  "usa_ia": false,
+  "total_variables": 22,
+  "registros": [
+    {
+      "variable_madre_id": "proveedores",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "proveedores",
+        "cuentas comerciales por pagar",
+        "cuentas por pagar"
+      ],
+      "seccion_principal": 44,
+      "grupo_seccion": 44,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 16 \"Cuentas comerciales por pagar y otras cuentas por pagar\": es donde se revelan proveedores.",
+      "candidatas": [
+        {
+          "orden_documento": 44,
+          "titulo_seccion": "16. CUENTAS COMERCIALES POR PAGAR Y OTRAS CUENTAS POR PAGAR",
+          "pagina_inicio": 68,
+          "pagina_fin": 70,
+          "coincidencias_titulo": [
+            "cuentas comerciales por pagar",
+            "cuentas por pagar"
+          ],
+          "menciones_cuerpo": {
+            "proveedores": 4,
+            "cuentas comerciales por pagar": 2,
+            "cuentas por pagar": 5
+          }
+        },
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "proveedores": 1
+          }
+        },
+        {
+          "orden_documento": 37,
+          "titulo_seccion": "Nombre Consorcio Objeto",
+          "pagina_inicio": 57,
+          "pagina_fin": 61,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "cuentas por pagar": 1
+          }
+        },
+        {
+          "orden_documento": 52,
+          "titulo_seccion": "G&A Asociados S.A.S",
+          "pagina_inicio": 78,
+          "pagina_fin": 81,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "proveedores": 1
+          }
+        },
+        {
+          "orden_documento": 70,
+          "titulo_seccion": "36. TRANSACCIONES CON PARTES RELACIONADAS",
+          "pagina_inicio": 100,
+          "pagina_fin": 102,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "cuentas por pagar": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "composicion_deuda",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "composicion de la deuda",
+        "composicion deuda",
+        "estructura de la deuda",
+        "obligaciones financieras",
+        "deuda financiera"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "pendiente_decision",
+      "nota_revision": "No hay nota de obligaciones/deuda financiera; las menciones a \"deuda\"/\"obligación\" son políticas contables, inversiones (TES) o litigios.",
+      "candidatas": [
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "obligaciones financieras": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "deuda_financiera_corriente",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "deuda financiera corriente",
+        "obligaciones financieras corrientes",
+        "obligaciones financieras"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "pendiente_decision",
+      "nota_revision": "Igual que composicion_deuda: no existe nota de obligaciones financieras.",
+      "candidatas": [
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "obligaciones financieras": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "deuda_financiera_no_corriente",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "deuda financiera no corriente",
+        "obligaciones financieras no corrientes",
+        "largo plazo"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "pendiente_decision",
+      "nota_revision": "Igual que composicion_deuda: no existe nota de obligaciones financieras.",
+      "candidatas": [
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "largo plazo": 3
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "tasas_interes",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "tasas de interes",
+        "tasa de interes",
+        "tasa efectiva",
+        "tasas efectivas"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "pendiente_decision",
+      "nota_revision": "La única coincidencia de título es la Reforma de la tasa de interés (norma contable 2.2.7), no tasas de la entidad.",
+      "candidatas": [
+        {
+          "orden_documento": 16,
+          "titulo_seccion": "2.2.7 Impacto inicial de la aplicación de la Reforma de la tasa de interés de referencia - Mediante el Decreto 938 de",
+          "pagina_inicio": 18,
+          "pagina_fin": 18,
+          "coincidencias_titulo": [
+            "tasa de interes"
+          ],
+          "menciones_cuerpo": {
+            "tasa de interes": 4
+          }
+        },
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 5
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 3
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasas de interes": 1,
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 21,
+          "titulo_seccion": "Arrendamientos –",
+          "pagina_inicio": 32,
+          "pagina_fin": 33,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasas de interes": 1,
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa efectiva": 2
+          }
+        },
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasas de interes": 1,
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 29,
+          "titulo_seccion": "5.1 Emitidas por el IASB no Incorporadas en Colombia – Las siguientes normas han sido emitidas por el IASB, pero",
+          "pagina_inicio": 40,
+          "pagina_fin": 40,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 50,
+          "titulo_seccion": "22. PROVISIONES",
+          "pagina_inicio": 75,
+          "pagina_fin": 77,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 56,
+          "titulo_seccion": "Juzgado Quinto Administrativo del Circuito De Villavicencio",
+          "pagina_inicio": 83,
+          "pagina_fin": 90,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 62,
+          "titulo_seccion": "28. BENEFICIOS A EMPLEADOS",
+          "pagina_inicio": 95,
+          "pagina_fin": 96,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasa de interes": 1
+          }
+        },
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "tasas de interes": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "inversiones_detalle",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "inversiones",
+        "instrumentos financieros",
+        "valor razonable"
+      ],
+      "seccion_principal": 34,
+      "grupo_seccion": 34,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 8 \"Inversiones, neto\" (detalle por tipo); apoyo en política [19] Instrumentos financieros y [30] Valor razonable.",
+      "candidatas": [
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [
+            "instrumentos financieros"
+          ],
+          "menciones_cuerpo": {
+            "inversiones": 46,
+            "instrumentos financieros": 3,
+            "valor razonable": 29
+          }
+        },
+        {
+          "orden_documento": 34,
+          "titulo_seccion": "8. INVERSIONES, NETO",
+          "pagina_inicio": 45,
+          "pagina_fin": 47,
+          "coincidencias_titulo": [
+            "inversiones"
+          ],
+          "menciones_cuerpo": {
+            "inversiones": 14,
+            "valor razonable": 5
+          }
+        },
+        {
+          "orden_documento": 26,
+          "titulo_seccion": "4.1.2 Instrumentos financieros – La Fiduciaria utiliza supuestos que reflejan el valor más fiable del valor razonable",
+          "pagina_inicio": 39,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [
+            "instrumentos financieros",
+            "valor razonable"
+          ],
+          "menciones_cuerpo": {
+            "inversiones": 1,
+            "instrumentos financieros": 2,
+            "valor razonable": 4
+          }
+        },
+        {
+          "orden_documento": 30,
+          "titulo_seccion": "6. VALOR RAZONABLE DE LOS ACTIVOS Y PASIVO",
+          "pagina_inicio": 40,
+          "pagina_fin": 40,
+          "coincidencias_titulo": [
+            "valor razonable"
+          ],
+          "menciones_cuerpo": {
+            "instrumentos financieros": 1,
+            "valor razonable": 4
+          }
+        },
+        {
+          "orden_documento": 32,
+          "titulo_seccion": "Clasificaciones contables y valor razonable",
+          "pagina_inicio": 41,
+          "pagina_fin": 42,
+          "coincidencias_titulo": [
+            "valor razonable"
+          ],
+          "menciones_cuerpo": {
+            "inversiones": 2,
+            "valor razonable": 3
+          }
+        },
+        {
+          "orden_documento": 31,
+          "titulo_seccion": "Tipo Técnica de valuación",
+          "pagina_inicio": 40,
+          "pagina_fin": 41,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 3,
+            "instrumentos financieros": 2,
+            "valor razonable": 6
+          }
+        },
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 6,
+            "valor razonable": 2
+          }
+        },
+        {
+          "orden_documento": 15,
+          "titulo_seccion": "2.2.6 Mejoras anuales ciclo 2018 – 2020 - Mediante el Decreto 938 de agosto de 2021, se adoptó las",
+          "pagina_inicio": 17,
+          "pagina_fin": 18,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "instrumentos financieros": 2,
+            "valor razonable": 5
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 3,
+            "valor razonable": 2
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 5
+          }
+        },
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 4,
+            "instrumentos financieros": 1
+          }
+        },
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "valor razonable": 3
+          }
+        },
+        {
+          "orden_documento": 42,
+          "titulo_seccion": "14. PROPIEDADES Y EQUIPO, NETO",
+          "pagina_inicio": 65,
+          "pagina_fin": 67,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "valor razonable": 3
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 2
+          }
+        },
+        {
+          "orden_documento": 6,
+          "titulo_seccion": "2.1.1 Decreto 2420 de 2015 mediante el cual los establecimientos bancarios, corporaciones financieras, compañías",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 1
+          }
+        },
+        {
+          "orden_documento": 16,
+          "titulo_seccion": "2.2.7 Impacto inicial de la aplicación de la Reforma de la tasa de interés de referencia - Mediante el Decreto 938 de",
+          "pagina_inicio": 18,
+          "pagina_fin": 18,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "instrumentos financieros": 1
+          }
+        },
+        {
+          "orden_documento": 17,
+          "titulo_seccion": "2.3 Bases de preparación – Los estados financieros de la Fiduciaria han sido preparados sobre la base de costo",
+          "pagina_inicio": 18,
+          "pagina_fin": 19,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "instrumentos financieros": 1
+          }
+        },
+        {
+          "orden_documento": 29,
+          "titulo_seccion": "5.1 Emitidas por el IASB no Incorporadas en Colombia – Las siguientes normas han sido emitidas por el IASB, pero",
+          "pagina_inicio": 40,
+          "pagina_fin": 40,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "instrumentos financieros": 1
+          }
+        },
+        {
+          "orden_documento": 70,
+          "titulo_seccion": "36. TRANSACCIONES CON PARTES RELACIONADAS",
+          "pagina_inicio": 100,
+          "pagina_fin": 102,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 1
+          }
+        },
+        {
+          "orden_documento": 72,
+          "titulo_seccion": "38. CONTROLES DE LEY",
+          "pagina_inicio": 103,
+          "pagina_fin": 103,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "inversiones": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "adquisiciones_activos",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "propiedades y equipo",
+        "adquisiciones",
+        "adiciones",
+        "derecho de uso",
+        "activos intangibles"
+      ],
+      "seccion_principal": 42,
+      "grupo_seccion": 42,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 14 \"Propiedades y equipo, neto\" (adiciones); relacionadas [43] intangibles, [45]/[46] derecho de uso.",
+      "candidatas": [
+        {
+          "orden_documento": 42,
+          "titulo_seccion": "14. PROPIEDADES Y EQUIPO, NETO",
+          "pagina_inicio": 65,
+          "pagina_fin": 67,
+          "coincidencias_titulo": [
+            "propiedades y equipo"
+          ],
+          "menciones_cuerpo": {
+            "propiedades y equipo": 4,
+            "adiciones": 2
+          }
+        },
+        {
+          "orden_documento": 43,
+          "titulo_seccion": "15. ACTIVOS INTANGIBLES, NETO",
+          "pagina_inicio": 67,
+          "pagina_fin": 68,
+          "coincidencias_titulo": [
+            "activos intangibles"
+          ],
+          "menciones_cuerpo": {
+            "adiciones": 1,
+            "activos intangibles": 4
+          }
+        },
+        {
+          "orden_documento": 46,
+          "titulo_seccion": "18. DERECHO DE USO PASIVO",
+          "pagina_inicio": 72,
+          "pagina_fin": 72,
+          "coincidencias_titulo": [
+            "derecho de uso"
+          ],
+          "menciones_cuerpo": {
+            "adiciones": 2,
+            "derecho de uso": 3
+          }
+        },
+        {
+          "orden_documento": 45,
+          "titulo_seccion": "17. ACTIVOS POR DERECHO DE USO",
+          "pagina_inicio": 70,
+          "pagina_fin": 72,
+          "coincidencias_titulo": [
+            "derecho de uso"
+          ],
+          "menciones_cuerpo": {
+            "adiciones": 2,
+            "derecho de uso": 1
+          }
+        },
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "propiedades y equipo": 7,
+            "activos intangibles": 9
+          }
+        },
+        {
+          "orden_documento": 21,
+          "titulo_seccion": "Arrendamientos –",
+          "pagina_inicio": 32,
+          "pagina_fin": 33,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "derecho de uso": 6
+          }
+        },
+        {
+          "orden_documento": 32,
+          "titulo_seccion": "Clasificaciones contables y valor razonable",
+          "pagina_inicio": 41,
+          "pagina_fin": 42,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "propiedades y equipo": 2
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "activos intangibles": 2
+          }
+        },
+        {
+          "orden_documento": 66,
+          "titulo_seccion": "32. DEPRECIACIÓN",
+          "pagina_inicio": 98,
+          "pagina_fin": 98,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "derecho de uso": 2
+          }
+        },
+        {
+          "orden_documento": 41,
+          "titulo_seccion": "13. OTROS ACTIVOS NO FINANCIEROS, NETO",
+          "pagina_inicio": 65,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "adiciones": 1
+          }
+        },
+        {
+          "orden_documento": 56,
+          "titulo_seccion": "Juzgado Quinto Administrativo del Circuito De Villavicencio",
+          "pagina_inicio": 83,
+          "pagina_fin": 90,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "adiciones": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "contingencias",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "contingencias",
+        "contingente",
+        "provisiones"
+      ],
+      "seccion_principal": 50,
+      "grupo_seccion": 50,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 22 \"Provisiones\"; litigios en [51]-[56]; política NIC 37 [13].",
+      "candidatas": [
+        {
+          "orden_documento": 13,
+          "titulo_seccion": "2.2.4 NIC 37 – Provisiones, Pasivos Contingentes y Activos Contingentes - contratos onerosos, costo de cumplir un",
+          "pagina_inicio": 17,
+          "pagina_fin": 17,
+          "coincidencias_titulo": [
+            "contingente",
+            "provisiones"
+          ],
+          "menciones_cuerpo": {
+            "contingente": 2,
+            "provisiones": 1
+          }
+        },
+        {
+          "orden_documento": 50,
+          "titulo_seccion": "22. PROVISIONES",
+          "pagina_inicio": 75,
+          "pagina_fin": 77,
+          "coincidencias_titulo": [
+            "provisiones"
+          ],
+          "menciones_cuerpo": {
+            "provisiones": 3
+          }
+        },
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "contingente": 10,
+            "provisiones": 5
+          }
+        },
+        {
+          "orden_documento": 56,
+          "titulo_seccion": "Juzgado Quinto Administrativo del Circuito De Villavicencio",
+          "pagina_inicio": 83,
+          "pagina_fin": 90,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "contingencias": 2,
+            "contingente": 1,
+            "provisiones": 2
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "provisiones": 4
+          }
+        },
+        {
+          "orden_documento": 47,
+          "titulo_seccion": "19. PASIVO POR BENEFICIO A EMPLEADOS",
+          "pagina_inicio": 72,
+          "pagina_fin": 75,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "provisiones": 3
+          }
+        },
+        {
+          "orden_documento": 14,
+          "titulo_seccion": "2.2.5 NIIF 3 – Combinaciones de Negocios - Referencia al Marco Conceptual - Mediante el Decreto 938 de agosto",
+          "pagina_inicio": 17,
+          "pagina_fin": 17,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "contingente": 1
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "provisiones": 1
+          }
+        },
+        {
+          "orden_documento": 37,
+          "titulo_seccion": "Nombre Consorcio Objeto",
+          "pagina_inicio": 57,
+          "pagina_fin": 61,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "contingencias": 1
+          }
+        },
+        {
+          "orden_documento": 62,
+          "titulo_seccion": "28. BENEFICIOS A EMPLEADOS",
+          "pagina_inicio": 95,
+          "pagina_fin": 96,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "provisiones": 1
+          }
+        },
+        {
+          "orden_documento": 64,
+          "titulo_seccion": "30. GASTOS DE ACTIVIDADES EN OPERACIONES CONJUNTAS",
+          "pagina_inicio": 97,
+          "pagina_fin": 98,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "provisiones": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "partes_relacionadas",
+      "fuente_esperada": "notas",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "partes relacionadas",
+        "vinculados",
+        "transacciones con partes relacionadas"
+      ],
+      "seccion_principal": 70,
+      "grupo_seccion": 70,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 36 \"Transacciones con partes relacionadas\".",
+      "candidatas": [
+        {
+          "orden_documento": 70,
+          "titulo_seccion": "36. TRANSACCIONES CON PARTES RELACIONADAS",
+          "pagina_inicio": 100,
+          "pagina_fin": 102,
+          "coincidencias_titulo": [
+            "partes relacionadas",
+            "transacciones con partes relacionadas"
+          ],
+          "menciones_cuerpo": {
+            "partes relacionadas": 3,
+            "transacciones con partes relacionadas": 1
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "partes relacionadas": 4,
+            "transacciones con partes relacionadas": 1
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "vinculados": 1
+          }
+        },
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "vinculados": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "crecimiento_adquisiciones",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "crecimiento",
+        "adquisiciones",
+        "expansion"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No hay informe de gestión narrativo ni sección de crecimiento/expansión.",
+      "candidatas": [
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "crecimiento": 2
+          }
+        },
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "crecimiento": 1,
+            "expansion": 1
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "crecimiento": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "participacion_mercado",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "participacion de mercado",
+        "participacion"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No hay informe de gestión narrativo (las menciones a \"participación\" son de instrumentos/operaciones conjuntas).",
+      "candidatas": [
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 10
+          }
+        },
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 5
+          }
+        },
+        {
+          "orden_documento": 36,
+          "titulo_seccion": "10. OPERACIONES CONJUNTAS",
+          "pagina_inicio": 54,
+          "pagina_fin": 57,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 4
+          }
+        },
+        {
+          "orden_documento": 34,
+          "titulo_seccion": "8. INVERSIONES, NETO",
+          "pagina_inicio": 45,
+          "pagina_fin": 47,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 3
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 2
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        },
+        {
+          "orden_documento": 31,
+          "titulo_seccion": "Tipo Técnica de valuación",
+          "pagina_inicio": 40,
+          "pagina_fin": 41,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        },
+        {
+          "orden_documento": 37,
+          "titulo_seccion": "Nombre Consorcio Objeto",
+          "pagina_inicio": 57,
+          "pagina_fin": 61,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        },
+        {
+          "orden_documento": 44,
+          "titulo_seccion": "16. CUENTAS COMERCIALES POR PAGAR Y OTRAS CUENTAS POR PAGAR",
+          "pagina_inicio": 68,
+          "pagina_fin": 70,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        },
+        {
+          "orden_documento": 56,
+          "titulo_seccion": "Juzgado Quinto Administrativo del Circuito De Villavicencio",
+          "pagina_inicio": 83,
+          "pagina_fin": 90,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        },
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "participacion": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "ventas_por_segmento",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "ventas por segmento",
+        "ingresos por segmento",
+        "ingresos de operaciones",
+        "segmento"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No hay desglose de ventas por segmento; \"segmento\" refiere a cartera de inversiones/mora.",
+      "candidatas": [
+        {
+          "orden_documento": 61,
+          "titulo_seccion": "27. INGRESOS DE OPERACIONES",
+          "pagina_inicio": 93,
+          "pagina_fin": 94,
+          "coincidencias_titulo": [
+            "ingresos de operaciones"
+          ],
+          "menciones_cuerpo": {
+            "ingresos de operaciones": 1
+          }
+        },
+        {
+          "orden_documento": 35,
+          "titulo_seccion": "9. CUENTAS COMERCIALES POR COBRAR Y OTRAS CUENTAS POR COBRAR, NETO",
+          "pagina_inicio": 47,
+          "pagina_fin": 54,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "segmento": 9
+          }
+        },
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "segmento": 6
+          }
+        },
+        {
+          "orden_documento": 31,
+          "titulo_seccion": "Tipo Técnica de valuación",
+          "pagina_inicio": 40,
+          "pagina_fin": 41,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "segmento": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "desempeno_por_segmento",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "desempeno",
+        "resultado por segmento",
+        "segmentos"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No hay sección de desempeño por segmento.",
+      "candidatas": [
+        {
+          "orden_documento": 35,
+          "titulo_seccion": "9. CUENTAS COMERCIALES POR COBRAR Y OTRAS CUENTAS POR COBRAR, NETO",
+          "pagina_inicio": 47,
+          "pagina_fin": 54,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 1,
+            "segmentos": 4
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 4
+          }
+        },
+        {
+          "orden_documento": 23,
+          "titulo_seccion": "Impuestos",
+          "pagina_inicio": 35,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 3
+          }
+        },
+        {
+          "orden_documento": 12,
+          "titulo_seccion": "2.2.3 NIC 16 – Propiedad, planta y equipo – ingresos antes del uso previsto - Mediante el Decreto 938 de agosto de",
+          "pagina_inicio": 16,
+          "pagina_fin": 17,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 1
+          }
+        },
+        {
+          "orden_documento": 44,
+          "titulo_seccion": "16. CUENTAS COMERCIALES POR PAGAR Y OTRAS CUENTAS POR PAGAR",
+          "pagina_inicio": 68,
+          "pagina_fin": 70,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 1
+          }
+        },
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "desempeno": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "eficiencia_operativa",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "eficiencia",
+        "gastos de administracion"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No se publican indicadores de eficiencia operativa.",
+      "candidatas": [
+        {
+          "orden_documento": 63,
+          "titulo_seccion": "29. GASTOS DE ADMINISTRACIÓN",
+          "pagina_inicio": 96,
+          "pagina_fin": 97,
+          "coincidencias_titulo": [
+            "gastos de administracion"
+          ],
+          "menciones_cuerpo": {
+            "gastos de administracion": 2
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "numero_empleados",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "numero de empleados",
+        "empleados",
+        "beneficios a empleados",
+        "colaboradores"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No se revela número de empleados ni planta de personal (Beneficios a empleados es sobre pasivos laborales).",
+      "candidatas": [
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [
+            "empleados",
+            "beneficios a empleados"
+          ],
+          "menciones_cuerpo": {
+            "empleados": 7,
+            "beneficios a empleados": 4
+          }
+        },
+        {
+          "orden_documento": 62,
+          "titulo_seccion": "28. BENEFICIOS A EMPLEADOS",
+          "pagina_inicio": 95,
+          "pagina_fin": 96,
+          "coincidencias_titulo": [
+            "empleados",
+            "beneficios a empleados"
+          ],
+          "menciones_cuerpo": {
+            "empleados": 3,
+            "beneficios a empleados": 3
+          }
+        },
+        {
+          "orden_documento": 47,
+          "titulo_seccion": "19. PASIVO POR BENEFICIO A EMPLEADOS",
+          "pagina_inicio": 72,
+          "pagina_fin": 75,
+          "coincidencias_titulo": [
+            "empleados"
+          ],
+          "menciones_cuerpo": {
+            "empleados": 6,
+            "beneficios a empleados": 4
+          }
+        },
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 3
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 2
+          }
+        },
+        {
+          "orden_documento": 8,
+          "titulo_seccion": "2.1.3 Decreto 2131 de 2016 – Mediante el cual se determina revelar el cálculo de los pasivos pensionales de",
+          "pagina_inicio": 15,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 1,
+            "beneficios a empleados": 1
+          }
+        },
+        {
+          "orden_documento": 35,
+          "titulo_seccion": "9. CUENTAS COMERCIALES POR COBRAR Y OTRAS CUENTAS POR COBRAR, NETO",
+          "pagina_inicio": 47,
+          "pagina_fin": 54,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 2
+          }
+        },
+        {
+          "orden_documento": 44,
+          "titulo_seccion": "16. CUENTAS COMERCIALES POR PAGAR Y OTRAS CUENTAS POR PAGAR",
+          "pagina_inicio": 68,
+          "pagina_fin": 70,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 2
+          }
+        },
+        {
+          "orden_documento": 26,
+          "titulo_seccion": "4.1.2 Instrumentos financieros – La Fiduciaria utiliza supuestos que reflejan el valor más fiable del valor razonable",
+          "pagina_inicio": 39,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 1
+          }
+        },
+        {
+          "orden_documento": 27,
+          "titulo_seccion": "4.1.3 Supuestos para los cálculos actuariales – Las suposiciones e hipótesis que se utilizan en los estudios",
+          "pagina_inicio": 39,
+          "pagina_fin": 39,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "empleados": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "perspectivas",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "perspectivas",
+        "proyecciones",
+        "expectativas"
+      ],
+      "seccion_principal": "sin_seccion_candidata",
+      "grupo_seccion": "sin_seccion_candidata",
+      "tratamiento": "no_encontrado_estructural",
+      "nota_revision": "No hay sección de perspectivas/proyecciones.",
+      "candidatas": [
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "expectativas": 3
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "proyecciones": 1,
+            "expectativas": 1
+          }
+        },
+        {
+          "orden_documento": 11,
+          "titulo_seccion": "2.2.2 NIC 1 - Presentación de los estados financieros - clasificaciones de pasivos como corrientes o no corrientes -",
+          "pagina_inicio": 16,
+          "pagina_fin": 16,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "expectativas": 1
+          }
+        },
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "expectativas": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "riesgos",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "riesgo",
+        "riesgos",
+        "politicas de riesgo"
+      ],
+      "seccion_principal": 73,
+      "grupo_seccion": 73,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 39 \"Políticas de riesgo\".",
+      "candidatas": [
+        {
+          "orden_documento": 73,
+          "titulo_seccion": "39. POLÍTICAS DE RIESGO",
+          "pagina_inicio": 103,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [
+            "riesgo",
+            "politicas de riesgo"
+          ],
+          "menciones_cuerpo": {
+            "riesgo": 33,
+            "riesgos": 5,
+            "politicas de riesgo": 1
+          }
+        },
+        {
+          "orden_documento": 71,
+          "titulo_seccion": "37. PATRIMONIO TÉCNICO Y RELACIÓN DE SOLVENCIA",
+          "pagina_inicio": 102,
+          "pagina_fin": 103,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 19
+          }
+        },
+        {
+          "orden_documento": 20,
+          "titulo_seccion": "Baja en cuentas",
+          "pagina_inicio": 28,
+          "pagina_fin": 32,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 3,
+            "riesgos": 3
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 4,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 19,
+          "titulo_seccion": "Instrumentos financieros",
+          "pagina_inicio": 19,
+          "pagina_fin": 28,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 4,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 44,
+          "titulo_seccion": "16. CUENTAS COMERCIALES POR PAGAR Y OTRAS CUENTAS POR PAGAR",
+          "pagina_inicio": 68,
+          "pagina_fin": 70,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 4
+          }
+        },
+        {
+          "orden_documento": 56,
+          "titulo_seccion": "Juzgado Quinto Administrativo del Circuito De Villavicencio",
+          "pagina_inicio": 83,
+          "pagina_fin": 90,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 3,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 22,
+          "titulo_seccion": "Beneficios a empleados",
+          "pagina_inicio": 33,
+          "pagina_fin": 35,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 2,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 40,
+          "titulo_seccion": "12.1 Componentes del gasto por impuesto a las ganancias - el gasto por impuesto a las ganancias por los años",
+          "pagina_inicio": 61,
+          "pagina_fin": 65,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 2,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 21,
+          "titulo_seccion": "Arrendamientos –",
+          "pagina_inicio": 32,
+          "pagina_fin": 33,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 34,
+          "titulo_seccion": "8. INVERSIONES, NETO",
+          "pagina_inicio": 45,
+          "pagina_fin": 47,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 50,
+          "titulo_seccion": "22. PROVISIONES",
+          "pagina_inicio": 75,
+          "pagina_fin": 77,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 2
+          }
+        },
+        {
+          "orden_documento": 70,
+          "titulo_seccion": "36. TRANSACCIONES CON PARTES RELACIONADAS",
+          "pagina_inicio": 100,
+          "pagina_fin": 102,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1,
+            "riesgos": 1
+          }
+        },
+        {
+          "orden_documento": 16,
+          "titulo_seccion": "2.2.7 Impacto inicial de la aplicación de la Reforma de la tasa de interés de referencia - Mediante el Decreto 938 de",
+          "pagina_inicio": 18,
+          "pagina_fin": 18,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1
+          }
+        },
+        {
+          "orden_documento": 35,
+          "titulo_seccion": "9. CUENTAS COMERCIALES POR COBRAR Y OTRAS CUENTAS POR COBRAR, NETO",
+          "pagina_inicio": 47,
+          "pagina_fin": 54,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1
+          }
+        },
+        {
+          "orden_documento": 53,
+          "titulo_seccion": "Juzgado Séptimo Civil Del Circuito De Bogotá",
+          "pagina_inicio": 81,
+          "pagina_fin": 83,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1
+          }
+        },
+        {
+          "orden_documento": 61,
+          "titulo_seccion": "27. INGRESOS DE OPERACIONES",
+          "pagina_inicio": 93,
+          "pagina_fin": 94,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1
+          }
+        },
+        {
+          "orden_documento": 68,
+          "titulo_seccion": "34. RESULTADO FINANCIERO, NETO",
+          "pagina_inicio": 99,
+          "pagina_fin": 100,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "riesgo": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "hechos_relevantes",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "hechos relevantes",
+        "hechos posteriores",
+        "eventos subsecuentes"
+      ],
+      "seccion_principal": 74,
+      "grupo_seccion": 74,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Nota 40 \"Eventos subsecuentes\".",
+      "candidatas": [
+        {
+          "orden_documento": 74,
+          "titulo_seccion": "40. EVENTOS SUBSECUENTES",
+          "pagina_inicio": 107,
+          "pagina_fin": 107,
+          "coincidencias_titulo": [
+            "eventos subsecuentes"
+          ],
+          "menciones_cuerpo": {
+            "eventos subsecuentes": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "cumplimiento_covenants",
+      "fuente_esperada": "informe_gestion",
+      "documento_origen": "Informe de Gestion_2021.pdf",
+      "palabras_clave": [
+        "covenant",
+        "covenants",
+        "relacion de solvencia",
+        "patrimonio tecnico",
+        "solvencia"
+      ],
+      "seccion_principal": 71,
+      "grupo_seccion": 71,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "No se usa la palabra \"covenant\"; nota 37 \"Patrimonio técnico y relación de solvencia\" es lo más cercano (exigencias regulatorias).",
+      "candidatas": [
+        {
+          "orden_documento": 71,
+          "titulo_seccion": "37. PATRIMONIO TÉCNICO Y RELACIÓN DE SOLVENCIA",
+          "pagina_inicio": 102,
+          "pagina_fin": 103,
+          "coincidencias_titulo": [
+            "relacion de solvencia",
+            "patrimonio tecnico",
+            "solvencia"
+          ],
+          "menciones_cuerpo": {
+            "relacion de solvencia": 9,
+            "patrimonio tecnico": 6,
+            "solvencia": 9
+          }
+        },
+        {
+          "orden_documento": 3,
+          "titulo_seccion": "1. INFORMACIÓN GENERAL",
+          "pagina_inicio": 2,
+          "pagina_fin": 15,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "relacion de solvencia": 2,
+            "patrimonio tecnico": 2,
+            "solvencia": 4
+          }
+        },
+        {
+          "orden_documento": 57,
+          "titulo_seccion": "23. CAPITAL SOCIAL",
+          "pagina_inicio": 90,
+          "pagina_fin": 92,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "relacion de solvencia": 1,
+            "patrimonio tecnico": 1,
+            "solvencia": 1
+          }
+        },
+        {
+          "orden_documento": 59,
+          "titulo_seccion": "25. RESERVAS",
+          "pagina_inicio": 92,
+          "pagina_fin": 92,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "relacion de solvencia": 1,
+            "patrimonio tecnico": 1,
+            "solvencia": 1
+          }
+        },
+        {
+          "orden_documento": 72,
+          "titulo_seccion": "38. CONTROLES DE LEY",
+          "pagina_inicio": 103,
+          "pagina_fin": 103,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "solvencia": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "tipo_opinion",
+      "fuente_esperada": "informe_auditoria",
+      "documento_origen": "Informe de Audtoria_2021.pdf",
+      "palabras_clave": [
+        "opinion"
+      ],
+      "seccion_principal": 4,
+      "grupo_seccion": 4,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Sección \"Opinión\" [4]; apoyo en \"Fundamento de la Opinión\" [5].",
+      "candidatas": [
+        {
+          "orden_documento": 5,
+          "titulo_seccion": "Fundamento de la Opinión",
+          "pagina_inicio": 1,
+          "pagina_fin": 2,
+          "coincidencias_titulo": [
+            "opinion"
+          ],
+          "menciones_cuerpo": {
+            "opinion": 6
+          }
+        },
+        {
+          "orden_documento": 4,
+          "titulo_seccion": "Opinión",
+          "pagina_inicio": 1,
+          "pagina_fin": 1,
+          "coincidencias_titulo": [
+            "opinion"
+          ],
+          "menciones_cuerpo": {
+            "opinion": 2
+          }
+        },
+        {
+          "orden_documento": 6,
+          "titulo_seccion": "Otros Asuntos",
+          "pagina_inicio": 2,
+          "pagina_fin": 2,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "opinion": 1
+          }
+        },
+        {
+          "orden_documento": 7,
+          "titulo_seccion": "INFORME SOBRE OTROS REQUERIMIENTOS LEGALES Y REGLAMENTARIOS",
+          "pagina_inicio": 3,
+          "pagina_fin": 9,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "opinion": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "salvedades",
+      "fuente_esperada": "informe_auditoria",
+      "documento_origen": "Informe de Audtoria_2021.pdf",
+      "palabras_clave": [
+        "salvedad",
+        "salvedades",
+        "excepto por"
+      ],
+      "seccion_principal": 4,
+      "grupo_seccion": 4,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Sección \"Opinión\" [4] (donde constarían las salvedades); en [6] se alude a una opinión previa \"sin salvedades\".",
+      "candidatas": [
+        {
+          "orden_documento": 7,
+          "titulo_seccion": "INFORME SOBRE OTROS REQUERIMIENTOS LEGALES Y REGLAMENTARIOS",
+          "pagina_inicio": 3,
+          "pagina_fin": 9,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "salvedad": 143
+          }
+        },
+        {
+          "orden_documento": 6,
+          "titulo_seccion": "Otros Asuntos",
+          "pagina_inicio": 2,
+          "pagina_fin": 2,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "salvedad": 1,
+            "salvedades": 1
+          }
+        }
+      ]
+    },
+    {
+      "variable_madre_id": "incertidumbre",
+      "fuente_esperada": "informe_auditoria",
+      "documento_origen": "Informe de Audtoria_2021.pdf",
+      "palabras_clave": [
+        "incertidumbre",
+        "empresa en marcha",
+        "negocio en marcha"
+      ],
+      "seccion_principal": 5,
+      "grupo_seccion": 5,
+      "tratamiento": "extraccion_ia",
+      "nota_revision": "Mención de \"incertidumbre material\" en \"Fundamento de la Opinión\" [5]; no hay incertidumbre material específica de la entidad.",
+      "candidatas": [
+        {
+          "orden_documento": 5,
+          "titulo_seccion": "Fundamento de la Opinión",
+          "pagina_inicio": 1,
+          "pagina_fin": 2,
+          "coincidencias_titulo": [],
+          "menciones_cuerpo": {
+            "incertidumbre": 2
+          }
+        }
+      ]
+    }
+  ]
+}

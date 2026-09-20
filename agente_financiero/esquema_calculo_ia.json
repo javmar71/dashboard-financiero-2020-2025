@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CalculoIA - variables calculadas (IA propone, Python verifica) - v1",
+  "description": "v1 (2026-09-18): response_schema de la capa de calculo de variables derivadas. La IA PROPONE, por cada (variable_madre_id, periodo), el valor resultante de aplicar la formula_calculo de taxonomia_variable_madre.csv sobre los insumos ya resueltos por Python (conceptos de salidas/datos_estados_financieros.csv, agregados de src/indicadores.py y variables madre del lote). Python VERIFICA recalculando de forma independiente y comparando (tolerancia). No es un esquema de extraccion documental: no hay pagina/documento/evidencia textual, porque el valor no se lee en los PDFs sino que se deriva. La IA NO debe inventar insumos: solo puede usar los insumos entregados. Si un insumo falta o el denominador es cero, el estado es NO_CALCULABLE. Para variables sin formula (convencion pendiente) la IA propone el valor/definicion y Python lo marca DUDOSO. Una entrada por (variable_madre_id, periodo). Deriva de CONTRATO_DATOS.md seccion 2 (salida del agente) y de las definiciones canonicas Bloque 0.3/0.4.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["datos"],
+  "properties": {
+    "datos": {
+      "type": "array",
+      "description": "Una entrada por (variable_madre_id, periodo) solicitada.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variable_madre_id",
+          "periodo",
+          "formula_aplicada",
+          "insumos_usados",
+          "valor_propuesto",
+          "estado",
+          "confianza",
+          "notas"
+        ],
+        "properties": {
+          "variable_madre_id": {
+            "type": "string",
+            "description": "Nombre de variable calculada de taxonomia_variable_madre.csv."
+          },
+          "periodo": {
+            "type": "string",
+            "description": "Periodo del valor calculado, ej '2021' o '2020'."
+          },
+          "formula_aplicada": {
+            "type": "string",
+            "description": "Formula efectivamente aplicada, en terminos de los insumos entregados. Vacia ('') si la variable no tiene formula en la taxonomia y la IA propone una definicion."
+          },
+          "insumos_usados": {
+            "type": "array",
+            "description": "Subconjunto de los insumos ENTREGADOS que la IA uso efectivamente para el calculo. No se pueden agregar insumos nuevos.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["nombre", "valor", "fuente"],
+              "properties": {
+                "nombre": {
+                  "type": "string",
+                  "description": "Nombre del insumo tal como se entrego (token o variable_madre_id)."
+                },
+                "valor": {
+                  "type": "number",
+                  "nullable": true,
+                  "description": "Valor del insumo usado (null si no estaba disponible)."
+                },
+                "fuente": {
+                  "type": "string",
+                  "description": "Fuente declarada del insumo (estados / calculado / notas / parametro_externo_manual)."
+                }
+              }
+            }
+          },
+          "valor_propuesto": {
+            "type": "number",
+            "nullable": true,
+            "description": "Valor propuesto por la IA al aplicar la formula. Null cuando estado=NO_CALCULABLE."
+          },
+          "estado": {
+            "type": "string",
+            "enum": ["CALCULADO", "DUDOSO", "NO_CALCULABLE"],
+            "description": "CALCULADO: la IA pudo aplicar la formula con los insumos dados. DUDOSO: no hay formula/convencion verificable y la IA propone un valor o definicion. NO_CALCULABLE: insumo faltante o division por cero."
+          },
+          "confianza": {
+            "type": "string",
+            "enum": ["ALTA", "MEDIA", "BAJA", "NO_DETERMINADA"],
+            "description": "Confianza de la IA en su propia propuesta."
+          },
+          "notas": {
+            "type": "string",
+            "description": "Explicacion breve del calculo, supuestos o motivo de NO_CALCULABLE/DUDOSO. No puede quedar vacia."
+          }
+        }
+      }
+    }
+  }
+}

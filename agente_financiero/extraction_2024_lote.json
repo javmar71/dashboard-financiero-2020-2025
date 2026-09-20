@@ -1,0 +1,74 @@
+{
+  "datos": [
+    {
+      "variable_madre_id": "tipo_opinion",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "pagina": 1,
+      "seccion": "Opinión",
+      "cuenta_original": "Opinión",
+      "valor": "con_salvedad",
+      "periodo": "2024",
+      "unidad": null,
+      "evidencia": "Informe de Auditoría 2024, pág 13, Conclusión con salvedad",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "salvedades",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "pagina": 13,
+      "seccion": "Conclusión con salvedad",
+      "cuenta_original": "Conclusión con salvedad",
+      "valor": "ver_nota_salvedad_auditoria",
+      "periodo": "2024",
+      "unidad": null,
+      "evidencia": "Informe de Auditoría 2024, pág 13; requiere análisis de impacto en estados",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "incertidumbre",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "pagina": 1,
+      "seccion": "Asuntos claves de la auditoría",
+      "cuenta_original": "Negocio en marcha",
+      "valor": "sin_incertidumbre_material",
+      "periodo": "2024",
+      "unidad": null,
+      "evidencia": "Informe de Auditoría 2024, pág 1-3",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": null
+    },
+    {
+      "variable_madre_id": "proveedores",
+      "documento_origen": "Estados Financieros_2024.pdf",
+      "pagina": 1,
+      "seccion": "Estado de Situación Financiera",
+      "cuenta_original": "Cuentas comerciales por pagar y otras cuentas por pagar",
+      "valor": 32890,
+      "periodo": "2024",
+      "unidad": "millones de pesos",
+      "evidencia": "Estado de Situación Financiera 2024, pág 1",
+      "confianza": "ALTA",
+      "estado": "ACEPTADO",
+      "codigo_puc": "2205"
+    },
+    {
+      "variable_madre_id": "partes_relacionadas",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "pagina": 106,
+      "seccion": "37. TRANSACCIONES CON PARTES RELACIONADAS",
+      "cuenta_original": "Transacciones con partes relacionadas",
+      "valor": null,
+      "periodo": "2024",
+      "unidad": null,
+      "evidencia": "Informe de Gestión 2024, pág 106, Nota 37; falta desglose total consolidado",
+      "confianza": "BAJA",
+      "estado": "DUDOSO",
+      "codigo_puc": null
+    }
+  ]
+}

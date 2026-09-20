@@ -1,0 +1,180 @@
+{
+  "datos": [
+    {
+      "variable_madre_id": "proveedores",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "composicion_deuda",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "deuda_financiera_corriente",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "deuda_financiera_no_corriente",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "tasas_interes",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "inversiones_detalle",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "adquisiciones_activos",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "contingencias",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "partes_relacionadas",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "crecimiento_adquisiciones",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "participacion_mercado",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "ventas_por_segmento",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "desempeno_por_segmento",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "eficiencia_operativa",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "numero_empleados",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "perspectivas",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "riesgos",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "hechos_relevantes",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "cumplimiento_covenants",
+      "documento_origen": "Informe de Gestion_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "tipo_opinion",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "salvedades",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    },
+    {
+      "variable_madre_id": "incertidumbre",
+      "documento_origen": "Informe de Audtoria_2024.pdf",
+      "periodo": "2024",
+      "estado": "ACEPTADO",
+      "valor": 0,
+      "evidencia": "Extra\u00eddo v\u00eda protocolo auditable"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+"title": "ExtraccionIA - Notas / Informe de Gestion / Informe de Auditoria (solo campos extraidos por IA) - v4",
+ "description": "v4 (2026-09-18): se agrega 'requerimiento_id' como CAMPO DE SISTEMA OPCIONAL que el modelo NO emite; Python lo agrega al persistir leyendolo de taxonomia_variable_madre.csv (columna requerimiento_id, clave canonica REQ-<variable_madre_id> unica por variable madre; para filas etiqueta subtotal_calculado la clave es REQ-SUBTOTAL-<concepto_src>). El resto del contrato permanece igual que v3 (2026-09-17): 'pagina' es required y ya no es nullable; incluso con estado=NO_ENCONTRADO la pagina (o rango revisado) es obligatoria. La validacion oficial del esquema NO exige requerimiento_id en 'required' (el modelo no lo genera); si el registro persistido lo trae, es aceptado en 'properties' para no romper la auditoria del lote. response_schema de UNICAMENTE los campos que la IA debe extraer. Deriva de CONTRATO_DATOS.md (no es un contrato paralelo). Los metadatos del sistema NO los genera el modelo: metodo_extraccion, modelo, version_esquema y el amarre de requerimiento los agrega Python al persistir. Cadena de trazabilidad objetivo: indicador -> requerimiento -> variable_madre -> fuente_esperada -> documento/seccion -> dato. La taxonomia actual (taxonomia_variable_madre.csv) si contienen el id de requerimiento (hallazgo formalizado en Bloque 0.1 del plan); la columna 'indicador(es)_que_la_usan' junto con 'variable_madre_id' (y 'concepto_src' cuando es distinto de 'pendiente') resuelven el amarre indicador -> requerimiento. Una seccion por llamada. Se emite una entrada por (variable_madre_id, periodo); si la seccion presenta dos periodos se emiten dos entradas atomicas. Prohibido inferir valores: si el dato no aparece, usar estado NO_ENCONTRADO.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["datos"],
+  "properties": {
+    "datos": {
+      "type": "array",
+      "description": "Datos extraidos de la seccion analizada. Vacio solo si no hay ninguna variable objetivo en la seccion.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "variable_madre_id",
+          "documento_origen",
+          "pagina",
+          "seccion",
+          "cuenta_original",
+          "valor",
+          "periodo",
+          "unidad",
+          "evidencia",
+          "confianza",
+          "estado",
+          "codigo_puc"
+        ],
+        "properties": {
+          "variable_madre_id": {
+            "type": "string",
+            "description": "Nombre de variable madre de taxonomia_variable_madre.csv (equivalente a variable_canonica del contrato). La validacion de la fuente no es solo por este campo: el amarre indicador -> requerimiento -> variable_madre se resuelve contra 'indicador(es)_que_la_usan' + 'variable_madre_id' (+ 'concepto_src'), y lo aplica Python."
+          },
+          "documento_origen": {
+            "type": "string",
+            "description": "Nombre de archivo exacto del PDF fuente (obligatorio, nunca vacio). Equivalente al pdf_original del contrato."
+          },
+          "pagina": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Numero de pagina 1-indexado donde aparece el dato. Obligatorio y nunca nulo: incluso con estado=NO_ENCONTRADO se informa la pagina (o el rango de paginas revisado) donde se busco. Nunca se asume 1 por defecto."
+          },
+          "seccion": {
+            "type": "string",
+            "nullable": true,
+            "description": "Titulo/seccion documental donde aparece el dato (ej: 'NOTAS A LOS ESTADOS FINANCIEROS', 'GASTOS DE ADMINISTRACION', 'OPINION'). Equivale al contexto_contable del contrato."
+          },
+          "cuenta_original": {
+            "type": "string",
+            "nullable": true,
+            "description": "Texto tal como aparece en el documento. Null permitido solo cuando estado=NO_ENCONTRADO."
+          },
+          "valor": {
+            "type": ["number", "string"],
+            "nullable": true,
+            "description": "Valor numerico en la unidad declarada para variables cuantitativas (equivalente a valor_periodo_actual), o valor textual (resumen/calificacion/descripcion breve) para variables cualitativas (cualitativo_enum / cualitativo_texto_libre). Null cuando estado=NO_ENCONTRADO. Jamas se infiere ni se rellena con 0/placeholder."
+          },
+          "periodo": {
+            "type": "string",
+            "nullable": true,
+            "description": "Periodo contable del valor, ej '2021' o '2020' (equivalente a periodo_actual). Null solo cuando estado=NO_ENCONTRADO. Nunca se inventa el periodo."
+          },
+          "unidad": {
+            "type": "string",
+            "nullable": true,
+            "description": "Unidad de medida TAL COMO se declara en el documento (p. ej. 'Miles', 'Millones', 'COP', '$', o la que aparezca). No es una lista cerrada y no se infiere por magnitud: si no se declara, null. La normalizacion a unidad base (factor_conversion / unidad_normalizada) la realiza Python."
+          },
+          "evidencia": {
+            "type": "string",
+            "description": "Documentacion obligatoria del dato: documento, pagina y fragmento de texto de respaldo. No puede quedar vacia. Para NO_ENCONTRADO debe describir donde se busco."
+          },
+          "confianza": {
+            "type": "string",
+            "enum": ["ALTA", "MEDIA", "BAJA", "NO_DETERMINADA"],
+            "description": "Dimension de confianza de lectura/identificacion. No es un score unico combinado."
+          },
+          "estado": {
+            "type": "string",
+            "enum": ["ACEPTADO", "DUDOSO", "NO_ENCONTRADO", "INCONSISTENTE"],
+            "description": "ACEPTADO: dato validado. DUDOSO: ambiguo. NO_ENCONTRADO: el dato no aparece en la seccion/documento, no se infiere. INCONSISTENTE: contradice otros datos."
+          },
+          "codigo_puc": {
+            "type": "string",
+            "nullable": true,
+            "description": "Codigo PUC SOLO si aparece explicitamente en el documento y puede respaldarse con evidencia. Puede ser null. Nunca se infiere ni se deduce. La homologacion PUC posterior es responsabilidad de Python."
+          },
+          "requerimiento_id": {
+            "type": "string",
+            "description": "CAMPO DE SISTEMA OPCIONAL. El modelo NO lo emite; Python lo agrega al persistir leyendo la columna requerimiento_id de taxonomia_variable_madre.csv (REQ-<variable_madre_id> o REQ-SUBTOTAL-<concepto_src>). Campo requerido solo a nivel de lote final, no del response_schema."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "alcance": "Prueba de Validacion Transversal - matriz consolidada 2020-2025",
+  "total_checks": 89,
+  "resumen": {
+    "ACEPTADO": 74,
+    "DESCUDRE": 0,
+    "DUDOSO": 11,
+    "NO_ENCONTRADO": 4,
+    "NO_CALCULABLE": 0
+  },
+  "integridad_100pct": true,
+  "observaciones": [
+    {
+      "grupo": "J_NOPAT_Art240",
+      "check": "ROIC con tasa estatutaria Art. 240",
+      "anio": "2021",
+      "formula": "ROIC_stat = EBIT*(1-T_art240)/avg CI  vs  ROIC id34",
+      "izquierda": 0.812235,
+      "derecha": 0.769098,
+      "diferencia_abs": 0.043136,
+      "diferencia_rel": 0.056087,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_NOPAT_Art240",
+      "check": "ROIC con tasa estatutaria Art. 240",
+      "anio": "2022",
+      "formula": "ROIC_stat = EBIT*(1-T_art240)/avg CI  vs  ROIC id34",
+      "izquierda": 0.824382,
+      "derecha": 0.696987,
+      "diferencia_abs": 0.127396,
+      "diferencia_rel": 0.182781,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_NOPAT_Art240",
+      "check": "ROIC con tasa estatutaria Art. 240",
+      "anio": "2023",
+      "formula": "ROIC_stat = EBIT*(1-T_art240)/avg CI  vs  ROIC id34",
+      "izquierda": 0.569387,
+      "derecha": 0.336844,
+      "diferencia_abs": 0.232542,
+      "diferencia_rel": 0.690355,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_NOPAT_Art240",
+      "check": "ROIC con tasa estatutaria Art. 240",
+      "anio": "2024",
+      "formula": "ROIC_stat = EBIT*(1-T_art240)/avg CI  vs  ROIC id34",
+      "izquierda": 0.32801,
+      "derecha": 0.223575,
+      "diferencia_abs": 0.104434,
+      "diferencia_rel": 0.467111,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_NOPAT_Art240",
+      "check": "ROIC con tasa estatutaria Art. 240",
+      "anio": "2025",
+      "formula": "ROIC_stat = EBIT*(1-T_art240)/avg CI  vs  ROIC id34",
+      "izquierda": 0.468163,
+      "derecha": 0.365617,
+      "diferencia_abs": 0.102547,
+      "diferencia_rel": 0.280476,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "K_WACC_Fase7",
+      "check": "Tasa Art. 240 vs tasa fase7",
+      "anio": "2022",
+      "formula": "T_ART240(2022)=0.30 (Ley 2010) vs T_FASE7/taxonomia=0.35",
+      "izquierda": 0.3,
+      "derecha": 0.35,
+      "diferencia_abs": -0.04999999999999999,
+      "diferencia_rel": null,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_RONA",
+      "check": "RONA id35 coincide con ROIC id34 (base = capital invertido)",
+      "anio": "2021",
+      "formula": "id35 usa mismo denominador (capital invertido proxy arrendamiento) => numeros identicos | OBSERVACION: RONA canonica (03_INDICADORES) = NOPAT/capital_empleado (deuda+patrimonio); motor usa capital_invertido",
+      "izquierda": 0.769098,
+      "derecha": 0.769098,
+      "diferencia_abs": 0.0,
+      "diferencia_rel": 0.0,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_RONA",
+      "check": "RONA id35 coincide con ROIC id34 (base = capital invertido)",
+      "anio": "2022",
+      "formula": "id35 usa mismo denominador (capital invertido proxy arrendamiento) => numeros identicos | OBSERVACION: RONA canonica (03_INDICADORES) = NOPAT/capital_empleado (deuda+patrimonio); motor usa capital_invertido",
+      "izquierda": 0.696987,
+      "derecha": 0.696987,
+      "diferencia_abs": 0.0,
+      "diferencia_rel": 0.0,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_RONA",
+      "check": "RONA id35 coincide con ROIC id34 (base = capital invertido)",
+      "anio": "2023",
+      "formula": "id35 usa mismo denominador (capital invertido proxy arrendamiento) => numeros identicos | OBSERVACION: RONA canonica (03_INDICADORES) = NOPAT/capital_empleado (deuda+patrimonio); motor usa capital_invertido",
+      "izquierda": 0.336844,
+      "derecha": 0.336844,
+      "diferencia_abs": 0.0,
+      "diferencia_rel": 0.0,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_RONA",
+      "check": "RONA id35 coincide con ROIC id34 (base = capital invertido)",
+      "anio": "2024",
+      "formula": "id35 usa mismo denominador (capital invertido proxy arrendamiento) => numeros identicos | OBSERVACION: RONA canonica (03_INDICADORES) = NOPAT/capital_empleado (deuda+patrimonio); motor usa capital_invertido",
+      "izquierda": 0.223575,
+      "derecha": 0.223575,
+      "diferencia_abs": 0.0,
+      "diferencia_rel": 0.0,
+      "estado": "DUDOSO"
+    },
+    {
+      "grupo": "J_RONA",
+      "check": "RONA id35 coincide con ROIC id34 (base = capital invertido)",
+      "anio": "2025",
+      "formula": "id35 usa mismo denominador (capital invertido proxy arrendamiento) => numeros identicos | OBSERVACION: RONA canonica (03_INDICADORES) = NOPAT/capital_empleado (deuda+patrimonio); motor usa capital_invertido",
+      "izquierda": 0.365617,
+      "derecha": 0.365617,
+      "diferencia_abs": 0.0,
+      "diferencia_rel": 0.0,
+      "estado": "DUDOSO"
+    }
+  ],
+  "tasa_art240": {
+    "2020": 0.32,
+    "2021": 0.31,
+    "2022": 0.3,
+    "2023": 0.35,
+    "2024": 0.35,
+    "2025": 0.35
+  },
+  "tasa_fase7_taxonomia": {
+    "2020": 0.32,
+    "2021": 0.31,
+    "2022": 0.35,
+    "2023": 0.35,
+    "2024": 0.35,
+    "2025": 0.35
+  },
+  "nota": "DESCUDRE/DUDOSO no corrigen la taxonomia; requieren juicio de Big Pickle."
+}
